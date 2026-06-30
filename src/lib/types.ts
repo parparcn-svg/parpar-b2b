@@ -18,7 +18,7 @@ export interface Lead extends Inquiry {
   created_at: string
 }
 
-export type CRMPipeline = "OEM" | "Wholesale" | "Bulk Orders"
+export type CRMPipeline = "Supplier" | "Wholesale" | "Bulk Orders"
 export type LeadStatus = "new" | "contacted" | "negotiating" | "converted" | "lost"
 
 export interface GEOEntity {

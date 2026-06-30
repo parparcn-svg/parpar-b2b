@@ -287,7 +287,7 @@ export default function HomeContent({ products }: { products: Product[] }) {
           <div className="absolute top-0 right-0 w-16 h-16 pointer-events-none border-r-2 border-t-2 border-amber-300/20 rounded-tr-3xl" />
           <div className="absolute bottom-0 left-0 w-16 h-16 pointer-events-none border-l-2 border-b-2 border-amber-300/20 rounded-bl-3xl" />
           <div className="absolute bottom-0 right-0 w-16 h-16 pointer-events-none border-r-2 border-b-2 border-amber-300/20 rounded-br-3xl" />
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="grid lg:grid-cols-[1.4fr_1fr] gap-12 lg:gap-16 items-center">
             {/* Left */}
             <motion.div
               className="space-y-6"
@@ -300,7 +300,7 @@ export default function HomeContent({ products }: { products: Product[] }) {
                 {t("hero.title1")}{" "}
                 <span className="text-gradient-primary">{t("hero.title2")}</span>
               </h1>
-              <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-lg">
+              <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-xl">
                 {t("hero.desc")}
               </p>
               <div className="flex flex-wrap gap-4 pt-2">
@@ -346,7 +346,7 @@ export default function HomeContent({ products }: { products: Product[] }) {
 
             {/* Right: product hero visual — 3D tilt with dual products */}
             <motion.div
-              className="relative aspect-[4/3] max-w-lg mx-auto"
+              className="relative aspect-[4/3] max-w-xl mx-auto"
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
@@ -360,7 +360,7 @@ export default function HomeContent({ products }: { products: Product[] }) {
                 {/* Products container — side by side */}
                 <div className="relative w-full h-full flex items-center justify-center gap-2 px-4">
                   {/* Cockroach spray (left) */}
-                  <div className="w-[55%] max-w-[300px]" style={{ transform: "translateZ(40px)" }}>
+                  <div className="w-[60%] max-w-[420px]" style={{ transform: "translateZ(40px)" }}>
                     <img
                       src={products[0]?.mainImage}
                       alt="Cockroach Killer Spray"
@@ -369,7 +369,7 @@ export default function HomeContent({ products }: { products: Product[] }) {
                     />
                   </div>
                   {/* Mosquito spray (right — slightly in front) */}
-                  <div className="w-[55%] max-w-[300px]" style={{ transform: "translateZ(55px)" }}>
+                  <div className="w-[60%] max-w-[420px]" style={{ transform: "translateZ(55px)" }}>
                     <img
                       src={products[1]?.mainImage}
                       alt="Mosquito Repellent Spray"
@@ -380,18 +380,6 @@ export default function HomeContent({ products }: { products: Product[] }) {
                 </div>
 
                 {/* Floating badges */}
-                <motion.div
-                  className="absolute -top-4 -left-4 bg-white/90 border border-amber-200 rounded-2xl px-5 py-3 shadow-xl"
-                  style={{ transform: "translateZ(60px)" }}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.5 }}
-                >
-                  <div className="text-lg font-black text-amber-600">OEM</div>
-                  <div className="text-xs text-muted-foreground">
-                    {isAr ? "متاح" : "Available"}
-                  </div>
-                </motion.div>
                 <motion.div
                   className="absolute -bottom-4 -right-4 bg-white/90 border border-green-200 rounded-2xl px-5 py-3 shadow-xl"
                   style={{ transform: "translateZ(60px)" }}
@@ -607,8 +595,194 @@ export default function HomeContent({ products }: { products: Product[] }) {
       </section>
 
       {/* ═══════════════════════════════════
-          WHY PARPAR — Feature cards with hover
+          EGYPT COVERAGE MAP — Two-column layout
       ═══════════════════════════════════ */}
+      <section className="relative py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+        <div className="absolute inset-0 opacity-[0.03]" style={{
+          backgroundImage: `radial-gradient(circle at 2px 2px, currentColor 1px, transparent 0)`,
+          backgroundSize: "32px 32px",
+        }} />
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-green-100/20 rounded-full blur-[100px] -translate-y-1/4 translate-x-1/4 pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-amber-100/20 rounded-full blur-[80px] translate-y-1/4 -translate-x-1/4 pointer-events-none" />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="grid lg:grid-cols-[1.3fr_1fr] gap-10 lg:gap-16 items-center">
+
+            {/* ═══ LEFT: Egypt Map ═══ */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+            >
+              <div className="rounded-2xl bg-white shadow-lg shadow-gray-200/50 overflow-hidden">
+                <svg
+                  viewBox="0 0 800 680"
+                  className="w-full h-auto align-middle"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <rect x="0" y="0" width="800" height="680" fill="#f1f5f9" rx="0" />
+                  <defs>
+                    <linearGradient id="egyptTerrain" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stopColor="#bae6fd" />
+                      <stop offset="35%" stopColor="#bfdbfe" />
+                      <stop offset="100%" stopColor="#dbeafe" />
+                    </linearGradient>
+                    <filter id="dotGlow">
+                      <feGaussianBlur stdDeviation="1.5" result="blur" />
+                      <feMerge>
+                        <feMergeNode in="blur" />
+                        <feMergeNode in="SourceGraphic" />
+                      </feMerge>
+                    </filter>
+                  </defs>
+                  {/* Egypt landmass — light blue fill, dark blue border */}
+                  <path
+                    d="M753.5 618.5L522.9 618.5L297.6 618.5L63.9 618.5L63.9 618.5L63.9 404.6L63.9 197.9L46.5 151.1L61.4 115.2L52.4 90.3L73.5 62.4L73.5 62.4L150.7 61.5L206.8 76.8L264.3 94.0L291.3 103.1L336.1 84.6L359.9 68.0L411.2 63.1L452.6 70.5L468.3 99.3L481.9 80.3L528.4 94.1L573.8 97.4L602.4 82.7L602.4 82.7L634.9 167.5L640.5 182.6L640.5 182.6L624.2 206.0L611.6 249.8L595.9 280.1L582.3 290.3L562.9 271.5L536.7 245.6L495.3 162.3L489.2 167.5L513.3 228.9L549.1 287.3L593.0 377.8L614.4 409.4L633.2 442.3L685.3 506.6L673.8 516.7L675.7 554.5L743.3 606.6L753.5 618.5Z"
+                    fill="url(#egyptTerrain)" stroke="#1e40af" strokeWidth="4" strokeLinejoin="round"
+                    strokeDasharray="3000" strokeDashoffset="3000"
+                  >
+                    <animate attributeName="stroke-dashoffset" from="3000" to="0" dur="2s" begin="0.3s" fill="freeze" calcMode="linear" />
+                  </path>
+
+                  {/* Nile River — thick white line */}
+                  <path d="M505 570 C510 540, 518 510, 520 490 C515 460, 510 430, 508 410 C505 390, 495 375, 480 365 C460 355, 440 340, 425 320 C410 300, 400 280, 398 265 C398 245, 405 225, 412 205 C418 185, 422 165, 426 151"
+                    fill="none" stroke="#ffffff" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round" opacity="0.9" />
+                  {/* Nile Delta — Damietta branch */}
+                  <path d="M426 151 C435 135, 450 115, 468 85"
+                    fill="none" stroke="#ffffff" strokeWidth="6" strokeLinecap="round" opacity="0.9" />
+                  {/* Nile Delta — Rosetta branch */}
+                  <path d="M426 151 C415 135, 405 110, 398 78"
+                    fill="none" stroke="#ffffff" strokeWidth="5" strokeLinecap="round" opacity="0.9" />
+                  {/* Nile Delta — middle branch */}
+                  <path d="M426 151 C430 130, 440 108, 448 82"
+                    fill="none" stroke="#ffffff" strokeWidth="4" strokeLinecap="round" opacity="0.7" />
+
+                  {/* City dots — red dots with labels */}
+                  {[
+                    { cx: 426.3, cy: 151.0, r: 9, label: isAr ? "القاهرة" : "Cairo" },
+                    { cx: 349.7, cy: 83.9, r: 6.5, label: isAr ? "الإسكندرية" : "Alexandria" },
+                    { cx: 424.7, cy: 152.8, r: 5.5, label: isAr ? "الجيزة" : "Giza" },
+                    { cx: 487.2, cy: 80.6, r: 4.5, label: isAr ? "بورسعيد" : "Port Said" },
+                    { cx: 502.6, cy: 155.5, r: 4.5, label: isAr ? "السويس" : "Suez" },
+                    { cx: 434.6, cy: 93.1, r: 4.5, label: isAr ? "المنصورة" : "Mansoura" },
+                    { cx: 412.6, cy: 107.9, r: 4, label: isAr ? "طنطا" : "Tanta" },
+                    { cx: 486.3, cy: 119.6, r: 4, label: isAr ? "الإسماعيلية" : "Ismailia" },
+                    { cx: 460.7, cy: 71.9, r: 4, label: isAr ? "دمياط" : "Damietta" },
+                    { cx: 403.4, cy: 193.8, r: 4, label: isAr ? "بني سويف" : "Beni Suef" },
+                    { cx: 398.0, cy: 263.5, r: 4.5, label: isAr ? "المنيا" : "Minya" },
+                    { cx: 423.2, cy: 317.5, r: 4.5, label: isAr ? "أسيوط" : "Asyut" },
+                    { cx: 452.9, cy: 353.7, r: 4, label: isAr ? "سوهاج" : "Sohag" },
+                    { cx: 512.9, cy: 376.5, r: 4, label: isAr ? "قنا" : "Qena" },
+                    { cx: 507.9, cy: 404.3, r: 5.5, label: isAr ? "الأقصر" : "Luxor" },
+                    { cx: 523.0, cy: 497.2, r: 5.5, label: isAr ? "أسوان" : "Aswan" },
+                    { cx: 576.0, cy: 313.0, r: 4.5, label: isAr ? "الغردقة" : "Hurghada" },
+                    { cx: 606.1, cy: 274.7, r: 4.5, label: isAr ? "شرم الشيخ" : "Sharm El Sheikh" },
+                    { cx: 575.1, cy: 88.2, r: 4, label: isAr ? "العريش" : "Arish" },
+                    { cx: 193.9, cy: 74.9, r: 4, label: isAr ? "مرسى مطروح" : "Marsa Matruh" },
+                    { cx: 441.5, cy: 120.0, r: 3.5, label: isAr ? "الزقازيق" : "Zagazig" },
+                    { cx: 408.4, cy: 89.3, r: 3.5, label: isAr ? "كفر الشيخ" : "Kafr El Sheikh" },
+                    { cx: 403.2, cy: 194.4, r: 3.5, label: isAr ? "الفيوم" : "Fayoum" },
+                    { cx: 296.3, cy: 415.3, r: 3.5, label: isAr ? "الداخلة" : "Dakhla" },
+                  ].map((d, i) => (
+                    <g key={`d-${i}`}>
+                      <g opacity="0">
+                        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin={`${1.5 + i * 0.08}s`} fill="freeze" />
+                        <circle cx={d.cx} cy={d.cy} r={d.r} fill="#dc2626" opacity="0.9" filter="url(#dotGlow)" />
+                        {d.label && (
+                          <text x={d.cx} y={d.cy - d.r - 4} textAnchor="middle" fill="#334155" fontSize="10" fontFamily="system-ui, sans-serif" fontWeight="600" className="select-none"
+                            style={{ paintOrder: "stroke", stroke: "#ffffff", strokeWidth: "2.5px", strokeLinecap: "round", strokeLinejoin: "round" }}>
+                            {d.label}
+                          </text>
+                        )}
+                      </g>
+                    </g>
+                  ))}
+                </svg>
+              </div>
+            </motion.div>
+
+            {/* ═══ RIGHT: Partner stats ═══ */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
+              className="space-y-6"
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-green-50 border border-green-200 text-green-700 text-xs font-semibold tracking-wider uppercase">
+                <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
+                {isAr ? "شبكة التوزيع" : "Distribution Network"}
+              </div>
+
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-foreground tracking-tight leading-[1.1]">
+                {isAr
+                  ? "تنتشر باربر في جميع أنحاء مصر"
+                  : "Parpar is Growing Across Egypt"}
+              </h2>
+
+              <p className="text-gray-500 leading-relaxed text-base sm:text-lg">
+                {isAr
+                  ? "انضم إلينا أكثر من 50 موزعاً وشريكاً في جميع محافظات مصر. يثقون في منتجات باربر لمكافحة الآفات ويحققون أرباحاً ممتازة من خلال علامتنا التجارية القوية."
+                  : "Over 50 distributors and partners across every Egyptian governorate have joined the Parpar network. They trust our pest control products and build profitable businesses with our strong brand."}
+              </p>
+
+              <div className="grid grid-cols-3 gap-4 pt-2">
+                {[
+                  { num: "50", suffix: "+", labelAr: "شريك", labelEn: "Partners" },
+                  { num: "20", suffix: "+", labelAr: "محافظة", labelEn: "Governorates" },
+                  { num: "200", suffix: "+", labelAr: "عميل", labelEn: "Clients" },
+                ].map((s, i) => (
+                  <div key={i} className="text-center p-4 rounded-xl bg-white border border-gray-100 shadow-sm">
+                    <div className="text-3xl lg:text-4xl font-black text-primary">
+                      {s.num}<span className="text-xl">{s.suffix}</span>
+                    </div>
+                    <div className="text-xs text-gray-500 mt-1 font-medium uppercase tracking-wider">
+                      {isAr ? s.labelAr : s.labelEn}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="bg-amber-50/60 border border-amber-100 rounded-xl p-5 relative">
+                <svg className="absolute top-3 left-3 w-8 h-8 text-amber-200/60" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zM0 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151C7.546 6.068 5.983 8.789 5.983 11H10v10H0z" />
+                </svg>
+                <p className="text-sm text-gray-600 italic pl-10">
+                  {isAr
+                    ? '"منذ أن بدأنا شراكتنا مع باربر، زادت مبيعاتنا بنسبة 40% في موسم الصيف الأول. المنتجات عالية الجودة وثقة العملاء تجعل التوزيع سهلاً."'
+                    : '"Since partnering with Parpar, our sales grew 40% in the first summer season. The quality products and customer trust make distribution effortless."'}
+                </p>
+                <div className="flex items-center gap-3 mt-3 pl-10">
+                  <div className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center text-green-700 font-bold text-sm">
+                    {isAr ? "م" : "M"}
+                  </div>
+                  <div>
+                    <div className="text-sm font-semibold text-gray-800">
+                      {isAr ? "محمد عبد الله" : "Mohamed Abdullah"}
+                    </div>
+                    <div className="text-xs text-gray-400">
+                      {isAr ? "موزع معتمد — الجيزة" : "Authorized Distributor — Giza"}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <Link href="/distributors">
+                <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3.5 rounded-full text-base font-bold shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-all duration-300 hover:scale-[1.02]">
+                  {isAr ? "كن شريكاً لنا" : "Become a Partner"}
+                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={isAr ? "M15 19l-7-7 7-7" : "M5 12h14M12 5l7 7-7 7"} />
+                  </svg>
+                </Button>
+              </Link>
+            </motion.div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════
       <section className="relative py-24 lg:py-28 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
@@ -627,12 +801,6 @@ export default function HomeContent({ products }: { products: Product[] }) {
                 desc: "why.quality.desc" as const,
                 icon: "shield",
                 bg: "from-primary to-emerald-600",
-              },
-              {
-                key: "why.oem" as const,
-                desc: "why.oem.desc" as const,
-                icon: "box",
-                bg: "from-amber-500 to-orange-500",
               },
               {
                 key: "why.bulk" as const,
@@ -712,7 +880,7 @@ export default function HomeContent({ products }: { products: Product[] }) {
               {
                 q: isAr ? "ما هي المنتجات التي تقدمونها؟" : "What products do you supply?",
                 a: isAr
-                  ? "نقدم بخاخات قتل الصراصير، بخاخات طارد البعوض، سوائل المبخرات الكهربائية، وأطقم الأجهزة الكاملة. جميع المنتجات متاحة للبيع بالجملة والتوريد التجاري."
+                  ? "نقدم بخاخات الصراصير، وبخاخات طارد البعوض، وسوائل المبخرات الكهربائية، وأطقم الأجهزة الكاملة. جميع المنتجات متاحة للبيع بالجملة والتوريد التجاري."
                   : "We supply cockroach killer sprays, mosquito repellent sprays, electric vaporizer liquids, and complete device kits. All products available for wholesale and bulk B2B supply.",
               },
               {
@@ -720,12 +888,6 @@ export default function HomeContent({ products }: { products: Product[] }) {
                 a: isAr
                   ? "تختلف الكمية الأدنى حسب المنتج. بشكل عام، الطلبات بالجملة تبدأ من كرتون واحد (96-200 قطعة حسب المنتج). للاستفسار عن كميات محددة، يرجى التواصل معنا."
                   : "MOQ varies by product. Generally, wholesale orders start from one carton (96-200 pcs depending on product). Contact us for specific quantity inquiries.",
-              },
-              {
-                q: isAr ? "هل توفرون خدمات OEM والعلامة الخاصة؟" : "Do you offer OEM / private label?",
-                a: isAr
-                  ? "نعم. نقدم تصنيع مخصص بتغليف وعلامة تجارية حسب الطلب. الحد الأدنى لطلبات OEM قابل للتفاوض."
-                  : "Yes. We offer custom manufacturing with your branding and packaging. Minimum OEM order quantities are negotiable.",
               },
               {
                 q: isAr ? "ما هي مدة التوصيل؟" : "What are your delivery times?",

@@ -138,6 +138,12 @@ html[lang="ar"] { --font-sans: var(--font-cairo); }
 .animate-float     { animation: float 6s ease-in-out infinite; }
 .animate-float-slow { animation: float-slow 8s ease-in-out infinite; }
 .animate-marquee   { animation: marquee 30s linear infinite; }
+.animate-pulse-slow { animation: pulse-slow 4s ease-in-out infinite; }
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0; }
+  50%      { opacity: 0.5; }
+}
 
 .nav-blur {
   backdrop-filter: blur(16px) saturate(180%);

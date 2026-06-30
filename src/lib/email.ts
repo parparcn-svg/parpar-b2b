@@ -24,7 +24,7 @@ const productLabels: Record<string, string> = {
 };
 
 const businessLabels: Record<string, string> = {
-  supplier: "Supplier / OEM",
+  supplier: "Supplier / Manufacturer",
   distributor: "Distributor / Wholesale",
   buyer: "Bulk Buyer",
   other: "Other",

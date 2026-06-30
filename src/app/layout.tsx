@@ -25,14 +25,12 @@ const cairo = Cairo({
 export const metadata: Metadata = {
   title: "Parpar B2B | Egypt Pest Control Supplier & Manufacturer",
   description:
-    "Parpar is a B2B supplier of premium pest control products in Egypt. Cockroach killer sprays, mosquito repellents, electric vaporizers — OEM & wholesale available.",
+    "Parpar is a B2B supplier of premium pest control products in Egypt. Cockroach killer sprays, mosquito repellents, electric vaporizers — wholesale available.",
   keywords: [
     "pest control Egypt",
     "cockroach killer spray",
     "mosquito repellent Egypt",
     "B2B pest control supplier",
-    "Egypt insecticide manufacturer",
-    "OEM pest control products",
     "wholesale mosquito repellent",
   ],
   icons: {
@@ -40,7 +38,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Parpar B2B | Egypt Pest Control Supplier",
-    description: "Premium pest control solutions for B2B buyers in Egypt. OEM & wholesale available.",
+    description: "Premium pest control solutions for B2B buyers in Egypt. Wholesale available.",
     type: "website",
   },
 };

@@ -3,8 +3,8 @@ import { crmStore } from "@/lib/crm";
 import { sendInquiryEmail } from "@/lib/email";
 import type { Lead, B2BIntent } from "@/lib/types";
 
-const pipelineMap: Record<string, "OEM" | "Wholesale" | "Bulk Orders"> = {
-  supplier: "OEM",
+const pipelineMap: Record<string, "Supplier" | "Wholesale" | "Bulk Orders"> = {
+  supplier: "Supplier",
   distributor: "Wholesale",
   buyer: "Bulk Orders",
 };

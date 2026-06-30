@@ -39,7 +39,6 @@ export default function AboutPage() {
             <li><strong>{t("about.b2b.hotels")}</strong> &mdash; {t("about.b2b.hotels.desc")}</li>
             <li><strong>{t("about.b2b.cleaning")}</strong> &mdash; {t("about.b2b.cleaning.desc")}</li>
             <li><strong>{t("about.b2b.distributors")}</strong> &mdash; {t("about.b2b.distributors.desc")}</li>
-            <li><strong>{t("about.b2b.oem")}</strong> &mdash; {t("about.b2b.oem.desc")}</li>
             <li><strong>{t("about.b2b.supermarkets")}</strong> &mdash; {t("about.b2b.supermarkets.desc")}</li>
           </ul>
 
