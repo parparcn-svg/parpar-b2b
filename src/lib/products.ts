@@ -187,7 +187,7 @@ const products: Product[] = [
       "سائل إعادة تعبئة طارد البعوض من باربار مصمم للاستخدام مع أجهزة التبخير الكهربائية. عند التسخين، يطلق بخاراً ثابتاً يطرد البعوض بفعالية. التركيبة عديمة الرائحة آمنة لغرف النوم وغرف الأطفال، وتوفر كل عبوة حماية لأكثر من 30 ليلة. عنصر أساسي عالي الشراء المتكرر للأسر والفنادق.",
     imageCount: 7,
     imagePrefix: "parpar-mosquito-liquid-bottle",
-    mainImage: "/images/parpar-mosquito-liquid-bottle-single-bottle-packaging-isolated.png",
+    mainImage: "/images/parpar-mosquito-liquid-bottle-color-corrected-improved.png",
     galleryImages: [
       "/images/parpar-mosquito-liquid-bottle-color-corrected-improved.png",
       "/images/parpar-mosquito-liquid-bottle-kit-with-packaging-box.png",
@@ -245,7 +245,7 @@ const products: Product[] = [
       "جهاز التبخير الكبير لسائل البعوض من باربار هو جهاز تبخير كهربائي احترافي مصمم للمساحات المتوسطة والكبيرة. يغطي مساحة تصل إلى 30 متراً مربعاً، وهو مثالي لغرف الفنادق وغرف المعيشة والمكاتب. الطقم الكامل يشمل الجهاز وسائل طارد البعوض – فقط قم بالتوصيل والاستخدام. التشغيل الصامت وعديم الرائحة والدخان يجعله مثالياً للضيافة والبيئات التجارية.",
     imageCount: 10,
     imagePrefix: "parpar-mosquito-liquid-large-heater",
-    mainImage: "/images/parpar-mosquito-liquid-large-heater-desktop-heater-with-box-set.png",
+    mainImage: "/images/parpar-mosquito-liquid-large-heater-desktop-with-box-set-improved.png",
     galleryImages: [
       "/images/parpar-mosquito-liquid-large-heater-desktop-heater-with-box-set.png",
       "/images/parpar-mosquito-liquid-large-heater-kit-box-and-liquid.png",
@@ -304,7 +304,7 @@ const products: Product[] = [
       "جهاز التبخير الكروي لسائل البعوض من باربار يتميز بتصميمه الدائري الفريد في السوق. مفتاح التشغيل المدمج يجعل الاستخدام أكثر أماناً وراحة. حجمه المدمج مثالي لغرف النوم والدراسة والمساحات الصغيرة. الطقم الكامل يشمل الجهاز والسائل – جاهز للاستخدام فور إخراجه من العلبة. الشكل الكروي المميز هو عامل تمييز رئيسي لجاذبية التجزئة.",
     imageCount: 7,
     imagePrefix: "parpar-mosquito-liquid-spherical-heater",
-    mainImage: "/images/parpar-mosquito-liquid-spherical-heater-spherical-switch-heater-with-box.png",
+    mainImage: "/images/parpar-mosquito-liquid-spherical-heater-with-box-set.png",
     galleryImages: [
       "/images/parpar-mosquito-liquid-spherical-heater-spherical-switch-heater-with-box.png",
       "/images/parpar-mosquito-liquid-spherical-heater-with-box-set.png",
