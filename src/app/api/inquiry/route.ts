@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { crmStore } from "@/lib/crm";
+import { sendInquiryEmail } from "@/lib/email";
 import type { Lead, B2BIntent } from "@/lib/types";
 
 const pipelineMap: Record<string, "OEM" | "Wholesale" | "Bulk Orders"> = {
@@ -39,7 +40,18 @@ export async function POST(request: NextRequest) {
 
     crmStore.addLead(lead);
 
-    console.log(`=== New ${pipeline} Lead ===`, JSON.stringify(lead, null, 2));
+    // Send email notification
+    await sendInquiryEmail({
+      companyName: body.companyName,
+      businessType,
+      country: body.country,
+      productInterest: body.productInterest || "Not specified",
+      moq: body.moq || "",
+      email: body.email,
+      whatsapp: body.whatsapp || "",
+      message: body.message || "",
+      pipeline,
+    });
 
     return NextResponse.json(
       {

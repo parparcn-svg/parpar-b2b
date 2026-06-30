@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Cairo } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import HtmlLangSetter from "@/components/HtmlLangSetter";
 import { LanguageProvider } from "@/context/LanguageContext";
 
 const geistSans = Geist({
@@ -13,6 +14,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const cairo = Cairo({
+  variable: "--font-cairo",
+  subsets: ["arabic", "latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -28,6 +35,9 @@ export const metadata: Metadata = {
     "OEM pest control products",
     "wholesale mosquito repellent",
   ],
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: "Parpar B2B | Egypt Pest Control Supplier",
     description: "Premium pest control solutions for B2B buyers in Egypt. OEM & wholesale available.",
@@ -43,12 +53,13 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${cairo.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <LanguageProvider>
+          <HtmlLangSetter />
           <Header />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 pt-16 lg:pt-20">{children}</main>
           <Footer />
         </LanguageProvider>
       </body>

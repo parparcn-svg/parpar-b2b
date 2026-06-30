@@ -1,8 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function InquiryForm() {
+  const { t, lang } = useTranslation();
+  const isAr = lang === "ar";
+
   const [formData, setFormData] = useState({
     companyName: "",
     businessType: "",
@@ -22,8 +26,24 @@ export default function InquiryForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // For now, just show success
-    setSubmitted(true);
+
+    try {
+      const res = await fetch("/api/inquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (!res.ok) {
+        const err = await res.json();
+        console.error("Inquiry submission failed:", err);
+        return;
+      }
+
+      setSubmitted(true);
+    } catch (err) {
+      console.error("Inquiry submission error:", err);
+    }
   };
 
   if (submitted) {
@@ -34,8 +54,8 @@ export default function InquiryForm() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-2">Inquiry Submitted!</h3>
-        <p className="text-gray-600">Thank you for your interest. Our team will get back to you within 24 hours.</p>
+        <h3 className="text-xl font-semibold text-gray-900 mb-2">{t("inquiry.success.title")}</h3>
+        <p className="text-gray-600">{t("inquiry.success.desc")}</p>
       </div>
     );
   }
@@ -44,7 +64,7 @@ export default function InquiryForm() {
     <form onSubmit={handleSubmit} className="space-y-5">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1.5">Company Name *</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1.5">{t("inquiry.company")} *</label>
           <input
             type="text"
             name="companyName"
@@ -52,11 +72,11 @@ export default function InquiryForm() {
             value={formData.companyName}
             onChange={handleChange}
             className="w-full px-4 py-2.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all"
-            placeholder="Your company name"
+            placeholder={isAr ? "اسم الشركة" : "Your company name"}
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1.5">Business Type *</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1.5">{t("inquiry.business_type")} *</label>
           <select
             name="businessType"
             required
@@ -64,15 +84,14 @@ export default function InquiryForm() {
             onChange={handleChange}
             className="w-full px-4 py-2.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all bg-white"
           >
-            <option value="">Select business type...</option>
-            <option value="supplier">Supplier / Manufacturer</option>
-            <option value="distributor">Distributor / Wholesale</option>
-            <option value="buyer">Bulk Buyer</option>
-            <option value="other">Other</option>
+            <option value="">{t("inquiry.select_business")}</option>
+            <option value="distributor">{t("inquiry.distributor_option")}</option>
+            <option value="buyer">{t("inquiry.buyer_option")}</option>
+            <option value="other">{t("inquiry.other_option")}</option>
           </select>
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1.5">Country *</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1.5">{t("inquiry.country")} *</label>
           <input
             type="text"
             name="country"
@@ -80,11 +99,11 @@ export default function InquiryForm() {
             value={formData.country}
             onChange={handleChange}
             className="w-full px-4 py-2.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all"
-            placeholder="Egypt"
+            placeholder={isAr ? "مصر" : "Egypt"}
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1.5">Product Interest *</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1.5">{t("inquiry.product_interest")} *</label>
           <select
             name="productInterest"
             required
@@ -92,28 +111,28 @@ export default function InquiryForm() {
             onChange={handleChange}
             className="w-full px-4 py-2.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all bg-white"
           >
-            <option value="">Select product...</option>
-            <option value="cockroach-spray">Cockroach Killer Spray</option>
-            <option value="mosquito-spray">Mosquito Repellent Spray</option>
-            <option value="mosquito-liquid">Mosquito Liquid Refill</option>
-            <option value="large-heater">Large Heater (Desktop)</option>
-            <option value="spherical-heater">Spherical Heater</option>
-            <option value="multiple">Multiple Products</option>
+            <option value="">{t("inquiry.select_product")}</option>
+            <option value="cockroach-spray">{t("inquiry.prod_cockroach")}</option>
+            <option value="mosquito-spray">{t("inquiry.prod_mosquito_spray")}</option>
+            <option value="mosquito-liquid">{t("inquiry.prod_liquid")}</option>
+            <option value="large-heater">{t("inquiry.prod_heater")}</option>
+            <option value="spherical-heater">{t("inquiry.prod_spherical")}</option>
+            <option value="multiple">{t("inquiry.prod_multiple")}</option>
           </select>
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1.5">MOQ (Min. Order Qty)</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1.5">{t("inquiry.moq")}</label>
           <input
             type="text"
             name="moq"
             value={formData.moq}
             onChange={handleChange}
             className="w-full px-4 py-2.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all"
-            placeholder="e.g. 1000 pcs"
+            placeholder={isAr ? "مثال: 1000 قطعة" : "e.g. 1000 pcs"}
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1.5">Email *</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1.5">{t("inquiry.email")} *</label>
           <input
             type="email"
             name="email"
@@ -125,7 +144,7 @@ export default function InquiryForm() {
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1.5">WhatsApp</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1.5">{t("inquiry.whatsapp")}</label>
           <input
             type="tel"
             name="whatsapp"
@@ -137,21 +156,21 @@ export default function InquiryForm() {
         </div>
       </div>
       <div>
-        <label className="block text-sm font-medium text-gray-700 mb-1.5">Message</label>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">{t("inquiry.message")}</label>
         <textarea
           name="message"
           rows={4}
           value={formData.message}
           onChange={handleChange}
           className="w-full px-4 py-2.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all resize-none"
-          placeholder="Tell us about your requirements..."
+          placeholder={isAr ? "أخبرنا عن متطلباتك..." : "Tell us about your requirements..."}
         />
       </div>
       <button
         type="submit"
         className="w-full bg-green-600 text-white py-3 rounded-xl font-semibold hover:bg-green-700 transition-colors"
       >
-        Submit Inquiry
+        {t("inquiry.submit")}
       </button>
     </form>
   );

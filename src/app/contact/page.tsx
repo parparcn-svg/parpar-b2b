@@ -1,27 +1,31 @@
+"use client";
+
 import Link from "next/link";
 import InquiryForm from "@/components/InquiryForm";
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function ContactPage() {
+  const { t, lang } = useTranslation();
+  const isAr = lang === "ar";
+
   return (
     <>
       <div className="bg-gray-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 text-sm text-gray-500">
-          <Link href="/" className="hover:text-green-600">Home</Link>
+          <Link href="/" className="hover:text-green-600">{t("breadcrumb.home")}</Link>
           <span className="mx-2">/</span>
-          <span className="text-gray-900 font-medium">Contact &amp; Inquiry</span>
+          <span className="text-gray-900 font-medium">{t("breadcrumb.contact")}</span>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+        <div className={`grid lg:grid-cols-2 gap-12 lg:gap-16`}>
           {/* Left: Info */}
           <div>
-            <span className="text-green-600 font-semibold text-sm tracking-wider uppercase">Get in Touch</span>
-            <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-2">Send Us Your Inquiry</h1>
+            <span className="text-green-600 font-semibold text-sm tracking-wider uppercase">{t("contact.badge")}</span>
+            <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-2">{t("contact.title")}</h1>
             <p className="text-gray-600 mt-4 leading-relaxed">
-              Whether you are a distributor, hotel procurement manager, cleaning company, or
-              OEM partner — we&apos;re here to help. Fill out the form and our team will get back
-              to you within 24 hours.
+              {t("contact.desc")}
             </p>
 
             <div className="mt-8 space-y-4">
@@ -32,7 +36,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-medium text-gray-900">Email</div>
+                  <div className="font-medium text-gray-900">{t("contact.email")}</div>
                   <div className="text-gray-500 text-sm">info@parpar-eg.com</div>
                 </div>
               </div>
@@ -44,7 +48,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-medium text-gray-900">Location</div>
+                  <div className="font-medium text-gray-900">{t("contact.location")}</div>
                   <div className="text-gray-500 text-sm">Cairo, Egypt</div>
                 </div>
               </div>
@@ -55,27 +59,23 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-medium text-gray-900">Response Time</div>
-                  <div className="text-gray-500 text-sm">Within 24 hours</div>
+                  <div className="font-medium text-gray-900">{t("contact.response_time")}</div>
+                  <div className="text-gray-500 text-sm">{t("contact.response_value")}</div>
                 </div>
               </div>
             </div>
 
             {/* Pipeline Info */}
             <div className="mt-8 bg-gray-50 rounded-2xl p-6">
-              <h3 className="font-semibold text-gray-900 mb-3">How We Route Your Inquiry</h3>
+              <h3 className="font-semibold text-gray-900 mb-3">{t("contact.routing.title")}</h3>
               <div className="space-y-3 text-sm">
-                <div className="flex items-center gap-2 text-gray-600">
-                  <span className="w-2 h-2 rounded-full bg-blue-500"></span>
-                  <span><strong>Supplier / Manufacturer</strong> &mdash; OEM Partnership Team</span>
+                <div className={`flex items-center gap-2 text-gray-600`}>
+                  <span className="w-2 h-2 rounded-full bg-green-500 shrink-0"></span>
+                  <span><strong>{t("contact.routing.distributor")}</strong> &mdash; {t("contact.routing.distributor.desc")}</span>
                 </div>
-                <div className="flex items-center gap-2 text-gray-600">
-                  <span className="w-2 h-2 rounded-full bg-green-500"></span>
-                  <span><strong>Distributor / Wholesale</strong> &mdash; Distribution Sales</span>
-                </div>
-                <div className="flex items-center gap-2 text-gray-600">
-                  <span className="w-2 h-2 rounded-full bg-purple-500"></span>
-                  <span><strong>Bulk Buyer</strong> &mdash; Bulk Orders Desk</span>
+                <div className={`flex items-center gap-2 text-gray-600`}>
+                  <span className="w-2 h-2 rounded-full bg-purple-500 shrink-0"></span>
+                  <span><strong>{t("contact.routing.buyer")}</strong> &mdash; {t("contact.routing.buyer.desc")}</span>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ export default function ContactPage() {
           {/* Right: Form */}
           <div>
             <div className="bg-white border border-gray-100 rounded-2xl p-6 lg:p-8 shadow-sm">
-              <h2 className="text-xl font-semibold text-gray-900 mb-6">Inquiry Form</h2>
+              <h2 className="text-xl font-semibold text-gray-900 mb-6">{t("contact.form.title")}</h2>
               <InquiryForm />
             </div>
           </div>
