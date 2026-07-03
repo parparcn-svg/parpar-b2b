@@ -535,6 +535,80 @@ export default function HomeContent({ products }: { products: Product[] }) {
       </section>
 
       {/* ═══════════════════════════════════
+          CERTIFICATE TRUST BAR
+      ═══════════════════════════════════ */}
+      <section className="relative py-14 bg-gradient-to-r from-green-900 via-green-800 to-emerald-900">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.05),transparent_70%)]" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <span className="inline-flex items-center bg-white/10 border border-white/20 text-white/80 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-[0.15em]">
+              {isAr ? "معتمد وموثوق" : "Certified & Trusted"}
+            </span>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              {
+                icon: "moh",
+                label: isAr ? "رخصة إنتاج المبيدات" : "Pesticide License",
+                desc: isAr ? "جهات رسمية مصرية" : "Egyptian Authority",
+                file: "/images/certificates/cert-pesticide-production-license.pdf",
+              },
+              {
+                icon: "safety",
+                label: isAr ? "تقرير السمية الجلدية" : "Dermal Toxicity",
+                desc: isAr ? "اختبارات سلامة معتمدة" : "Certified Safety Tests",
+                file: "/images/certificates/cert-acute-dermal-toxicity-rat.pdf",
+              },
+              {
+                icon: "msds",
+                label: "MSDS",
+                desc: isAr ? "صحيفة بيانات السلامة" : "Safety Data Sheet",
+                file: "/images/certificates/cert-msds-mosquito-liquid-2026.pdf",
+              },
+              {
+                icon: "lab",
+                label: isAr ? "تقرير فحص معتمد" : "Test Report",
+                desc: isAr ? "مختبر مستقل" : "Independent Lab",
+                file: "/images/certificates/cert-test-report-NBHL2412029558SD.pdf",
+              },
+            ].map((item, i) => (
+              <a
+                key={i}
+                href={item.file}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-3.5 border border-white/10 hover:bg-white/20 transition-all duration-300 group"
+              >
+                <div className="w-10 h-10 rounded-lg bg-white/15 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+                  {item.icon === "moh" ? (
+                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                    </svg>
+                  ) : item.icon === "safety" ? (
+                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                  ) : item.icon === "msds" ? (
+                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                    </svg>
+                  ) : (
+                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                  )}
+                </div>
+                <div className="min-w-0">
+                  <div className="text-white font-semibold text-sm leading-tight group-hover:text-white transition-colors">{item.label}</div>
+                  <div className="text-white/50 text-xs mt-0.5">{item.desc}</div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════
           PRODUCT SHOWCASE — With tabs (lantern-ui pattern)
       ═══════════════════════════════════ */}
       <section

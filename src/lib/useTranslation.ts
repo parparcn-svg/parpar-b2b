@@ -99,6 +99,28 @@ const ar: Record<string, string> = {
   "about.b2b.supermarkets.desc": "توريد بالجملة لإدارة المرافق",
   "about.quality.title": "الجودة والمعايير",
   "about.quality.desc": "جميع منتجات باربر مصنعة باستخدام مكونات نشطة عالية الجودة وتخضع لمراقبة جودة صارمة. منتجاتنا مصممة خصيصاً لظروف مناخ مصر ومتطلبات مكافحة الآفات.",
+
+  /* About - Certificates */
+  "about.cert.badge": "الشهادات والامتثال",
+  "about.cert.title": "منتجات معتمدة وموثوقة",
+  "about.cert.desc": "جميع منتجات باربر حاصلة على شهادات الاعتماد اللازمة لضمان السلامة والفعالية. نلتزم بأعلى المعايير الدولية والمحلية في تصنيع منتجات مكافحة الآفات.",
+  "about.cert.safety": "شهادة سلامة المنتج",
+  "about.cert.safety.desc": "اجتازت منتجات باربر جميع اختبارات السلامة وفقاً للمعايير المصرية والدولية، بما في ذلك اختبارات الجلد والعين والتقييم البيئي.",
+  "about.cert.msds": "صحيفة بيانات السلامة (MSDS)",
+  "about.cert.msds.desc": "صحيفة بيانات سلامة المواد لسائل طارد البعوض، متضمنة معلومات المكونات وإجراءات الإسعافات الأولية وتدابير مكافحة الحريق.",
+  "about.cert.ingredient": "شهادة تحليل المكونات",
+  "about.cert.ingredient.desc": "تقرير فحص معتمد من مختبر مستقل يضمن مطابقة التركيبة للمواصفات المعلنة.",
+  "about.cert.moh": "رخصة إنتاج المبيدات",
+  "about.cert.moh.desc": "رخصة إنتاج مبيدات حشرية منزلية صادرة عن الجهات المختصة، مصرح بها للتداول في السوق المصري.",
+  "about.cert.inhalation": "تقرير السمية الاستنشاقية",
+  "about.cert.inhalation.desc": "تقرير اختبار السمية الحادة عن طريق الاستنشاق (بالإنجليزية) يثبت أمان المنتج للاستخدام البشري.",
+  "about.cert.ghs": "شهادة GHS للسلامة",
+  "about.cert.ghs.desc": "صحيفة بيانات السلامة وفق نظام GHS العالمي الموحد (بالعربية والإنجليزية) للإبلاغ عن المخاطر والتداول الآمن.",
+  "about.cert.stability": "تقرير ثبات الشحن",
+  "about.cert.stability.desc": "تقرير فحص الشحن والنقل الدولي يثبت صلاحية المنتج للنقل عبر البحر وظروف التخزين المختلفة.",
+  "about.cert.cta": "اطلب ملفات الشهادات الكاملة",
+  /* End About - Certificates */
+
   "about.cta.title": "مهتم بالشراكة؟",
   "about.cta.btn": "اتصل بنا",
 
@@ -397,6 +419,27 @@ const en: Record<string, string> = {
   "about.quality.desc": "All Parpar products are manufactured using high-quality active ingredients and undergo rigorous quality control. Our products are formulated specifically for Egypt's climate conditions and pest control requirements.",
   "about.cta.title": "Interested in Partnership?",
   "about.cta.btn": "Contact Us",
+
+  /* About - Certificates */
+  "about.cert.badge": "Certificates & Compliance",
+  "about.cert.title": "Certified & Trusted Products",
+  "about.cert.desc": "All Parpar products hold the necessary certifications to ensure safety and efficacy. We adhere to the highest international and local standards in pest control product manufacturing.",
+  "about.cert.safety": "Product Safety Certificate",
+  "about.cert.safety.desc": "Parpar products pass all safety tests per Egyptian and international standards, including dermal and eye irritation tests and environmental assessment.",
+  "about.cert.msds": "Material Safety Data Sheet (MSDS)",
+  "about.cert.msds.desc": "Material Safety Data Sheet for Mosquito Repellent Liquid, covering ingredient information, first aid procedures, and safe handling measures.",
+  "about.cert.ingredient": "Ingredient Analysis Certificate",
+  "about.cert.ingredient.desc": "Independent lab test report confirming formulation composition meets stated specifications.",
+  "about.cert.moh": "Pesticide Production License",
+  "about.cert.moh.desc": "Official household pesticide production license issued by competent authorities, authorized for distribution in the Egyptian market.",
+  "about.cert.inhalation": "Acute Inhalation Toxicity Report",
+  "about.cert.inhalation.desc": "Acute inhalation toxicity test report (English) confirming product safety for human use.",
+  "about.cert.ghs": "GHS Safety Data Sheet",
+  "about.cert.ghs.desc": "Globally Harmonized System safety data sheet (Chinese/English) for hazard communication and safe handling.",
+  "about.cert.stability": "Shipping Stability Report",
+  "about.cert.stability.desc": "Sea shipping and transport inspection report confirming product stability under maritime transport and various storage conditions.",
+  "about.cert.cta": "Request Full Certificate Package",
+  /* End About - Certificates */
 
   /* Contact */
   "contact.badge": "Get in Touch",
