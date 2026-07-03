@@ -437,6 +437,78 @@ export default function HomeContent({ products }: { products: Product[] }) {
       </section>
 
       {/* ═══════════════════════════════════
+          CERTIFICATE QUICK LINKS — 展图下方
+      ═══════════════════════════════════ */}
+      <section className="relative py-10 bg-white border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-6">
+            <span className="text-green-600 font-semibold text-xs tracking-widest uppercase">{isAr ? "معتمد وموثوق" : "Certified & Trusted"}</span>
+            <p className="text-gray-500 text-sm mt-1">{isAr ? "شهادات سلامة وفعالية معتمدة" : "Safety & efficacy certificates you can rely on"}</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {[
+              {
+                file: "/images/certificates/cert-pesticide-production-license.pdf",
+                icon: "license",
+                label: isAr ? "رخصة إنتاج" : "Production License",
+                desc: isAr ? "جهات رسمية مصرية" : "Egyptian Authority",
+              },
+              {
+                file: "/images/certificates/cert-acute-dermal-toxicity-rat.pdf",
+                icon: "safety",
+                label: isAr ? "اختبار سمية جلدية" : "Dermal Toxicity Test",
+                desc: isAr ? "معتمد دولياً" : "Internationally Certified",
+              },
+              {
+                file: "/images/certificates/cert-msds-mosquito-liquid-2026.pdf",
+                icon: "msds",
+                label: "MSDS",
+                desc: isAr ? "صحيفة بيانات السلامة" : "Safety Data Sheet",
+              },
+              {
+                file: "/images/certificates/cert-test-report-NBHL2412029558SD.pdf",
+                icon: "report",
+                label: isAr ? "تقرير فحص" : "Test Report",
+                desc: isAr ? "مختبر مستقل معتمد" : "Independent Lab",
+              },
+            ].map((item, i) => (
+              <a
+                key={i}
+                href={item.file}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3.5 border border-gray-100 hover:border-green-200 hover:shadow-sm hover:bg-green-50/50 transition-all duration-300 group"
+              >
+                <div className="w-10 h-10 rounded-lg bg-green-100 text-green-600 flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:bg-green-200 transition-all duration-300">
+                  {item.icon === "license" ? (
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                    </svg>
+                  ) : item.icon === "safety" ? (
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                  ) : item.icon === "msds" ? (
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                    </svg>
+                  ) : (
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                  )}
+                </div>
+                <div className="min-w-0">
+                  <div className="text-sm font-semibold text-gray-900 group-hover:text-green-600 transition-colors">{item.label}</div>
+                  <div className="text-xs text-gray-500 mt-0.5">{item.desc}</div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════
           STATS BAR
       ═══════════════════════════════════ */}
       <section className="relative bg-gradient-to-r from-primary/90 via-primary to-emerald-700 py-16">
