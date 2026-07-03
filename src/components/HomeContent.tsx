@@ -441,9 +441,16 @@ export default function HomeContent({ products }: { products: Product[] }) {
       ═══════════════════════════════════ */}
       <section className="relative py-10 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-6">
-            <span className="text-green-600 font-semibold text-xs tracking-widest uppercase">{isAr ? "معتمد وموثوق" : "Certified & Trusted"}</span>
-            <p className="text-gray-500 text-sm mt-1">{isAr ? "شهادات سلامة وفعالية معتمدة" : "Safety & efficacy certificates you can rely on"}</p>
+          <div className="text-center mb-8">
+            <span className="inline-flex items-center gap-2 bg-green-50 text-green-700 font-bold text-sm px-5 py-1.5 rounded-full border border-green-200 shadow-sm">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+              {isAr ? "معتمد وموثوق" : "Certified & Trusted"}
+            </span>
+            <p className="text-gray-600 text-base mt-3 font-medium tracking-wide">
+              {isAr ? "شهادات سلامة وفعالية معتمدة" : "Safety & efficacy certificates you can rely on"}
+            </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {[
