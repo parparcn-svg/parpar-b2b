@@ -64,45 +64,18 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <span className="text-green-600 font-semibold text-sm tracking-wider uppercase">{t("about.badge")}</span>
         <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-2">{t("about.title")}</h1>
 
-        <div className="mt-8 prose prose-gray max-w-none">
-          <p className="text-lg text-gray-600 leading-relaxed">
-            {t("about.desc")}
-          </p>
-
-          <h2 className="text-2xl font-bold text-gray-900 mt-10">{t("about.mission.title")}</h2>
-          <p className="text-gray-600 leading-relaxed">
-            {t("about.mission.desc")}
-          </p>
-
-          <h2 className="text-2xl font-bold text-gray-900 mt-10">{t("about.b2b.title")}</h2>
-          <p className="text-gray-600 leading-relaxed">
-            {t("about.b2b.desc")}
-          </p>
-          <ul className="list-disc list-inside text-gray-600 space-y-2 mt-4">
-            <li><strong>{t("about.b2b.hotels")}</strong> &mdash; {t("about.b2b.hotels.desc")}</li>
-            <li><strong>{t("about.b2b.cleaning")}</strong> &mdash; {t("about.b2b.cleaning.desc")}</li>
-            <li><strong>{t("about.b2b.distributors")}</strong> &mdash; {t("about.b2b.distributors.desc")}</li>
-            <li><strong>{t("about.b2b.supermarkets")}</strong> &mdash; {t("about.b2b.supermarkets.desc")}</li>
-          </ul>
-
-          <h2 className="text-2xl font-bold text-gray-900 mt-10">{t("about.quality.title")}</h2>
-          <p className="text-gray-600 leading-relaxed">
-            {t("about.quality.desc")}
-          </p>
-        </div>
-
         {/* ═══════════════════════════════════
-            CERTIFICATES & COMPLIANCE
+            CERTIFICATES & COMPLIANCE — 首屏
         ═══════════════════════════════════ */}
-        <div className="mt-16">
-          <div className="text-center mb-10">
+        <div className="mt-10">
+          <div className="text-center mb-8">
             <span className="text-green-600 font-semibold text-sm tracking-wider uppercase">{t("about.cert.badge")}</span>
-            <h2 className="text-3xl font-bold text-gray-900 mt-2">{t("about.cert.title")}</h2>
-            <p className="text-gray-500 mt-3 max-w-2xl mx-auto">{t("about.cert.desc")}</p>
+            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mt-2">{t("about.cert.title")}</h2>
+            <p className="text-gray-500 mt-3 max-w-3xl mx-auto">{t("about.cert.desc")}</p>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -143,11 +116,41 @@ export default function AboutPage() {
               className="inline-flex items-center bg-green-600 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-green-700 transition-colors"
             >
               {t("contact.title")}
-              <svg className="w-4 h-4 mr-1.5" style={isAr ? { transform: "rotate(180deg)" } : {}} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              <svg className="w-4 h-4 ml-1.5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </Link>
           </div>
+        </div>
+
+        {/* ═══════════════════════════════════
+            Company info — scroll down
+        ═══════════════════════════════════ */}
+        <div className="mt-16 prose prose-gray max-w-none">
+          <p className="text-lg text-gray-600 leading-relaxed">
+            {t("about.desc")}
+          </p>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-10">{t("about.mission.title")}</h2>
+          <p className="text-gray-600 leading-relaxed">
+            {t("about.mission.desc")}
+          </p>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-10">{t("about.b2b.title")}</h2>
+          <p className="text-gray-600 leading-relaxed">
+            {t("about.b2b.desc")}
+          </p>
+          <ul className="list-disc list-inside text-gray-600 space-y-2 mt-4">
+            <li><strong>{t("about.b2b.hotels")}</strong> &mdash; {t("about.b2b.hotels.desc")}</li>
+            <li><strong>{t("about.b2b.cleaning")}</strong> &mdash; {t("about.b2b.cleaning.desc")}</li>
+            <li><strong>{t("about.b2b.distributors")}</strong> &mdash; {t("about.b2b.distributors.desc")}</li>
+            <li><strong>{t("about.b2b.supermarkets")}</strong> &mdash; {t("about.b2b.supermarkets.desc")}</li>
+          </ul>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-10">{t("about.quality.title")}</h2>
+          <p className="text-gray-600 leading-relaxed">
+            {t("about.quality.desc")}
+          </p>
         </div>
 
         <div className="mt-12 bg-gray-50 rounded-2xl p-8 text-center">
