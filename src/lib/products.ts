@@ -76,7 +76,7 @@ const products: Product[] = [
       "يتميز رذاذ قتل الصراصير من باربار بتركيبته عالية الأداء من البيريثرويد التي توفر تأثيراً سريعاً وقاتلاً ضد الصراصير. تصميم العلبة باللونين الأحمر والذهبي يبرز على الرفوف، بينما تسمح الفوهة المريحة بالاستخدام الدقيق في الشقوق والزوايا وأماكن الاختباء. مثالي للمنازل والمطابخ والحمامات والمطاعم والفنادق.",
     imageCount: 7,
     imagePrefix: "parpar-cockroach-killer-spray",
-    mainImage: "/images/parpar-cockroach-killer-spray-hero-product-shot.jpg",
+    mainImage: "/images/parpar-cockroach-killer-spray-hero-product-shot.png",
     galleryImages: [
       "/images/parpar-cockroach-killer-spray-isolated-studio-angle.jpg",
       "/images/parpar-cockroach-killer-spray-packaging-box-display.jpg",
@@ -130,7 +130,7 @@ const products: Product[] = [
       "رذاذ طارد البعوض من باربار مصمم خصيصاً للسوق المصري، ويوفر حماية طويلة الأمد ضد البعوض. تصميم العلبة الأزرق أنيق وسهل التعرف، مع رائحة خفيفة ولطيفة مناسبة لغرف النوم وغرف المعيشة والحدائق والباحات الخارجية. مثالي للاستخدام المنزلي وغرف الفنادق.",
     imageCount: 7,
     imagePrefix: "parpar-mosquito-repellent-spray",
-    mainImage: "/images/parpar-mosquito-repellent-spray-hero-product-shot.jpg",
+    mainImage: "/images/parpar-mosquito-repellent-spray-hero-product-shot.png",
     galleryImages: [
       "/images/parpar-mosquito-repellent-spray-isolated-studio-angle.jpg",
       "/images/parpar-mosquito-repellent-spray-packaging-box-display.jpg",
