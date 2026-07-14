@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION ?? "",
+    google: "google7751dec063456217",
   },
   openGraph: {
     siteName: "Parpar B2B",
