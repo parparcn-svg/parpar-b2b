@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import type { Product } from "@/lib/products"
 import { Card, CardContent } from "@/components/ui/card"
@@ -13,10 +14,12 @@ export default function ProductCard({ product }: { product: Product }) {
       <Card className="overflow-hidden border border-gray-100 hover:border-green-300 transition-all duration-500 bg-white rounded-3xl shadow-sm hover:shadow-2xl hover:shadow-green-900/10">
         {/* Image */}
         <div className="aspect-[4/3] bg-gradient-to-br from-gray-50 via-white to-green-50/30 relative overflow-hidden">
-          <img
+          <Image
             src={product.mainImage}
             alt={isAr ? product.nameAr : product.nameEn}
-            className="w-full h-full object-contain p-8 group-hover:scale-110 transition-transform duration-700 ease-out"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-contain p-8 group-hover:scale-110 transition-transform duration-700 ease-out"
           />
           <div className="absolute top-3 left-3">
             <Badge variant="secondary" className="bg-white/95 backdrop-blur-sm font-semibold text-xs shadow-sm border border-gray-100 px-3 py-1">

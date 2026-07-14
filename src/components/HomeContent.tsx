@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { motion, useInView, useMotionValue, useSpring, useTransform } from "framer-motion";
@@ -361,20 +362,26 @@ export default function HomeContent({ products }: { products: Product[] }) {
                 <div className="relative w-full h-full flex items-center justify-center gap-2 px-4">
                   {/* Cockroach spray (left) */}
                   <div className="w-[60%] max-w-[420px]" style={{ transform: "translateZ(40px)" }}>
-                    <img
+                    <Image
                       src={products[0]?.mainImage}
                       alt="Cockroach Killer Spray"
+                      width={420}
+                      height={420}
                       className="w-full h-auto object-contain drop-shadow-2xl"
                       style={{ transform: "rotate(-5deg)" }}
+                      priority
                     />
                   </div>
                   {/* Mosquito spray (right — slightly in front) */}
                   <div className="w-[60%] max-w-[420px]" style={{ transform: "translateZ(55px)" }}>
-                    <img
+                    <Image
                       src={products[1]?.mainImage}
                       alt="Mosquito Repellent Spray"
+                      width={420}
+                      height={420}
                       className="w-full h-auto object-contain drop-shadow-2xl"
                       style={{ transform: "rotate(6deg)" }}
+                      priority
                     />
                   </div>
                 </div>

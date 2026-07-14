@@ -102,6 +102,26 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Resources */}
+          <div>
+            <h3 className="text-white font-semibold mb-5 text-sm uppercase tracking-wider">
+              {isAr ? "المصادر" : "Resources"}
+            </h3>
+            <ul className="space-y-3">
+              <li><Link href="/blog" className="text-sm hover:text-green-400 transition-colors">
+                {isAr ? "المدونة" : "Blog"}
+              </Link></li>
+              <li><Link href="/guides/wholesale-pest-control-egypt" className="text-sm hover:text-green-400 transition-colors">
+                {isAr ? "دليل الشراء بالجملة" : "Wholesale Guide"}
+              </Link></li>
+              <li><Link href="/guides/hotel-mosquito-control-procurement" className="text-sm hover:text-green-400 transition-colors">
+                {isAr ? "دليل الفنادق" : "Hotel Guide"}
+              </Link></li>
+              <li><Link href="/geo" className="text-sm hover:text-green-400 transition-colors">{t("footer.knowledge")}</Link></li>
+              <li><Link href="/seo" className="text-sm hover:text-green-400 transition-colors">{t("footer.comparison")}</Link></li>
+            </ul>
+          </div>
+
           {/* Company */}
           <div>
             <h3 className="text-white font-semibold mb-5 text-sm uppercase tracking-wider">{t("footer.company")}</h3>

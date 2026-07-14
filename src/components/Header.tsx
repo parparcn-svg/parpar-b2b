@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect, useCallback } from "react";
 import { useLanguage } from "@/context/LanguageContext";
@@ -43,6 +44,7 @@ export default function Header() {
     },
     { labelEn: "Distributors", labelAr: "الموزعون", href: "/distributors" },
     { labelEn: "Buyers", labelAr: "المشترين", href: "/buyers" },
+    { labelEn: "Blog", labelAr: "المدونة", href: "/blog" },
     { labelEn: "About", labelAr: "عن الشركة", href: "/about" },
     { labelEn: "Contact", labelAr: "اتصل بنا", href: "/contact" },
   ];
@@ -61,10 +63,13 @@ export default function Header() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link href="/" className="relative z-10">
-              <img
+              <Image
                 src="/parpar-logo.png"
                 alt="Parpar"
+                width={120}
+                height={36}
                 className="h-9 w-auto transition-all duration-300"
+                priority
               />
             </Link>
 
