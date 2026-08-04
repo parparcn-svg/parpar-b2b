@@ -52,16 +52,6 @@ export default async function ProductPage({ params }: { params: Promise<{ lang: 
       "@type": "Brand",
       name: "Parpar",
     },
-    offers: {
-      "@type": "Offer",
-      price: "0",
-      priceCurrency: "EGP",
-      availability: "https://schema.org/InStock",
-      seller: {
-        "@type": "Organization",
-        name: "Parpar",
-      },
-    },
   };
 
   const breadcrumbSchema = {
