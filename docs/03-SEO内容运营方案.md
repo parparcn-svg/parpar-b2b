@@ -26,7 +26,7 @@
 3. **无 FAQ 内容与 FAQPage schema（高）**：✅ 本轮已为 5 款产品增加双语 FAQ 区块 + FAQPage JSON-LD。
 4. **无 BreadcrumbList schema（中）**：✅ 本轮已为产品页/博客页/指南页增加。
 5. **Blog 索引页无 metadata（中）**：✅ 本轮已补。
-6. **语言 SEO 缺口（大项，需单独排期）**：语言切换为纯客户端状态，URL 无 `/ar`/`en` 区分、无 hreflang、`html lang` 服务端固定为 en —— 阿拉伯语内容无法被 Google 单独索引。详见"后续技术大项"。
+6. **语言 SEO 缺口**：✅ 2026.08 已解决（/ar /en 双路由 + hreflang + 双语 sitemap）。
 7. **产品 retailSpec 均为 TBD**：零售规格数据待产品方补充。
 8. **项目遗留 lint errors（25 个）**：集中在 SEOContent.tsx / HomeContent.tsx 的 `no-explicit-any`，非本轮引入，建议后续清理。
 
@@ -65,7 +65,7 @@
 | 2 | 产品 FAQ 区块（双语）+ FAQPage schema | 内容 + schema | ✅ 完成 |
 | 3 | Blog 新增 5 篇英文高意图文章 | 内容 | ✅ 完成 |
 | 4 | Blog 索引页 metadata | 技术 SEO | ✅ 完成 |
-| 5 | 语言 URL 化 + hreflang（/ar /en 路由） | 技术大项 | ⏳ 后续排期 |
+| 5 | 语言 URL 化 + hreflang（/ar /en 路由） | 技术大项 | ✅ 2026.08 完成（提交 a98afc8） |
 
 ### 本轮新增博客（与现有 guides 不重复，均已上线）
 1. `wholesale-mosquito-repellent-egypt-2026` — 埃及驱蚊剂批发采购指南（MOQ、价格结构、选商标准）
@@ -99,11 +99,10 @@
 
 ## 五、后续技术大项（需单独评估排期）
 
-### 语言 URL 化 + hreflang（最高优先）
-- 现状：语言切换为客户端 state，URL 不变；服务端 `html lang="en"`；阿拉伯语内容不可被搜索引擎独立索引。
-- 建议方案：`/ar/*` 与 `/*`（英文）双路由，或 `/en`/`/ar` 前缀；Header 切换改为路由切换；sitemap 输出双语言 URL；每页注入 `alternates.languages`（hreflang en/ar/x-default）。
-- 影响面：Header、所有 Link、LanguageContext、HtmlLangSetter、sitemap、metadata、GA/UTM。
-- 收益：阿拉伯语搜索流量（埃及 Google 阿语搜索占比高）+ hreflang 正确性。
+### 语言 URL 化 + hreflang（✅ 已完成 2026.08，提交 a98afc8）
+- 实现：全部页面移入 `app/[lang]/`（/ar 阿拉伯语、/en 英语，全部 SSG）；`src/proxy.ts` 负责旧 URL（/products/x 等）rewrite 到 /en（URL 不变、英文外链零破坏），根路径按 Accept-Language 将阿语用户 301 到 /ar；`LocalizedLink` 自动为内部链接加语言前缀；页面级 `alternates.languages` 输出 hreflang；sitemap 双语 44 URL。
+- 注意事项：Next 渲染 hreflang 属性名为 `hrefLang`（驼峰，PR #66983 的已知 cosmetic bug）——HTML 属性大小写不敏感，Google 按标准解析，无需处理；`html lang` 在 SSR 时固定 en，客户端由 DocumentLangSetter 同步（对 SEO 影响可忽略，hreflang + canonical 主导语言信号）。
+- 下一步：新增阿拉伯语博客内容（/ar/blog 已有英文内容的阿语 UI，但博文正文仍为英文，可在 posts 数据中补充阿语字段）。
 
 ### 其他
 - GA4 Measurement ID 配置（`NEXT_PUBLIC_GA_ID` 未设，GA 未启用）→ 与 Google Ads 转化追踪联动。
