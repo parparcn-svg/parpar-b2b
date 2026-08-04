@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "@/components/LocalizedLink";
-import { useTranslation } from "@/lib/useTranslation";
+import { useTranslation, type TranslationKey } from "@/lib/useTranslation";
 
 const entityKeys = [
   { name: "geo.entities.importers", type: "geo.entities.supplier", desc: "geo.entities.importers.desc" },
@@ -56,8 +56,8 @@ export default function GEOCcontent() {
         <div className="mt-10 space-y-6">
           {sectionKeys.map((s, i) => (
             <div key={i} className="bg-white border border-gray-100 rounded-2xl p-6">
-              <h2 className="text-xl font-bold text-gray-900 mb-3">{t(s.title as any)}</h2>
-              <p className="text-sm text-gray-600 leading-relaxed">{t(s.content as any)}</p>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">{t(s.title as TranslationKey)}</h2>
+              <p className="text-sm text-gray-600 leading-relaxed">{t(s.content as TranslationKey)}</p>
             </div>
           ))}
         </div>
@@ -69,10 +69,10 @@ export default function GEOCcontent() {
               <div key={i} className="bg-white border border-gray-100 rounded-xl p-4">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="w-2 h-2 rounded-full bg-green-500" />
-                  <span className="text-xs font-semibold text-green-600 uppercase tracking-wider">{t(e.type as any)}</span>
+                  <span className="text-xs font-semibold text-green-600 uppercase tracking-wider">{t(e.type as TranslationKey)}</span>
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-1">{t(e.name as any)}</h3>
-                <p className="text-xs text-gray-500 leading-relaxed">{t(e.desc as any)}</p>
+                <h3 className="font-semibold text-gray-900 mb-1">{t(e.name as TranslationKey)}</h3>
+                <p className="text-xs text-gray-500 leading-relaxed">{t(e.desc as TranslationKey)}</p>
               </div>
             ))}
           </div>
@@ -83,11 +83,11 @@ export default function GEOCcontent() {
           <div className="space-y-3">
             {relationKeys.map((r, i) => (
               <div key={i} className="flex items-center gap-2 text-sm text-gray-600 flex-wrap">
-                <span className="font-medium text-gray-900">{t(r.from as any)}</span>
+                <span className="font-medium text-gray-900">{t(r.from as TranslationKey)}</span>
                 <span className="text-green-500">→</span>
                 <span className="text-xs italic text-gray-400">{r.rel}</span>
                 <span className="text-green-500">→</span>
-                <span className="font-medium text-gray-900">{t(r.to as any)}</span>
+                <span className="font-medium text-gray-900">{t(r.to as TranslationKey)}</span>
               </div>
             ))}
           </div>
@@ -98,8 +98,8 @@ export default function GEOCcontent() {
           <div className="space-y-6">
             {faqKeys.map((faq, i) => (
               <div key={i}>
-                <h3 className="font-medium text-gray-900 mb-1">Q: {t(faq.q as any)}</h3>
-                <p className="text-sm text-gray-500">{t(faq.a as any)}</p>
+                <h3 className="font-medium text-gray-900 mb-1">Q: {t(faq.q as TranslationKey)}</h3>
+                <p className="text-sm text-gray-500">{t(faq.a as TranslationKey)}</p>
               </div>
             ))}
           </div>

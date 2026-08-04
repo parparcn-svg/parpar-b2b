@@ -2,7 +2,7 @@
 
 import Link from "@/components/LocalizedLink";
 import { getAllProducts } from "@/lib/products";
-import { useTranslation } from "@/lib/useTranslation";
+import { useTranslation, type TranslationKey } from "@/lib/useTranslation";
 
 const industries = [
   "buyers.industry.hotels",
@@ -47,7 +47,7 @@ export default function BuyersContent() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {industries.map((ind, i) => (
             <div key={i} className="bg-gray-50 border border-gray-100 rounded-xl px-4 py-3 text-sm font-medium text-gray-700">
-              {t(ind as any)}
+              {t(ind as TranslationKey)}
             </div>
           ))}
         </div>
@@ -108,8 +108,8 @@ export default function BuyersContent() {
           <div className="space-y-6">
             {faqs.map((faq, i) => (
               <div key={i}>
-                <h3 className="font-medium text-gray-900 mb-1">Q: {t(faq.q as any)}</h3>
-                <p className="text-sm text-gray-500">{t(faq.a as any)}</p>
+                <h3 className="font-medium text-gray-900 mb-1">Q: {t(faq.q as TranslationKey)}</h3>
+                <p className="text-sm text-gray-500">{t(faq.a as TranslationKey)}</p>
               </div>
             ))}
           </div>

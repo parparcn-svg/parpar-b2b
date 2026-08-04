@@ -2,7 +2,7 @@
 
 import Link from "@/components/LocalizedLink";
 import React from "react";
-import { useTranslation } from "@/lib/useTranslation";
+import { useTranslation, type TranslationKey } from "@/lib/useTranslation";
 
 export default function AboutContent() {
   const { t, lang } = useTranslation();
@@ -88,10 +88,10 @@ export default function AboutContent() {
                   <PDFIcon />
                 </div>
                 <h3 className="font-semibold text-gray-900 text-sm group-hover:text-green-600 transition-colors">
-                  {t(`about.cert.${cert.key}` as any)}
+                  {t(`about.cert.${cert.key}` as TranslationKey)}
                 </h3>
                 <p className="text-xs text-gray-500 mt-1.5 leading-relaxed">
-                  {t(`about.cert.${cert.key}.desc` as any)}
+                  {t(`about.cert.${cert.key}.desc` as TranslationKey)}
                 </p>
                 <div className="mt-3 text-xs text-green-600 font-medium flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
                   <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">

@@ -2,7 +2,7 @@
 
 import Link from "@/components/LocalizedLink";
 import { getAllProducts } from "@/lib/products";
-import { useTranslation } from "@/lib/useTranslation";
+import { useTranslation, type TranslationKey } from "@/lib/useTranslation";
 
 const faqKeys = [
   { q: "seo.faq.q1", a: "seo.faq.a1" },
@@ -60,9 +60,9 @@ export default function SEOContent() {
                     <Link href={`/products/${r.product.slug}`} className="text-green-600 hover:underline">{isAr ? r.product.nameAr : r.product.nameEn}</Link>
                   </td>
                   <td className="p-3 text-gray-500">{isAr ? r.product.formAr : r.product.form}</td>
-                  <td className="p-3 text-gray-500">{t(r.pest as any)}</td>
+                  <td className="p-3 text-gray-500">{t(r.pest as TranslationKey)}</td>
                   <td className="p-3 text-gray-500">{r.spec || r.product.spec}</td>
-                  <td className="p-3 text-gray-500">{t(r.best as any)}</td>
+                  <td className="p-3 text-gray-500">{t(r.best as TranslationKey)}</td>
                 </tr>
               ))}
             </tbody>
@@ -91,8 +91,8 @@ export default function SEOContent() {
           <div className="space-y-6">
             {faqKeys.map((faq, i) => (
               <div key={i}>
-                <h3 className="font-medium text-gray-900 mb-1">Q: {t(faq.q as any)}</h3>
-                <p className="text-sm text-gray-500">{t(faq.a as any)}</p>
+                <h3 className="font-medium text-gray-900 mb-1">Q: {t(faq.q as TranslationKey)}</h3>
+                <p className="text-sm text-gray-500">{t(faq.a as TranslationKey)}</p>
               </div>
             ))}
           </div>

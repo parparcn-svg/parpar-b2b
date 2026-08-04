@@ -86,7 +86,7 @@ function Tilt3D({ children, className = "" }: { children: React.ReactNode; class
     <motion.div
       ref={ref}
       className={`${className} group`}
-      style={{ perspective: 1200, rotateX, rotateY, transformStyle: "preserve-3d" as any }}
+      style={{ perspective: 1200, rotateX, rotateY, transformStyle: "preserve-3d" }}
       onMouseMove={handleMouse}
       onMouseLeave={handleLeave}
     >

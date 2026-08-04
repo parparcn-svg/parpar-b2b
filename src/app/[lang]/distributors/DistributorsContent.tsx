@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "@/components/LocalizedLink";
-import { useTranslation } from "@/lib/useTranslation";
+import { useTranslation, type TranslationKey } from "@/lib/useTranslation";
 
 const modelKeys = [
   { title: "distributors.model1.title", desc: "distributors.model1.desc" },
@@ -59,8 +59,8 @@ export default function DistributorsContent() {
               <div className="w-10 h-10 bg-green-100 rounded-xl flex items-center justify-center mb-4">
                 <span className="text-green-600 font-bold text-lg">{i + 1}</span>
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">{t(m.title as any)}</h3>
-              <p className="text-sm text-gray-500 leading-relaxed">{t(m.desc as any)}</p>
+              <h3 className="font-semibold text-gray-900 mb-2">{t(m.title as TranslationKey)}</h3>
+              <p className="text-sm text-gray-500 leading-relaxed">{t(m.desc as TranslationKey)}</p>
             </div>
           ))}
         </div>
@@ -74,7 +74,7 @@ export default function DistributorsContent() {
                   <svg className="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  {t(b as any)}
+                  {t(b as TranslationKey)}
                 </li>
               ))}
             </ul>
@@ -85,7 +85,7 @@ export default function DistributorsContent() {
               {requirementKeys.map((r, i) => (
                 <li key={i} className="flex items-start gap-3 text-gray-600">
                   <span className="w-5 h-5 rounded-full bg-green-100 text-green-600 text-xs flex items-center justify-center shrink-0 mt-0.5">✓</span>
-                  {t(r as any)}
+                  {t(r as TranslationKey)}
                 </li>
               ))}
             </ul>
@@ -105,8 +105,8 @@ export default function DistributorsContent() {
           <div className="space-y-6">
             {faqKeys.map((faq, i) => (
               <div key={i}>
-                <h3 className="font-medium text-gray-900 mb-1">Q: {t(faq.q as any)}</h3>
-                <p className="text-sm text-gray-500">{t(faq.a as any)}</p>
+                <h3 className="font-medium text-gray-900 mb-1">Q: {t(faq.q as TranslationKey)}</h3>
+                <p className="text-sm text-gray-500">{t(faq.a as TranslationKey)}</p>
               </div>
             ))}
           </div>
