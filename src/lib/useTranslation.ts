@@ -318,6 +318,8 @@ const ar: Record<string, string> = {
   "product.box_spec": "مواصفات الكرتون",
   "product.qty_carton": "الكمية / كرتون",
   "product.scenes": "الاستخدامات",
+  "product.faq_title": "الأسئلة الشائعة",
+  "product.faq_contact": "لم تجد إجابتك؟ تواصل معنا",
 };
 
 const en: Record<string, string> = {
@@ -635,6 +637,8 @@ const en: Record<string, string> = {
   "common.learn_about": "Learn about",
   "common.or_explore": "or explore",
   "common.units": "pcs/ctn",
+  "product.faq_title": "Frequently Asked Questions",
+  "product.faq_contact": "Didn't find your answer? Contact us",
 };
 
 export type TranslationKey = keyof typeof ar;

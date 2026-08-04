@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Script from "next/script";
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
 
 export async function generateStaticParams() {
@@ -15,6 +16,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: post.title,
     description: post.description,
+    alternates: {
+      canonical: `/blog/${slug}`,
+    },
     openGraph: {
       title: `${post.title} | Parpar Blog`,
       description: post.description,
@@ -29,6 +33,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   return (
     <>
+      <Script id="blog-breadcrumb-schema" type="application/ld+json" strategy="beforeInteractive">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://parpareg.com/" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://parpareg.com/blog" },
+            { "@type": "ListItem", position: 3, name: post.title, item: `https://parpareg.com/blog/${post.slug}` },
+          ],
+        })}
+      </Script>
       <div className="bg-gray-50 border-b border-gray-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-3 text-sm text-gray-500">
           <Link href="/" className="hover:text-green-600">Home</Link>

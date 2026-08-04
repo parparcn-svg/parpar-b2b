@@ -6,6 +6,7 @@ import type { Product } from "@/lib/products";
 import InquiryForm from "@/components/InquiryForm";
 import ProductGallery from "@/components/ProductGallery";
 import { useTranslation } from "@/lib/useTranslation";
+import { getProductFaqs } from "@/lib/productFaqs";
 import { Button } from "@/components/ui/button";
 
 /* ── Image type classification ── */
@@ -69,6 +70,8 @@ export default function ProductDetailContent({
   const isAr = lang === "ar";
   const [activeSection, setActiveSection] = useState<"specs" | "inquiry">("specs");
   const inquiryRef = useRef<HTMLDivElement>(null);
+
+  const faqs = getProductFaqs(product.slug);
 
   const sortedImages = sortProductImages([
     product.mainImage,
@@ -215,6 +218,38 @@ export default function ProductDetailContent({
                 </Button>
               </Link>
             </div>
+
+            {/* ── FAQ ── */}
+            {faqs.length > 0 && (
+              <div className="mt-12">
+                <h2 className="font-semibold text-gray-900 mb-4 text-lg">
+                  {t("product.faq_title")}
+                </h2>
+                <div className="space-y-3">
+                  {faqs.map((f, i) => (
+                    <details
+                      key={i}
+                      className="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden group"
+                    >
+                      <summary className="flex items-center justify-between gap-4 px-5 py-4 cursor-pointer text-sm font-medium text-gray-900 hover:bg-gray-100/70 transition-colors list-none [&::-webkit-details-marker]:hidden">
+                        <span>{isAr ? f.qAr : f.qEn}</span>
+                        <svg
+                          className="w-4 h-4 text-gray-400 shrink-0 group-open:rotate-180 transition-transform"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </summary>
+                      <p className="px-5 pb-4 text-sm text-gray-600 leading-relaxed">
+                        {isAr ? f.aAr : f.aEn}
+                      </p>
+                    </details>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* ── Quick Inquiry Form ── */}
             <div ref={inquiryRef} className="mt-12 scroll-mt-28">

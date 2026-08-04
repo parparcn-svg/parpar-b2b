@@ -1,5 +1,16 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getAllPosts } from "@/lib/posts";
+
+export const metadata: Metadata = {
+  title: "Pest Control Blog & Industry Insights — Egypt",
+  description:
+    "B2B insights, buying guides, and market analysis for Egypt's pest control industry. Mosquito repellent wholesale, cockroach control, and supplier compliance guides.",
+  openGraph: {
+    title: "Parpar Blog | Pest Control Industry Insights — Egypt",
+    description: "B2B guides and market insights for Egypt's pest control industry.",
+  },
+};
 
 export default function BlogPage() {
   const posts = getAllPosts();

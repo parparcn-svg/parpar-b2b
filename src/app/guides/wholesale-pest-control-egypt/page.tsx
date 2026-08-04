@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Wholesale Pest Control Products Egypt — Complete B2B Buying Guide",
@@ -14,6 +15,17 @@ export const metadata: Metadata = {
 export default function WholesaleGuidePage() {
   return (
     <>
+      <Script id="guide-breadcrumb-schema" type="application/ld+json" strategy="beforeInteractive">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://parpareg.com/" },
+            { "@type": "ListItem", position: 2, name: "Guides", item: "https://parpareg.com/blog" },
+            { "@type": "ListItem", position: 3, name: "Wholesale Pest Control Guide", item: "https://parpareg.com/guides/wholesale-pest-control-egypt" },
+          ],
+        })}
+      </Script>
       <div className="bg-gray-50 border-b border-gray-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-3 text-sm text-gray-500">
           <Link href="/" className="hover:text-green-600">Home</Link>
