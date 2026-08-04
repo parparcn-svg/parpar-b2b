@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { LANGS } from "@/lib/i18n";
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
+import { blogUiStrings } from "@/lib/blog-i18n";
 
 export async function generateStaticParams() {
   return LANGS.flatMap((lang) => getAllPosts().map((p) => ({ lang, slug: p.slug })));
@@ -13,10 +14,11 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang, slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return {};
+  const isAr = lang === "ar";
 
   return {
-    title: post.title,
-    description: post.description,
+    title: isAr ? post.titleAr : post.title,
+    description: isAr ? post.descriptionAr : post.description,
     alternates: {
       canonical: `/${lang}/blog/${slug}`,
       languages: {
@@ -26,8 +28,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       },
     },
     openGraph: {
-      title: `${post.title} | Parpar Blog`,
-      description: post.description,
+      title: isAr ? `${post.titleAr} | باربار B2B` : `${post.title} | Parpar B2B`,
+      description: isAr ? post.descriptionAr : post.description,
     },
   };
 }
@@ -36,6 +38,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ lang:
   const { lang, slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) notFound();
+  const isAr = lang === "ar";
+  const s = blogUiStrings(lang);
 
   return (
     <>
@@ -44,37 +48,37 @@ export default async function BlogPostPage({ params }: { params: Promise<{ lang:
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: `https://parpareg.com/${lang}` },
-            { "@type": "ListItem", position: 2, name: "Blog", item: `https://parpareg.com/${lang}/blog` },
-            { "@type": "ListItem", position: 3, name: post.title, item: `https://parpareg.com/${lang}/blog/${post.slug}` },
+            { "@type": "ListItem", position: 1, name: s.home, item: `https://parpareg.com/${lang}` },
+            { "@type": "ListItem", position: 2, name: s.blog, item: `https://parpareg.com/${lang}/blog` },
+            { "@type": "ListItem", position: 3, name: isAr ? post.titleAr : post.title, item: `https://parpareg.com/${lang}/blog/${post.slug}` },
           ],
         })}
       </Script>
       <div className="bg-gray-50 border-b border-gray-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-3 text-sm text-gray-500">
-          <Link href="/" className="hover:text-green-600">Home</Link>
+          <Link href="/" className="hover:text-green-600">{s.home}</Link>
           <span className="mx-2">/</span>
-          <Link href="/blog" className="hover:text-green-600">Blog</Link>
+          <Link href="/blog" className="hover:text-green-600">{s.blog}</Link>
           <span className="mx-2">/</span>
-          <span className="text-gray-900 font-medium">{post.title}</span>
+          <span className="text-gray-900 font-medium">{isAr ? post.titleAr : post.title}</span>
         </div>
       </div>
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="flex items-center gap-3 text-xs text-gray-500 mb-4">
           <span className="bg-green-50 text-green-700 font-medium px-2.5 py-1 rounded-full">
-            {post.category}
+            {isAr ? post.categoryAr : post.category}
           </span>
           <span>{post.date}</span>
           <span>— {post.author}</span>
         </div>
 
         <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight tracking-tight">
-          {post.title}
+          {isAr ? post.titleAr : post.title}
         </h1>
 
         <p className="text-lg text-gray-500 mt-4 leading-relaxed">
-          {post.description}
+          {isAr ? post.descriptionAr : post.description}
         </p>
 
         <div className="flex flex-wrap gap-2 mt-4">
@@ -90,22 +94,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ lang:
 
         <div
           className="mt-10 prose prose-gray max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600 prose-strong:text-gray-900 prose-a:text-green-600"
-          dangerouslySetInnerHTML={{ __html: post.contentHtml }}
+          dangerouslySetInnerHTML={{ __html: isAr ? post.contentHtmlAr : post.contentHtml }}
         />
 
         {/* Blog CTA */}
         <div className="mt-12 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-100 rounded-2xl p-8 text-center">
           <h3 className="text-xl font-bold text-gray-900 mb-2">
-            Need a B2B Supplier for Pest Control Products in Egypt?
+            {s.ctaTitle}
           </h3>
           <p className="text-gray-500 mb-6">
-            Contact Parpar for wholesale pricing, MOQ information, and customized supply solutions.
+            {s.ctaDesc}
           </p>
           <Link
             href="/contact"
             className="inline-flex items-center bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors shadow-lg shadow-green-600/20"
           >
-            Send Inquiry
+            {s.sendInquiry}
             <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
@@ -121,7 +125,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ lang:
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 12H5m7-7l-7 7 7 7" />
             </svg>
-            Back to Blog
+            {s.backToBlog}
           </Link>
         </div>
       </article>
