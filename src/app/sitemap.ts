@@ -1,11 +1,12 @@
 import { MetadataRoute } from "next";
 import { getAllProducts } from "@/lib/products";
 import { getAllPosts } from "@/lib/posts";
+import { LANGS } from "@/lib/i18n";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://parpareg.com";
 
-  const staticPages = [
+  const staticPaths = [
     "",
     "/about",
     "/contact",
@@ -19,26 +20,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/guides/pest-control-distributor-partnership",
   ];
 
-  const staticEntries = staticPages.map((path) => ({
-    url: `${baseUrl}${path}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: path === "" ? 1.0 : path.startsWith("/guides") ? 0.8 : 0.8,
-  }));
+  const productPaths = getAllProducts().map((p) => `/products/${p.slug}`);
+  const blogPaths = getAllPosts().map((p) => `/blog/${p.slug}`);
+  const allPaths = [...staticPaths, ...productPaths, ...blogPaths];
 
-  const productEntries = getAllProducts().map((p) => ({
-    url: `${baseUrl}/products/${p.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
-
-  const blogEntries = getAllPosts().map((p) => ({
-    url: `${baseUrl}/blog/${p.slug}`,
-    lastModified: new Date(p.date),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
-
-  return [...staticEntries, ...productEntries, ...blogEntries];
+  return allPaths.flatMap((path) =>
+    LANGS.map((lang) => ({
+      url: `${baseUrl}/${lang}${path}`,
+      lastModified: new Date(),
+      changeFrequency: (path === "" ? "weekly" : path.startsWith("/products") || path.startsWith("/blog") ? "monthly" : "weekly") as MetadataRoute.Sitemap[number]["changeFrequency"],
+      priority: path === "" ? 1.0 : path.startsWith("/blog/") ? 0.6 : 0.8,
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en${path}`,
+          ar: `${baseUrl}/ar${path}`,
+          "x-default": `${baseUrl}`,
+        },
+      },
+    }))
+  );
 }

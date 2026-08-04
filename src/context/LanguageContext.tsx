@@ -1,11 +1,11 @@
 "use client"
 
-import { createContext, useContext, useState, useCallback, ReactNode } from "react"
-
-type Language = "en" | "ar"
+import { createContext, useContext, ReactNode } from "react"
+import { usePathname, useRouter } from "next/navigation"
+import type { Lang } from "@/lib/i18n"
 
 interface LanguageContextType {
-  lang: Language
+  lang: Lang
   toggleLang: () => void
 }
 
@@ -14,12 +14,21 @@ const LanguageContext = createContext<LanguageContextType>({
   toggleLang: () => {},
 })
 
-export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Language>("ar")
+export function LanguageProvider({ lang, children }: { lang: Lang; children: ReactNode }) {
+  const pathname = usePathname()
+  const router = useRouter()
 
-  const toggleLang = useCallback(() => {
-    setLang((prev) => (prev === "en" ? "ar" : "en"))
-  }, [])
+  const toggleLang = () => {
+    const next: Lang = lang === "ar" ? "en" : "ar"
+    // pathname is always prefixed (/ar/... or /en/...) after middleware
+    const parts = pathname.split("/")
+    if (parts[1] === "ar" || parts[1] === "en") {
+      parts[1] = next
+      router.push(parts.join("/") || `/${next}`)
+    } else {
+      router.push(`/${next}${pathname}`)
+    }
+  }
 
   return (
     <LanguageContext.Provider value={{ lang, toggleLang }}>
