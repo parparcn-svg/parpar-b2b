@@ -59,7 +59,7 @@ function buildEmailHtml(data: InquiryEmailData): string {
 }
 
 export async function sendInquiryEmail(data: InquiryEmailData) {
-  const to = process.env.NOTIFICATION_EMAIL || "parpar.cn@gmail.com";
+  const to = process.env.NOTIFICATION_EMAIL || "sowazizi2016@gmail.com";
 
   const result = await resend.emails.send({
     from: "onboarding@resend.dev",

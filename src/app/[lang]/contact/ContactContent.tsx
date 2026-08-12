@@ -36,7 +36,7 @@ export default function ContactContent() {
                 </div>
                 <div>
                   <div className="font-medium text-gray-900">{t("contact.email")}</div>
-                  <div className="text-gray-500 text-sm">info@parpar-eg.com</div>
+                  <div className="text-gray-500 text-sm">sowazizi2016@gmail.com</div>
                 </div>
               </div>
               <div className="flex items-start gap-3">
