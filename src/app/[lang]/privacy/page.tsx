@@ -72,7 +72,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ lang: 
             </section>
             <section>
               <h2 className="text-lg font-semibold text-gray-900">8. الاتصال بنا</h2>
-              <p>لأي استفسار متعلق بالخصوصية: <a href="mailto:sowazizi2016@gmail.com" className="text-green-600 hover:underline">sowazizi2016@gmail.com</a></p>
+              <p>لأي استفسار متعلق بالخصوصية: <a href="mailto:support@parpareg.com" className="text-green-600 hover:underline">support@parpareg.com</a></p>
             </section>
           </>
         ) : (
@@ -122,7 +122,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ lang: 
             </section>
             <section>
               <h2 className="text-lg font-semibold text-gray-900">8. Contact us</h2>
-              <p>For any privacy-related question: <a href="mailto:sowazizi2016@gmail.com" className="text-green-600 hover:underline">sowazizi2016@gmail.com</a></p>
+              <p>For any privacy-related question: <a href="mailto:support@parpareg.com" className="text-green-600 hover:underline">support@parpareg.com</a></p>
             </section>
           </>
         )}

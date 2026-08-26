@@ -57,7 +57,7 @@ export default async function TermsPage({ params }: { params: Promise<{ lang: st
             </section>
             <section>
               <h2 className="text-lg font-semibold text-gray-900">8. الاتصال بنا</h2>
-              <p>لأي سؤال حول هذه الشروط: <a href="mailto:sowazizi2016@gmail.com" className="text-green-600 hover:underline">sowazizi2016@gmail.com</a></p>
+              <p>لأي سؤال حول هذه الشروط: <a href="mailto:support@parpareg.com" className="text-green-600 hover:underline">support@parpareg.com</a></p>
             </section>
           </>
         ) : (
@@ -92,7 +92,7 @@ export default async function TermsPage({ params }: { params: Promise<{ lang: st
             </section>
             <section>
               <h2 className="text-lg font-semibold text-gray-900">8. Contact us</h2>
-              <p>For any question about these terms: <a href="mailto:sowazizi2016@gmail.com" className="text-green-600 hover:underline">sowazizi2016@gmail.com</a></p>
+              <p>For any question about these terms: <a href="mailto:support@parpareg.com" className="text-green-600 hover:underline">support@parpareg.com</a></p>
             </section>
           </>
         )}
