@@ -14,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/distributors",
     "/geo",
     "/seo",
+    "/privacy",
+    "/terms",
     "/blog",
     "/guides/wholesale-pest-control-egypt",
     "/guides/hotel-mosquito-control-procurement",
