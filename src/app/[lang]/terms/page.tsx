@@ -45,7 +45,7 @@ export default async function TermsPage({ params }: { params: Promise<{ lang: st
             </section>
             <section>
               <h2 className="text-lg font-semibold text-gray-900">5. حدود المسؤولية</h2>
-              <p>الموقع يُقدم "كما هو". باربار غير مسؤولة عن الأضرار الناتجة عن استخدام الموقع أو الاعتماد على محتوياته، ضمن الحدود المسموحة قانوناً. استخدام المبيدات يجب أن يتم وفق تعليمات السلامة على العبوة.</p>
+              <p>الموقع يُقدم &quot;كما هو&quot;. باربار غير مسؤولة عن الأضرار الناتجة عن استخدام الموقع أو الاعتماد على محتوياته، ضمن الحدود المسموحة قانوناً. استخدام المبيدات يجب أن يتم وفق تعليمات السلامة على العبوة.</p>
             </section>
             <section>
               <h2 className="text-lg font-semibold text-gray-900">6. القانون المطبق</h2>
@@ -80,7 +80,7 @@ export default async function TermsPage({ params }: { params: Promise<{ lang: st
             </section>
             <section>
               <h2 className="text-lg font-semibold text-gray-900">5. Limitation of liability</h2>
-              <p>The site is provided "as is". Parpar is not liable for damages arising from the use of the site or reliance on its content, to the extent permitted by law. Pesticides must be used according to the safety instructions on the label.</p>
+              <p>The site is provided &quot;as is&quot;. Parpar is not liable for damages arising from the use of the site or reliance on its content, to the extent permitted by law. Pesticides must be used according to the safety instructions on the label.</p>
             </section>
             <section>
               <h2 className="text-lg font-semibold text-gray-900">6. Governing law</h2>

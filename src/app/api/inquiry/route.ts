@@ -41,7 +41,7 @@ export async function POST(request: NextRequest) {
     crmStore.addLead(lead);
 
     // Send email notification
-    await sendInquiryEmail({
+    const emailResult = await sendInquiryEmail({
       companyName: body.companyName,
       businessType,
       country: body.country,
@@ -53,11 +53,22 @@ export async function POST(request: NextRequest) {
       pipeline,
     });
 
+    // Surface delivery failures instead of returning a misleading success.
+    // Also log the full lead so nothing is lost when the notification fails.
+    const emailSent = !(emailResult as { error?: unknown } | null)?.error;
+    if (!emailSent) {
+      console.error(
+        `[inquiry] notification email NOT sent for ${lead.id}; lead payload:`,
+        JSON.stringify(lead)
+      );
+    }
+
     return NextResponse.json(
       {
         success: true,
         lead_id: lead.id,
         pipeline,
+        email_sent: emailSent,
         message: "Inquiry received. Our team will contact you within 24 hours.",
       },
       { status: 200 }

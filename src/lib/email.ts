@@ -60,13 +60,24 @@ function buildEmailHtml(data: InquiryEmailData): string {
 
 export async function sendInquiryEmail(data: InquiryEmailData) {
   const to = process.env.NOTIFICATION_EMAIL || "support@parpareg.com";
+  const from = process.env.EMAIL_FROM || "Parpar Website <support@parpareg.com>";
 
   const result = await resend.emails.send({
-    from: "onboarding@resend.dev",
+    from,
     to,
     subject: `New ${data.pipeline} Lead: ${data.companyName}`,
     html: buildEmailHtml(data),
   });
+
+  // The Resend SDK resolves with { data, error } and does NOT throw on a
+  // rejected send, so log failures explicitly to avoid silent lead loss.
+  const error = (result as { error?: unknown } | null)?.error;
+  if (error) {
+    console.error(
+      `[inquiry-email] Resend rejected the notification (from=${from}, to=${to}):`,
+      typeof error === "object" ? JSON.stringify(error) : String(error)
+    );
+  }
 
   return result;
 }
