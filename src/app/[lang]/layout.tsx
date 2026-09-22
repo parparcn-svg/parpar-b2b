@@ -89,7 +89,7 @@ export default async function LangLayout({
             contactType: "sales",
             availableLanguage: ["English", "Arabic"],
           },
-          sameAs: ["https://wa.me/201009547591"],
+          sameAs: ["https://wa.me/17028905656"],
         })}
       </Script>
       <Script id="schema-website" type="application/ld+json" strategy="beforeInteractive">
