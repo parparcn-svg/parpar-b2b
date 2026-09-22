@@ -85,7 +85,11 @@ function buildEmailHtml(data: InquiryEmailData): string {
 }
 
 export async function sendInquiryEmail(data: InquiryEmailData): Promise<SendResult> {
-  const to = process.env.NOTIFICATION_EMAIL || "support@parpareg.com";
+  // 支持多个收件人（逗号分隔），例如 "support@parpareg.com,someone@gmail.com"
+  const to = (process.env.NOTIFICATION_EMAIL || "support@parpareg.com")
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
   const from = process.env.EMAIL_FROM || "Parpar Website <support@parpareg.com>";
   const subject = `New ${data.pipeline} Lead: ${data.companyName}`;
   const html = buildEmailHtml(data);
