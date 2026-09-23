@@ -84,15 +84,30 @@ function buildEmailHtml(data: InquiryEmailData): string {
   `;
 }
 
-export async function sendInquiryEmail(data: InquiryEmailData): Promise<SendResult> {
-  // 支持多个收件人（逗号分隔），例如 "support@parpareg.com,someone@gmail.com"
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+/**
+ * 统一的发送出口：收件人取 NOTIFICATION_EMAIL（支持逗号分隔多收件人）。
+ * SMTP 优先，Resend 兜底 —— 两条通道的实现细节只在这里维护一次。
+ */
+async function dispatchMail(opts: {
+  subject: string;
+  html: string;
+  replyTo?: string;
+  attachments?: { filename: string; content: Buffer }[];
+}): Promise<SendResult> {
   const to = (process.env.NOTIFICATION_EMAIL || "support@parpareg.com")
     .split(",")
     .map((s) => s.trim())
     .filter(Boolean);
   const from = process.env.EMAIL_FROM || "Parpar Website <support@parpareg.com>";
-  const subject = `New ${data.pipeline} Lead: ${data.companyName}`;
-  const html = buildEmailHtml(data);
 
   // 1) SMTP 优先
   if (smtpTransporter) {
@@ -100,15 +115,16 @@ export async function sendInquiryEmail(data: InquiryEmailData): Promise<SendResu
       const info = await smtpTransporter.sendMail({
         from,
         to,
-        subject,
-        html,
-        replyTo: data.email, // 回复邮件直接回到客户邮箱
+        subject: opts.subject,
+        html: opts.html,
+        replyTo: opts.replyTo,
+        attachments: opts.attachments,
       });
       return { data: { id: info.messageId || "smtp" }, error: null };
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
       console.error(
-        `[inquiry-email] SMTP send failed (from=${from}, to=${to}, host=${smtpHost}): ${message}`
+        `[mail] SMTP send failed (from=${from}, to=${to}, host=${smtpHost}): ${message}`
       );
       return { data: null, error: { message } };
     }
@@ -116,12 +132,18 @@ export async function sendInquiryEmail(data: InquiryEmailData): Promise<SendResu
 
   // 2) 回退 Resend
   if (resend) {
-    const result = await resend.emails.send({ from, to, subject, html });
+    const result = await resend.emails.send({
+      from,
+      to,
+      subject: opts.subject,
+      html: opts.html,
+      replyTo: opts.replyTo,
+    });
     // Resend SDK 用 { data, error } 返回，不会抛异常 —— 必须显式检查
     const error = (result as { error?: unknown } | null)?.error;
     if (error) {
       console.error(
-        `[inquiry-email] Resend rejected the notification (from=${from}, to=${to}):`,
+        `[mail] Resend rejected the notification (from=${from}, to=${to}):`,
         typeof error === "object" ? JSON.stringify(error) : String(error)
       );
     }
@@ -130,6 +152,65 @@ export async function sendInquiryEmail(data: InquiryEmailData): Promise<SendResu
 
   const message =
     "No mail transport configured: set SMTP_HOST/SMTP_USER/SMTP_PASS (or a verified RESEND_API_KEY)";
-  console.error(`[inquiry-email] ${message}`);
+  console.error(`[mail] ${message}`);
   return { data: null, error: { message } };
+}
+
+export async function sendInquiryEmail(data: InquiryEmailData): Promise<SendResult> {
+  return dispatchMail({
+    subject: `New ${data.pipeline} Lead: ${data.companyName}`,
+    html: buildEmailHtml(data),
+    replyTo: data.email, // 回复邮件直接回到客户邮箱
+  });
+}
+
+// --- Article submissions -------------------------------------------------
+
+export interface ArticleSubmissionData {
+  name: string;
+  email: string;
+  company: string;
+  title: string;
+  category: string;
+  content: string;
+  notes: string;
+}
+
+function buildArticleEmailHtml(data: ArticleSubmissionData): string {
+  const submitted = new Date().toLocaleString("en-US", { timeZone: "Africa/Cairo" });
+  return `
+    <div style="font-family: sans-serif; max-width: 700px; margin: 0 auto;">
+      <div style="background: #166534; color: white; padding: 24px; border-radius: 12px 12px 0 0;">
+        <h1 style="margin: 0; font-size: 20px;">New Article Submission</h1>
+        <p style="margin: 4px 0 0; opacity: 0.9;">${escapeHtml(data.title)}</p>
+      </div>
+      <div style="background: #f9f9f9; padding: 24px; border-radius: 0 0 12px 12px; border: 1px solid #e5e5e5;">
+        <table style="width: 100%; border-collapse: collapse;">
+          <tr><td style="padding:8px 12px;font-weight:600;color:#374151;width:120px;border-bottom:1px solid #e5e5e5;">Author</td><td style="padding:8px 12px;color:#111827;border-bottom:1px solid #e5e5e5;">${escapeHtml(data.name)}</td></tr>
+          <tr><td style="padding:8px 12px;font-weight:600;color:#374151;border-bottom:1px solid #e5e5e5;">Email</td><td style="padding:8px 12px;color:#111827;border-bottom:1px solid #e5e5e5;">${escapeHtml(data.email)}</td></tr>
+          <tr><td style="padding:8px 12px;font-weight:600;color:#374151;border-bottom:1px solid #e5e5e5;">Company</td><td style="padding:8px 12px;color:#111827;border-bottom:1px solid #e5e5e5;">${escapeHtml(data.company || "Not provided")}</td></tr>
+          <tr><td style="padding:8px 12px;font-weight:600;color:#374151;border-bottom:1px solid #e5e5e5;">Category</td><td style="padding:8px 12px;color:#111827;border-bottom:1px solid #e5e5e5;">${escapeHtml(data.category || "Not specified")}</td></tr>
+          <tr><td style="padding:8px 12px;font-weight:600;color:#374151;border-bottom:1px solid #e5e5e5;">Words</td><td style="padding:8px 12px;color:#111827;border-bottom:1px solid #e5e5e5;">${data.content.trim().split(/\s+/).filter(Boolean).length}</td></tr>
+        </table>
+        ${data.notes ? `<div style="margin-top:16px;padding:12px;background:white;border-radius:8px;border:1px solid #e5e5e5;"><p style="margin:0 0 4px;font-weight:600;color:#374151;font-size:13px;">Notes from author</p><p style="margin:0;color:#6b7280;font-size:14px;white-space:pre-wrap;">${escapeHtml(data.notes)}</p></div>` : ""}
+        <div style="margin-top:16px;padding:16px;background:white;border-radius:8px;border:1px solid #e5e5e5;">
+          <p style="margin:0 0 8px;font-weight:600;color:#374151;font-size:13px;">Article content</p>
+          <div style="color:#111827;font-size:14px;line-height:1.7;white-space:pre-wrap;">${escapeHtml(data.content)}</div>
+        </div>
+        <p style="margin-top:20px;font-size:12px;color:#9ca3af;">Received at ${submitted} (Egypt time)</p>
+      </div>
+    </div>
+  `;
+}
+
+export async function sendArticleSubmissionEmail(
+  data: ArticleSubmissionData,
+  attachments?: { filename: string; content: Buffer }[]
+): Promise<SendResult> {
+  return dispatchMail({
+    subject: `[Article Submission] ${data.title} — ${data.name}`,
+    html: buildArticleEmailHtml(data),
+    replyTo: data.email,
+    attachments,
+  });
 }
