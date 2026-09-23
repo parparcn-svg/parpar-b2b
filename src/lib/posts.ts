@@ -221,6 +221,237 @@ const posts: BlogPost[] = [
   "contentHtml": "<h2>Why Compliance Matters in Egypt's Pest Control Market</h2>\n<p>Public health insecticides — products used against mosquitoes, cockroaches, flies, and other disease vectors — are regulated products in Egypt. Importers and distributors who skip or misunderstand registration requirements face customs delays, product seizure, and reputational damage. Working with a compliant manufacturer is the fastest path to market.</p>\n\n<h2>Regulatory Framework</h2>\n<p>Public health insecticide products in Egypt are primarily overseen by the <strong>Ministry of Health and Population</strong>, with quality and standards enforced through the Egyptian Organization for Standardization and Quality (EOS). Registration generally requires efficacy data plus a full safety dossier.</p>\n\n<h2>Key Documents You Should Demand From Any Supplier</h2>\n<ul>\n  <li><strong>Acute dermal toxicity test report</strong> — confirms the product is safe on skin contact.</li>\n  <li><strong>Acute inhalation toxicity test report</strong> — essential for aerosol sprays and vaporizer liquids.</li>\n  <li><strong>MSDS (Material Safety Data Sheet)</strong> — composition, first aid, fire and handling measures.</li>\n  <li><strong>GHS safety data sheet</strong> — the globally harmonized hazard communication format.</li>\n  <li><strong>Pesticide production license</strong> — proves the manufacturer is licensed to produce the product.</li>\n</ul>\n<p>Parpar publishes all of these in the <a href=\"/about\">certificates section of our About page</a> — check them before you place a bulk order.</p>\n\n<h2>Practical Steps for Importers & Distributors</h2>\n<ol>\n  <li>Confirm the product formula and active ingredients match what your registration covers.</li>\n  <li>Request the full documentation pack in Arabic and English before ordering.</li>\n  <li>Verify the manufacturer's license covers the exact product line (spray, liquid, or device kit).</li>\n  <li>Keep batch-level certificates with each shipment for customs and inspection.</li>\n  <li>Work with suppliers that have prior export experience to Egypt.</li>\n</ol>\n\n<h2>Partner With a Compliant Manufacturer</h2>\n<p>Parpar products are manufactured under a pesticide production license with independent safety testing and full MSDS/GHS documentation — designed for smooth entry into the Egyptian market. <a href=\"/contact\">Contact us</a> to request the documentation pack for any product line.</p>",
     "contentHtmlAr": "<h2>لماذا يهم الامتثال في سوق مكافحة الآفات في مصر</h2>\n<p>مبيدات الصحة العامة — المنتجات المستخدمة ضد البعوض والصراصير والذباب والنواقل الأخرى — منتجات خاضعة للتنظيم في مصر. المستوردون والموزعون الذين يتجاهلون متطلبات التسجيل أو يسيئون فهمها يواجهون تأخيراً جمركياً ومصادرة للمنتجات وضرراً للسمعة. العمل مع مصنّع ملتزم هو أسرع طريق إلى السوق.</p>\n\n<h2>الإطار التنظيمي</h2>\n<p>تخضع منتجات مبيدات الصحة العامة في مصر بشكل أساسي للإشراف من <strong>وزارة الصحة والسكان</strong>، مع إنفاذ الجودة والمعايير من خلال الهيئة المصرية العامة للمواصفات والجودة (EOS). يتطلب التسجيل عادةً بيانات الفعالية بالإضافة إلى ملف سلامة كامل.</p>\n\n<h2>المستندات الأساسية التي يجب طلبها من أي مورد</h2>\n<ul>\n  <li><strong>تقرير اختبار السمية الجلدية الحادة</strong> — يؤكد سلامة المنتج عند ملامسة الجلد.</li>\n  <li><strong>تقرير اختبار السمية الاستنشاقية الحادة</strong> — ضروري للبخاخات وسوائل المبخرات.</li>\n  <li><strong>MSDS (صحيفة بيانات سلامة المواد)</strong> — التركيب والإسعافات الأولية وإجراءات مكافحة الحرائق.</li>\n  <li><strong>صحيفة بيانات السلامة GHS</strong> — صيغة التواصل الموحدة عالمياً عن المخاطر.</li>\n  <li><strong>رخصة إنتاج المبيدات</strong> — تثبت ترخيص المصنّع لإنتاج المنتج.</li>\n</ul>\n<p>تنشر باربار جميع هذه الوثائق في <a href=\"/ar/about\">قسم الشهادات في صفحة عن الشركة</a> — تحقق منها قبل تقديم طلب بالجملة.</p>\n\n<h2>خطوات عملية للمستوردين والموزعين</h2>\n<ol>\n  <li>تأكد من تطابق التركيبة والمواد الفعالة مع ما يغطيه تسجيلك.</li>\n  <li>اطلب حزمة الوثائق الكاملة بالعربية والإنجليزية قبل الطلب.</li>\n  <li>تحقق من أن ترخيص المصنّع يغطي خط المنتج المحدد (بخاخ، سائل، أو طقم جهاز).</li>\n  <li>احتفظ بشهادات مستوى الدفعة مع كل شحنة للجمارك والتفتيش.</li>\n  <li>اعمل مع موردين لديهم خبرة تصدير سابقة إلى مصر.</li>\n</ol>\n\n<h2>شراكة مع مصنّع ملتزم</h2>\n<p>تُصنَّع منتجات باربار بموجب رخصة إنتاج مبيدات مع اختبارات سلامة مستقلة ووثائق MSDS/GHS كاملة — مصممة لدخول سلس إلى السوق المصري. <a href=\"/ar/contact\">تواصل معنا</a> لطلب حزمة الوثائق لأي خط منتج.</p>",
   },
+  {
+    slug: "mosquito-spray-supplier-egypt-parpar-2026",
+    title: "Mosquito Spray Supplier in Egypt 2026",
+    description: "Looking for a reliable mosquito spray supplier in Egypt? Discover Parpar mosquito spray solutions for distributors, hotels, retailers and bulk buyers.",
+    date: "2026-09-22",
+    author: "Parpar Team",
+    category: "Industry Insights",
+    tags: [
+      "mosquito spray supplier Egypt",
+      "mosquito spray wholesale supplier",
+      "mosquito control supplier",
+      "insect control supplier Egypt",
+      "Parpar mosquito spray",
+    ],
+    image: "/images/parpar-mosquito-repellent-spray-hero-product-shot.png",
+    contentHtml: `<h2>Growing Demand for Mosquito Spray Solutions in Egypt</h2>
+<p>Mosquito control has become an essential requirement for homes, hotels, restaurants, cleaning companies, and commercial facilities across Egypt. The warm climate and outdoor lifestyle mean consumers and businesses keep looking for mosquito spray products that offer reliable protection and convenient application.</p>
+<p>For distributors and wholesale buyers, choosing the right mosquito spray supplier is about more than product effectiveness. Packaging, supply stability, product compliance, and market suitability matter just as much.</p>
+<p>Parpar supplies mosquito control solutions designed specifically for the Egypt market, including <a href="/products/mosquito-repellent-spray">mosquito repellent spray</a> suitable for households, hotels, gardens, and outdoor spaces.</p>
+
+<h2>Why Choose Parpar Mosquito Spray for the Egypt Market</h2>
+<p>Parpar mosquito spray is developed for daily mosquito protection, with a focus on effectiveness, convenience, and market-friendly packaging.</p>
+<h3>Product Information</h3>
+<table>
+<thead><tr><th>Item</th><th>Details</th></tr></thead>
+<tbody>
+<tr><td>Product Type</td><td>Aerosol Mosquito Spray</td></tr>
+<tr><td>Size</td><td>45ml</td></tr>
+<tr><td>Target Pest</td><td>Mosquitoes (Aedes, Anopheles, Culex)</td></tr>
+<tr><td>Packaging</td><td>Aerosol Can + Color Box</td></tr>
+<tr><td>Carton Quantity</td><td>96 pcs/carton</td></tr>
+<tr><td>Shelf Life</td><td>5 Years</td></tr>
+<tr><td>Application Areas</td><td>Home, Bedroom, Living Room, Garden, Hotel</td></tr>
+</tbody>
+</table>
+
+<h2>Key Advantages of Parpar Mosquito Spray</h2>
+<h3>1. Designed for Egypt Climate Conditions</h3>
+<p>Different regions have different mosquito control requirements. Parpar mosquito spray is positioned for the Egypt market, with product design, packaging, and usage scenarios suited to local consumers.</p>
+<ul>
+<li>Suitable for Egypt household environments</li>
+<li>Designed for indoor and outdoor mosquito control</li>
+<li>Suitable for residential and commercial applications</li>
+</ul>
+
+<h3>2. Suitable for Multiple Business Channels</h3>
+<p>Parpar mosquito spray can be supplied to a range of B2B customers:</p>
+<table>
+<thead><tr><th>Customer Type</th><th>Application</th></tr></thead>
+<tbody>
+<tr><td>Distributors</td><td>Regional product distribution</td></tr>
+<tr><td>Supermarkets</td><td>Retail sales</td></tr>
+<tr><td>Hotels</td><td>Guest rooms and common areas</td></tr>
+<tr><td>Cleaning Companies</td><td>Pest control services</td></tr>
+<tr><td>Wholesalers</td><td>Bulk purchasing</td></tr>
+</tbody>
+</table>
+<p>Parpar supports wholesale supply for distributors, hotels, cleaning companies, and commercial buyers across Egypt.</p>
+
+<h2>Parpar Mosquito Spray vs Traditional Mosquito Solutions</h2>
+<table>
+<thead><tr><th>Solution</th><th>Advantages</th><th>Limitations</th></tr></thead>
+<tbody>
+<tr><td>Mosquito Spray</td><td>Fast application, flexible usage</td><td>Requires regular replacement</td></tr>
+<tr><td>Electric Vaporizer</td><td>Continuous protection indoors</td><td>Requires electricity</td></tr>
+<tr><td>Mosquito Coils</td><td>Low cost</td><td>Smoke and odor concerns</td></tr>
+</tbody>
+</table>
+<p>Parpar offers multiple mosquito control products, including <a href="/products/mosquito-repellent-spray">mosquito sprays</a> and <a href="/products/mosquito-liquid-large-heater">electric vaporizer solutions</a>, so buyers can select products according to different market needs.</p>
+
+<h2>Wholesale Mosquito Spray Purchasing Guide 2026</h2>
+<p>Before choosing a mosquito spray supplier, distributors should evaluate the following factors.</p>
+<h3>1. Product Quality and Documentation</h3>
+<p>Reliable suppliers should provide product specifications, safety documentation, quality reports, and market compliance documents. Parpar provides product documentation including safety data sheets, testing reports, and compliance documents for B2B customers.</p>
+<h3>2. Packaging and Retail Performance</h3>
+<p>For FMCG insect control products, packaging affects shelf recognition and customer purchase decisions.</p>
+<ul>
+<li>Clear product positioning</li>
+<li>Attractive can design</li>
+<li>Easy storage</li>
+<li>Suitable carton packaging</li>
+</ul>
+<p>Parpar mosquito spray uses an aerosol can with color box packaging, designed for retail distribution.</p>
+<h3>3. Supply Capability</h3>
+<p>Wholesale buyers should consider minimum order quantity, production schedule, delivery capability, and long-term supply stability. For bulk buyers, Parpar provides wholesale supply options for mosquito control products with carton-based purchasing.</p>
+
+<h2>Mosquito Spray Price Factors in the Egypt Market</h2>
+<table>
+<thead><tr><th>Factor</th><th>Impact</th></tr></thead>
+<tbody>
+<tr><td>Order Quantity</td><td>Larger orders usually receive better pricing</td></tr>
+<tr><td>Packaging</td><td>Customized packaging affects cost</td></tr>
+<tr><td>Shipping Method</td><td>Influences final import cost</td></tr>
+<tr><td>Product Specification</td><td>Different formulas affect price</td></tr>
+</tbody>
+</table>
+<p>For distributors, comparing suppliers on total cost rather than unit price alone helps protect margins and keep supply stable. Our <a href="/guides/wholesale-pest-control-egypt">wholesale buying guide</a> covers MOQ, pricing, and supplier selection in more detail.</p>
+
+<h2>Why Distributors Choose Parpar</h2>
+<p>Parpar focuses on B2B pest control supply in Egypt and provides mosquito control products for distributors and commercial customers.</p>
+<ul>
+<li>Egypt market focused pest control solutions</li>
+<li>Wholesale supply support</li>
+<li>Products for distributors and commercial buyers</li>
+<li>Multiple mosquito control product categories</li>
+</ul>
+<p>Parpar supplies <a href="/products/mosquito-repellent-spray">mosquito repellents</a>, <a href="/products/cockroach-killer-spray">cockroach killers</a>, and electric vaporizer solutions for businesses across Egypt and the Middle East region.</p>
+
+<h2>How to Become a Parpar Distributor</h2>
+<p>Businesses interested in mosquito spray distribution can evaluate their target sales area, expected order volume, retail channels, and product requirements.</p>
+<p>A reliable mosquito spray supplier can help distributors build a stable pest control product portfolio. Read our <a href="/guides/pest-control-distributor-partnership">distributor partnership guide</a>, or <a href="/contact">contact our team</a> to discuss wholesale terms and pricing.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What is the MOQ for Parpar mosquito spray wholesale orders?</h3>
+<p>The MOQ depends on the order requirements. Standard aerosol mosquito spray packaging is available by carton quantity, with one carton containing 96 pieces.</p>
+<h3>Is Parpar mosquito spray suitable for hotels?</h3>
+<p>Yes. Parpar mosquito spray is suitable for bedrooms, living rooms, gardens, outdoor areas, and hotel guest rooms.</p>
+<h3>Can Parpar provide wholesale supply for distributors?</h3>
+<p>Yes. Parpar supports B2B supply for distributors, hotels, cleaning companies, supermarkets, and other commercial buyers.</p>
+<h3>Does Parpar support private label or customized packaging?</h3>
+<p>Customized packaging options are available for qualified bulk buyers depending on order requirements.</p>`,
+    titleAr: "مورد رذاذ طارد البعوض في مصر 2026",
+    descriptionAr: "هل تبحث عن مورد موثوق لرذاذ طارد البعوض في مصر؟ اكتشف حلول باربار للموزعين والفنادق وتجار التجزئة والمشترين بالجملة.",
+    categoryAr: "رؤى الصناعة",
+    contentHtmlAr: `<h2>تزايد الطلب على حلول رذاذ طارد البعوض في مصر</h2>
+<p>أصبحت مكافحة البعوض متطلباً أساسياً للمنازل والفنادق والمطاعم وشركات التنظيف والمنشآت التجارية في جميع أنحاء مصر. فمع المناخ الدافئ ونمط الحياة الخارجي، يواصل الأفراد والشركات البحث عن منتجات رذاذ طارد للبعوض توفر حماية موثوقة وسهولة في الاستخدام.</p>
+<p>وبالنسبة للموزعين والمشترين بالجملة، لا يقتصر اختيار مورد رذاذ طارد البعوض المناسب على فعالية المنتج، بل تشمل المعايير التغليف واستقرار التوريد ومطابقة المنتج لمتطلبات السوق.</p>
+<p>توفر باربار حلول مكافحة البعوض المصممة خصيصاً للسوق المصري، بما في ذلك <a href="/ar/products/mosquito-repellent-spray">رذاذ طارد البعوض</a> المناسب للمنازل والفنادق والحدائق والمساحات الخارجية.</p>
+
+<h2>لماذا تختار رذاذ باربار لطرد البعوض في السوق المصري</h2>
+<p>طُوّر رذاذ باربار لتلبية احتياجات الحماية اليومية من البعوض، مع التركيز على الفعالية وسهولة الاستخدام والتغليف المناسب للسوق.</p>
+<h3>بيانات المنتج</h3>
+<table>
+<thead><tr><th>البند</th><th>التفاصيل</th></tr></thead>
+<tbody>
+<tr><td>نوع المنتج</td><td>رذاذ بخاخ للبعوض</td></tr>
+<tr><td>الحجم</td><td>45 مل</td></tr>
+<tr><td>الحشرة المستهدفة</td><td>البعوض (الزاعجة، الأنوفيلة، الكيولكس)</td></tr>
+<tr><td>التغليف</td><td>علبة بخاخ + صندوق ملون</td></tr>
+<tr><td>الكمية في الكرتون</td><td>96 قطعة/كرتون</td></tr>
+<tr><td>مدة الصلاحية</td><td>5 سنوات</td></tr>
+<tr><td>مجالات الاستخدام</td><td>المنزل، غرفة النوم، غرفة المعيشة، الحديقة، الفندق</td></tr>
+</tbody>
+</table>
+
+<h2>أبرز مزايا رذاذ باربار لطرد البعوض</h2>
+<h3>1. مصمم لظروف المناخ المصري</h3>
+<p>تختلف احتياجات مكافحة البعوض من منطقة إلى أخرى. وقد صُمم رذاذ باربار للسوق المصري من حيث تصميم المنتج والتغليف وسيناريوهات الاستخدام المناسبة للمستهلك المحلي.</p>
+<ul>
+<li>مناسب للبيئة المنزلية في مصر</li>
+<li>مصمم لمكافحة البعوض داخل المنزل وخارجه</li>
+<li>مناسب للاستخدامات السكنية والتجارية</li>
+</ul>
+
+<h3>2. مناسب لقنوات أعمال متعددة</h3>
+<p>يمكن توريد رذاذ باربار لطرد البعوض لمجموعة متنوعة من عملاء قطاع الأعمال:</p>
+<table>
+<thead><tr><th>نوع العميل</th><th>الاستخدام</th></tr></thead>
+<tbody>
+<tr><td>الموزعون</td><td>التوزيع الإقليمي للمنتج</td></tr>
+<tr><td>السوبر ماركت</td><td>البيع بالتجزئة</td></tr>
+<tr><td>الفنادق</td><td>غرف الضيوف والمناطق العامة</td></tr>
+<tr><td>شركات التنظيف</td><td>خدمات مكافحة الآفات</td></tr>
+<tr><td>تجار الجملة</td><td>الشراء بالجملة</td></tr>
+</tbody>
+</table>
+<p>تدعم باربار التوريد بالجملة للموزعين والفنادق وشركات التنظيف والمشترين التجاريين في جميع أنحاء مصر.</p>
+
+<h2>رذاذ باربار مقابل الحلول التقليدية لمكافحة البعوض</h2>
+<table>
+<thead><tr><th>الحل</th><th>المزايا</th><th>القيود</th></tr></thead>
+<tbody>
+<tr><td>رذاذ طارد البعوض</td><td>استخدام سريع ومرن</td><td>يتطلب الاستبدال المنتظم</td></tr>
+<tr><td>المبخر الكهربائي</td><td>حماية مستمرة داخل المنزل</td><td>يتطلب كهرباء</td></tr>
+<tr><td>لفائف البعوض</td><td>تكلفة منخفضة</td><td>دخان ورائحة</td></tr>
+</tbody>
+</table>
+<p>توفر باربار منتجات متعددة لمكافحة البعوض، بما في ذلك <a href="/ar/products/mosquito-repellent-spray">رذاذ طارد البعوض</a> و<a href="/ar/products/mosquito-liquid-large-heater">حلول التبخير الكهربائي</a>، ليتمكن المشترون من اختيار المنتجات وفقاً لاحتياجات السوق المختلفة.</p>
+
+<h2>دليل شراء رذاذ طارد البعوض بالجملة 2026</h2>
+<p>قبل اختيار مورد رذاذ طارد البعوض، ينبغي للموزعين تقييم العوامل التالية.</p>
+<h3>1. جودة المنتج والوثائق</h3>
+<p>ينبغي أن يوفر الموردون الموثوقون مواصفات المنتج ووثائق السلامة وتقارير الجودة ووثائق الامتثال لمتطلبات السوق. وتوفر باربار لعملاء قطاع الأعمال وثائق المنتج بما في ذلك صحائف بيانات السلامة وتقارير الاختبار ووثائق الامتثال.</p>
+<h3>2. التغليف والأداء في التجزئة</h3>
+<p>في منتجات مكافحة الحشرات الاستهلاكية، يؤثر التغليف على التمييز على الرف وقرار الشراء.</p>
+<ul>
+<li>تحديد واضح لموقع المنتج</li>
+<li>تصميم جذاب للعلبة</li>
+<li>سهولة التخزين</li>
+<li>تغليف كرتوني مناسب</li>
+</ul>
+<p>يستخدم رذاذ باربار علبة بخاخ مع صندوق ملون، مصممة للتوزيع بالتجزئة.</p>
+<h3>3. القدرة على التوريد</h3>
+<p>ينبغي للمشترين بالجملة مراعاة الحد الأدنى لكمية الطلب وجدول الإنتاج والقدرة على التسليم واستقرار التوريد على المدى الطويل. وللمشترين بالجملة، توفر باربار خيارات توريد بالجملة لمنتجات مكافحة البعوض بالشراء بالكرتون.</p>
+
+<h2>عوامل تحديد سعر رذاذ طارد البعوض في السوق المصري</h2>
+<table>
+<thead><tr><th>العامل</th><th>التأثير</th></tr></thead>
+<tbody>
+<tr><td>كمية الطلب</td><td>الطلبات الأكبر تحصل عادة على أسعار أفضل</td></tr>
+<tr><td>التغليف</td><td>التغليف المخصص يؤثر على التكلفة</td></tr>
+<tr><td>طريقة الشحن</td><td>تؤثر على تكلفة الاستيراد النهائية</td></tr>
+<tr><td>مواصفات المنتج</td><td>التركيبات المختلفة تؤثر على السعر</td></tr>
+</tbody>
+</table>
+<p>بالنسبة للموزعين، تساعد مقارنة الموردين على أساس التكلفة الإجمالية وليس سعر الوحدة فقط في حماية الهوامش والحفاظ على استقرار التوريد. ويتناول <a href="/ar/guides/wholesale-pest-control-egypt">دليل الشراء بالجملة</a> الحد الأدنى للطلب والأسعار واختيار المورد بمزيد من التفصيل.</p>
+
+<h2>لماذا يختار الموزعون باربار</h2>
+<p>تركز باربار على توريد مكافحة الآفات لقطاع الأعمال في مصر، وتوفر منتجات مكافحة البعوض للموزعين والعملاء التجاريين.</p>
+<ul>
+<li>حلول مكافحة آفات موجهة للسوق المصري</li>
+<li>دعم التوريد بالجملة</li>
+<li>منتجات للموزعين والمشترين التجاريين</li>
+<li>فئات متعددة من منتجات مكافحة البعوض</li>
+</ul>
+<p>توفر باربار <a href="/ar/products/mosquito-repellent-spray">طاردات البعوض</a> و<a href="/ar/products/cockroach-killer-spray">مبيدات الصراصير</a> وحلول التبخير الكهربائي للشركات في مصر ومنطقة الشرق الأوسط.</p>
+
+<h2>كيف تصبح موزعاً لباربار</h2>
+<p>يمكن للشركات المهتمة بتوزيع رذاذ طارد البعوض تقييم منطقة البيع المستهدفة وحجم الطلب المتوقع وقنوات التجزئة ومتطلبات المنتج.</p>
+<p>ويساعد المورد الموثوق لرذاذ طارد البعوض الموزعين على بناء محفظة مستقرة من منتجات مكافحة الآفات. اقرأ <a href="/ar/guides/pest-control-distributor-partnership">دليل الشراكة مع الموزعين</a>، أو <a href="/ar/contact">تواصل مع فريقنا</a> لمناقشة شروط وأسعار البيع بالجملة.</p>
+
+<h2>الأسئلة الشائعة</h2>
+<h3>ما هو الحد الأدنى لكمية الطلب لطلبات رذاذ باربار بالجملة؟</h3>
+<p>يعتمد الحد الأدنى لكمية الطلب على متطلبات الطلب. يتوفر التغليف القياسي لرذاذ البخاخ بالكرتون، حيث يحتوي الكرتون الواحد على 96 قطعة.</p>
+<h3>هل رذاذ باربار مناسب للفنادق؟</h3>
+<p>نعم. رذاذ باربار مناسب لغرف النوم وغرف المعيشة والحدائق والمساحات الخارجية وغرف ضيوف الفنادق.</p>
+<h3>هل يمكن لباربار توفير التوريد بالجملة للموزعين؟</h3>
+<p>نعم. تدعم باربار التوريد لقطاع الأعمال للموزعين والفنادق وشركات التنظيف والسوبر ماركت وغيرهم من المشترين التجاريين.</p>
+<h3>هل تدعم باربار العلامة الخاصة أو التغليف المخصص؟</h3>
+<p>تتوفر خيارات التغليف المخصص للمشترين بالجملة المؤهلين وفقاً لمتطلبات الطلب.</p>`,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
