@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import BuyersContent from "./BuyersContent";
 
 export const metadata: Metadata = {
-  title: "Bulk Buyer — Wholesale Pest Control Supply Egypt",
+  title: "Bulk Buyer Wholesale Pest Control Egypt",
   description:
-    "Commercial pest control supply for hotels, cleaning companies, government tenders, and bulk buyers. MOQ-based pricing with reliable year-round delivery across Egypt.",
+    "Commercial pest control supply for hotels, cleaning companies, and bulk buyers in Egypt. MOQ pricing and year-round delivery.",
   openGraph: {
-    title: "Bulk Buyer — Wholesale Pest Control Supply | Parpar B2B",
+    title: "Bulk Buyer Wholesale Pest Control Egypt",
     description: "MOQ-based bulk pest control supply for hotels, cleaning companies, and government tenders in Egypt.",
   },
 };

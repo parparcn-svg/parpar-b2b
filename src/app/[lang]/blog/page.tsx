@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       : "Pest Control Blog & Industry Insights — Egypt",
     description: isAr
       ? "أدلة شراء وتحليلات سوقية لصناعة مكافحة الآفات في مصر: طارد البعوض بالجملة، مكافحة الصراصير، وامتثال الموردين."
-      : "B2B insights, buying guides, and market analysis for Egypt's pest control industry. Mosquito repellent wholesale, cockroach control, and supplier compliance guides.",
+      : "Buying guides and market analysis for Egypt's pest control industry: mosquito repellent wholesale, cockroach control, and supplier compliance.",
     openGraph: {
       title: isAr ? "مدونة باربار | رؤى صناعة مكافحة الآفات — مصر" : "Parpar Blog | Pest Control Industry Insights — Egypt",
       description: isAr

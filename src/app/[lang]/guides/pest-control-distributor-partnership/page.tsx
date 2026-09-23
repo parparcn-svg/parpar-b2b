@@ -3,9 +3,9 @@ import Link from "@/components/LocalizedLink";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Pest Control Distributor Partnership Guide — Egypt | Become a Distributor",
+  title: "Pest Control Distributor Partnership Egypt",
   description:
-    "Complete guide to becoming a pest control distributor in Egypt. Partnership models, requirements, benefits, and how to apply. Regional and wholesale opportunities available.",
+    "Guide to becoming a pest control distributor in Egypt: partnership models, requirements, benefits, and how to apply.",
   openGraph: {
     title: "Distributor Partnership Guide Egypt | Parpar",
     description: "Step-by-step guide to becoming a Parpar distributor in Egypt. Regional exclusive territories, wholesale pricing, and marketing support.",

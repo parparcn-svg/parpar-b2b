@@ -3,9 +3,9 @@ import Link from "@/components/LocalizedLink";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Wholesale Pest Control Products Egypt — Complete B2B Buying Guide",
+  title: "Wholesale Pest Control Products Egypt",
   description:
-    "Comprehensive guide to buying pest control products wholesale in Egypt. MOQ, pricing, certifications, and supplier selection for B2B buyers, distributors, and procurement managers.",
+    "Guide to buying pest control products wholesale in Egypt: MOQ, pricing, certifications, and supplier selection.",
   openGraph: {
     title: "Wholesale Pest Control Guide Egypt 2026 | Parpar",
     description: "Complete B2B guide to wholesale pest control buying in Egypt — MOQ, pricing, and supplier selection.",

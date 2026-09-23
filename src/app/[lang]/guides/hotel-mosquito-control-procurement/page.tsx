@@ -3,11 +3,11 @@ import Link from "@/components/LocalizedLink";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Hotel Pest Control Procurement Guide — Egypt | B2B Supplier Selection",
+  title: "Hotel Pest Control Procurement Guide Egypt",
   description:
-    "Guide for hotel procurement managers in Egypt. Mosquito control solutions, vendor selection criteria, bulk supply contracts, and compliance requirements for hospitality pest management.",
+    "Guide for hotel procurement managers in Egypt: mosquito control solutions, vendor selection criteria, and bulk supply contracts.",
   openGraph: {
-    title: "Hotel Pest Control Procurement Guide Egypt | Parpar B2B",
+    title: "Hotel Pest Control Procurement Guide Egypt",
     description: "Complete guide for hotel procurement: mosquito control solutions, supplier selection, and bulk contracts in Egypt.",
   },
 };
