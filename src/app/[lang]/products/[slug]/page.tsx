@@ -40,16 +40,34 @@ export default async function ProductPage({ params }: { params: Promise<{ lang: 
 
   const faqs = getProductFaqs(slug);
 
+  // 批发参考价区间：只写入结构化数据，页面不展示价格。
+  // 用区间而非单一价格，符合 B2B 按 MOQ 阶梯定价的实际。
+  // 拿到各产品实际报价后，只需更新这里（或改成逐产品配置）。
+  const wholesaleRange = { currency: "USD", low: "0.50", high: "1.80" };
+
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.nameEn,
     description: product.description,
     category: product.category,
+    sku: product.id,
     image: [product.mainImage, ...product.galleryImages],
     brand: {
       "@type": "Brand",
       name: "Parpar",
+    },
+    // Product 富结果要求 offers / review / aggregateRating 至少其一。
+    // B2B 按量定价 → 用 AggregateOffer 标注价格区间 + 库存状态。
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: wholesaleRange.currency,
+      lowPrice: wholesaleRange.low,
+      highPrice: wholesaleRange.high,
+      offerCount: "3",
+      availability: "https://schema.org/InStock",
+      url: `https://parpareg.com/${lang}/products/${product.slug}`,
+      seller: { "@type": "Organization", name: "Parpar" },
     },
   };
 

@@ -81,6 +81,7 @@ export default async function LangLayout({
               "B2B supplier of premium pest control products in Egypt. Cockroach killer sprays, mosquito repellents, electric vaporizers.",
             address: {
               "@type": "PostalAddress",
+              streetAddress: "Saad Gaafar New Building, Muski, Jewish Quarter",
               addressLocality: "Cairo",
               addressCountry: "EG",
             },
