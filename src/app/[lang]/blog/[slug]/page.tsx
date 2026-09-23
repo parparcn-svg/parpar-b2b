@@ -1,10 +1,10 @@
 import Link from "@/components/LocalizedLink";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import Script from "next/script";
 import { LANGS } from "@/lib/i18n";
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import { blogUiStrings } from "@/lib/blog-i18n";
+import { extractFaqs } from "@/lib/blog-faq";
 
 export async function generateStaticParams() {
   return LANGS.flatMap((lang) => getAllPosts().map((p) => ({ lang, slug: p.slug })));
@@ -41,19 +41,46 @@ export default async function BlogPostPage({ params }: { params: Promise<{ lang:
   const isAr = lang === "ar";
   const s = blogUiStrings(lang);
 
+  // FAQPage 结构化数据直接从页面可见 HTML 提取，保证 schema 与展示内容一致
+  const html = isAr ? post.contentHtmlAr : post.contentHtml;
+  const faqs = extractFaqs(html);
+  const faqSchema =
+    faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: { "@type": "Answer", text: f.answer },
+          })),
+        }
+      : null;
+
   return (
     <>
-      <Script id="blog-breadcrumb-schema" type="application/ld+json" strategy="beforeInteractive">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          itemListElement: [
-            { "@type": "ListItem", position: 1, name: s.home, item: `https://parpareg.com/${lang}` },
-            { "@type": "ListItem", position: 2, name: s.blog, item: `https://parpareg.com/${lang}/blog` },
-            { "@type": "ListItem", position: 3, name: isAr ? post.titleAr : post.title, item: `https://parpareg.com/${lang}/blog/${post.slug}` },
-          ],
-        })}
-      </Script>
+      {/* JSON-LD 用原生 script 直接输出（不用 next/script）：服务端 HTML 即含 schema，
+          不依赖客户端 JS，所有爬虫都能读取 */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: s.home, item: `https://parpareg.com/${lang}` },
+              { "@type": "ListItem", position: 2, name: s.blog, item: `https://parpareg.com/${lang}/blog` },
+              { "@type": "ListItem", position: 3, name: isAr ? post.titleAr : post.title, item: `https://parpareg.com/${lang}/blog/${post.slug}` },
+            ],
+          }),
+        }}
+      />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <div className="bg-gray-50 border-b border-gray-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-3 text-sm text-gray-500">
           <Link href="/" className="hover:text-green-600">{s.home}</Link>
@@ -94,7 +121,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ lang:
 
         <div
           className="mt-10 prose prose-gray max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600 prose-strong:text-gray-900 prose-a:text-green-600"
-          dangerouslySetInnerHTML={{ __html: isAr ? post.contentHtmlAr : post.contentHtml }}
+          dangerouslySetInnerHTML={{ __html: html }}
         />
 
         {/* Blog CTA */}
