@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -69,39 +68,45 @@ export default async function LangLayout({
   return (
     <>
       {/* JSON-LD Structured Data */}
-      <Script id="schema-org" type="application/ld+json" strategy="beforeInteractive">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          name: "Parpar",
-          url: BASE,
-          logo: `${BASE}/parpar-logo.png`,
-          description:
-            "B2B supplier of premium pest control products in Egypt. Cockroach killer sprays, mosquito repellents, electric vaporizers.",
-          address: {
-            "@type": "PostalAddress",
-            addressLocality: "Cairo",
-            addressCountry: "EG",
-          },
-          contactPoint: {
-            "@type": "ContactPoint",
-            telephone: "+20-100-954-7591",
-            contactType: "sales",
-            availableLanguage: ["English", "Arabic"],
-          },
-          sameAs: ["https://wa.me/17028905656"],
-        })}
-      </Script>
-      <Script id="schema-website" type="application/ld+json" strategy="beforeInteractive">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          name: "Parpar",
-          url: BASE,
-          description: "B2B supplier of premium pest control products in Egypt.",
-          inLanguage: ["en", "ar"],
-        })}
-      </Script>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Parpar",
+            url: BASE,
+            logo: `${BASE}/parpar-logo.png`,
+            description:
+              "B2B supplier of premium pest control products in Egypt. Cockroach killer sprays, mosquito repellents, electric vaporizers.",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Cairo",
+              addressCountry: "EG",
+            },
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+20-100-954-7591",
+              contactType: "sales",
+              availableLanguage: ["English", "Arabic"],
+            },
+            sameAs: ["https://wa.me/17028905656"],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "Parpar",
+            url: BASE,
+            description: "B2B supplier of premium pest control products in Egypt.",
+            inLanguage: ["en", "ar"],
+          }),
+        }}
+      />
       <LanguageProvider lang={lang as Lang}>
         <Header />
         <main className="flex-1 pt-16 lg:pt-20">{children}</main>

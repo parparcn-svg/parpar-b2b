@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "@/components/LocalizedLink";
-import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Wholesale Pest Control Products Egypt",
@@ -16,17 +15,20 @@ export default async function WholesaleGuidePage({ params }: { params: Promise<{
   const { lang } = await params;
   return (
     <>
-      <Script id="guide-breadcrumb-schema" type="application/ld+json" strategy="beforeInteractive">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: `https://parpareg.com/${lang}` },
-            { "@type": "ListItem", position: 2, name: "Guides", item: `https://parpareg.com/${lang}/blog` },
-            { "@type": "ListItem", position: 3, name: "Wholesale Pest Control Guide", item: `https://parpareg.com/${lang}/guides/wholesale-pest-control-egypt` },
-          ],
-        })}
-      </Script>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: `https://parpareg.com/${lang}` },
+              { "@type": "ListItem", position: 2, name: "Guides", item: `https://parpareg.com/${lang}/blog` },
+              { "@type": "ListItem", position: 3, name: "Wholesale Pest Control Guide", item: `https://parpareg.com/${lang}/guides/wholesale-pest-control-egypt` },
+            ],
+          }),
+        }}
+      />
       <div className="bg-gray-50 border-b border-gray-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-3 text-sm text-gray-500">
           <Link href="/" className="hover:text-green-600">Home</Link>

@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import Script from "next/script";
 import { LANGS } from "@/lib/i18n";
 import { getProductBySlug, getAllProducts } from "@/lib/products";
 import { getProductFaqs } from "@/lib/productFaqs";
@@ -78,16 +77,19 @@ export default async function ProductPage({ params }: { params: Promise<{ lang: 
 
   return (
     <>
-      <Script id="product-schema" type="application/ld+json" strategy="beforeInteractive">
-        {JSON.stringify(productSchema)}
-      </Script>
-      <Script id="breadcrumb-schema" type="application/ld+json" strategy="beforeInteractive">
-        {JSON.stringify(breadcrumbSchema)}
-      </Script>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {faqSchema && (
-        <Script id="faq-schema" type="application/ld+json" strategy="beforeInteractive">
-          {JSON.stringify(faqSchema)}
-        </Script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
       )}
       <ProductDetailContent product={product} />
     </>
