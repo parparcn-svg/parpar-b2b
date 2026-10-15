@@ -247,7 +247,23 @@ const categories = [
 /* ══════════════════════════════════════════
    MAIN
    ══════════════════════════════════════════ */
-export default function HomeContent({ products }: { products: Product[] }) {
+export interface RecentPost {
+  slug: string;
+  title: string;
+  titleAr: string;
+  description: string;
+  descriptionAr: string;
+  category: string;
+  categoryAr: string;
+}
+
+export default function HomeContent({
+  products,
+  recentPosts,
+}: {
+  products: Product[];
+  recentPosts: RecentPost[];
+}) {
   const { t, lang } = useTranslation();
   const isAr = lang === "ar";
   const [activeCat, setActiveCat] = useState("All");
@@ -1136,6 +1152,49 @@ export default function HomeContent({ products }: { products: Product[] }) {
             </div>
           </div>
         </FadeIn>
+      </section>
+
+      {/* 最新文章：既是内容入口，也为博客页提供首页入链，并增加可见文本量 */}
+      <section className="py-16 lg:py-20 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-end justify-between gap-6 mb-10">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900">
+                {isAr ? "رؤى وأدلة الصناعة" : "Industry Insights & Guides"}
+              </h2>
+              <p className="text-gray-500 mt-3 max-w-2xl leading-relaxed">
+                {isAr
+                  ? "أدلة شراء وتحليلات سوقية لمشتري وموردي منتجات مكافحة الآفات في مصر والشرق الأوسط — تغطي التسعير، والحد الأدنى للطلب، والامتثال."
+                  : "Procurement guides and market analysis for pest control buyers and suppliers across Egypt and the Middle East — covering pricing, MOQ and compliance."}
+              </p>
+            </div>
+            <Link
+              href="/blog"
+              className="hidden sm:inline-flex shrink-0 text-green-700 font-semibold hover:text-green-800 transition-colors"
+            >
+              {isAr ? "كل المقالات" : "All Articles"}
+            </Link>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {recentPosts.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/blog/${p.slug}`}
+                className="group block border border-gray-100 rounded-2xl p-6 hover:border-green-200 hover:shadow-md transition-all"
+              >
+                <span className="text-xs font-medium text-green-700">
+                  {isAr ? p.categoryAr : p.category}
+                </span>
+                <h3 className="text-lg font-semibold text-gray-900 mt-3 group-hover:text-green-700 transition-colors leading-snug">
+                  {isAr ? p.titleAr : p.title}
+                </h3>
+                <p className="text-sm text-gray-500 mt-3 leading-relaxed">
+                  {isAr ? p.descriptionAr : p.description}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </div>
       </section>
     </>
   );
