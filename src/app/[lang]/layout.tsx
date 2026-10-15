@@ -64,11 +64,6 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     ],
     alternates: {
       canonical: `/${lang}`,
-      languages: {
-        en: `${BASE}/en`,
-        ar: `${BASE}/ar`,
-        "x-default": `${BASE}/en`,
-      },
     },
     openGraph: {
       siteName: isAr ? "باربار B2B" : "Parpar B2B",

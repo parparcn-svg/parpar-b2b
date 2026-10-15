@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ContactContent from "./ContactContent";
 
+import HreflangLinks from "@/components/HreflangLinks";
 export async function generateMetadata({
   params,
 }: {
@@ -11,11 +12,6 @@ export async function generateMetadata({
   return {
     alternates: {
       canonical: `/${lang}${PATH}`,
-      languages: {
-        en: `/en${PATH}`,
-        ar: `/ar${PATH}`,
-        "x-default": `/en${PATH}`,
-      },
     },
   title: "Contact & Inquiry",
   description:
@@ -72,6 +68,7 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
 
   return (
     <>
+      <HreflangLinks path="/contact" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "@/components/LocalizedLink";
 
+import HreflangLinks from "@/components/HreflangLinks";
 export async function generateMetadata({
   params,
 }: {
@@ -11,11 +12,6 @@ export async function generateMetadata({
   return {
     alternates: {
       canonical: `/${lang}${PATH}`,
-      languages: {
-        en: `/en${PATH}`,
-        ar: `/ar${PATH}`,
-        "x-default": `/en${PATH}`,
-      },
     },
   title: "Wholesale Pest Control Products Egypt",
   description:
@@ -31,6 +27,7 @@ export default async function WholesaleGuidePage({ params }: { params: Promise<{
   const { lang } = await params;
   return (
     <>
+      <HreflangLinks path="/guides/wholesale-pest-control-egypt" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

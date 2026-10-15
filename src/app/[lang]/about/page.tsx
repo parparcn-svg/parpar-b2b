@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import AboutContent from "./AboutContent";
 
+import HreflangLinks from "@/components/HreflangLinks";
 export async function generateMetadata({
   params,
 }: {
@@ -11,11 +12,6 @@ export async function generateMetadata({
   return {
     alternates: {
       canonical: `/${lang}${PATH}`,
-      languages: {
-        en: `/en${PATH}`,
-        ar: `/ar${PATH}`,
-        "x-default": `/en${PATH}`,
-      },
     },
   title: "About Us",
   description:
@@ -29,5 +25,10 @@ export async function generateMetadata({
 }
 
 export default function AboutPage() {
-  return <AboutContent />;
+  return (
+    <>
+      <HreflangLinks path="/about" />
+      <AboutContent />
+    </>
+  );
 }

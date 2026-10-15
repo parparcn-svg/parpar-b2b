@@ -5,6 +5,7 @@ import { getProductBySlug, getAllProducts } from "@/lib/products";
 import { getProductFaqs } from "@/lib/productFaqs";
 import ProductDetailContent from "./ProductDetailContent";
 
+import HreflangLinks from "@/components/HreflangLinks";
 export async function generateStaticParams() {
   return LANGS.flatMap((lang) => getAllProducts().map((p) => ({ lang, slug: p.slug })));
 }
@@ -19,11 +20,6 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     description: product.description.slice(0, 160),
     alternates: {
       canonical: `/${lang}/products/${slug}`,
-      languages: {
-        en: `/en/products/${slug}`,
-        ar: `/ar/products/${slug}`,
-        "x-default": `/en/products/${slug}`,
-      },
     },
     openGraph: {
       title: `${product.nameEn} | Parpar B2B`,
@@ -95,6 +91,7 @@ export default async function ProductPage({ params }: { params: Promise<{ lang: 
 
   return (
     <>
+      <HreflangLinks path={`/products/${slug}`} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}

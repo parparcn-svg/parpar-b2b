@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import DistributorsContent from "./DistributorsContent";
 
+import HreflangLinks from "@/components/HreflangLinks";
 export async function generateMetadata({
   params,
 }: {
@@ -11,11 +12,6 @@ export async function generateMetadata({
   return {
     alternates: {
       canonical: `/${lang}${PATH}`,
-      languages: {
-        en: `/en${PATH}`,
-        ar: `/ar${PATH}`,
-        "x-default": `/en${PATH}`,
-      },
     },
   title: "Distributor Program — Become a Partner in Egypt",
   description:
@@ -28,5 +24,10 @@ export async function generateMetadata({
 }
 
 export default function DistributorsPage() {
-  return <DistributorsContent />;
+  return (
+    <>
+      <HreflangLinks path="/distributors" />
+      <DistributorsContent />
+    </>
+  );
 }

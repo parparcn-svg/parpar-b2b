@@ -3,17 +3,13 @@ import type { Metadata } from "next";
 import { getAllPosts } from "@/lib/posts";
 import { blogUiStrings } from "@/lib/blog-i18n";
 
+import HreflangLinks from "@/components/HreflangLinks";
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   const isAr = lang === "ar";
   return {
     alternates: {
       canonical: `/${lang}/blog`,
-      languages: {
-        en: `/en/blog`,
-        ar: `/ar/blog`,
-        "x-default": `/en/blog`,
-      },
     },
     title: isAr
       ? "رؤى صناعة مكافحة الآفات في مصر"
@@ -38,6 +34,7 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
 
   return (
     <>
+      <HreflangLinks path="/blog" />
       <div className="bg-gray-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 text-sm text-gray-500">
           <Link href="/" className="hover:text-green-600">{s.home}</Link>

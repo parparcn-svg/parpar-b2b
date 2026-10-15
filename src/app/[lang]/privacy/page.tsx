@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import HreflangLinks from "@/components/HreflangLinks";
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   const isAr = lang === "ar";
@@ -10,7 +11,6 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       : "Privacy Policy for Parpar B2B — how we collect, use, and protect your data.",
     alternates: {
       canonical: `/${lang}/privacy`,
-      languages: { en: `/en/privacy`, ar: `/ar/privacy`, "x-default": "/en/privacy" },
     },
   };
 }
@@ -20,7 +20,9 @@ export default async function PrivacyPage({ params }: { params: Promise<{ lang: 
   const isAr = lang === "ar";
 
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+    <>
+      <HreflangLinks path="/privacy" />
+<div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
       <h1 className="text-3xl font-bold text-gray-900">{isAr ? "سياسة الخصوصية" : "Privacy Policy"}</h1>
       <p className="text-sm text-gray-500 mt-2">{isAr ? "آخر تحديث: أغسطس 2026" : "Last updated: August 2026"}</p>
 
@@ -128,5 +130,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ lang: 
         )}
       </div>
     </div>
+      </>
+
   );
 }

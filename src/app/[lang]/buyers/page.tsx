@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import BuyersContent from "./BuyersContent";
 
+import HreflangLinks from "@/components/HreflangLinks";
 export async function generateMetadata({
   params,
 }: {
@@ -11,11 +12,6 @@ export async function generateMetadata({
   return {
     alternates: {
       canonical: `/${lang}${PATH}`,
-      languages: {
-        en: `/en${PATH}`,
-        ar: `/ar${PATH}`,
-        "x-default": `/en${PATH}`,
-      },
     },
   title: "Bulk Buyer Wholesale Pest Control Egypt",
   description:
@@ -28,5 +24,10 @@ export async function generateMetadata({
 }
 
 export default function BuyersPage() {
-  return <BuyersContent />;
+  return (
+    <>
+      <HreflangLinks path="/buyers" />
+      <BuyersContent />
+    </>
+  );
 }

@@ -6,6 +6,7 @@ import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import { blogUiStrings } from "@/lib/blog-i18n";
 import { extractFaqs } from "@/lib/blog-faq";
 
+import HreflangLinks from "@/components/HreflangLinks";
 export async function generateStaticParams() {
   return LANGS.flatMap((lang) => getAllPosts().map((p) => ({ lang, slug: p.slug })));
 }
@@ -21,11 +22,6 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     description: isAr ? post.descriptionAr : post.description,
     alternates: {
       canonical: `/${lang}/blog/${slug}`,
-      languages: {
-        en: `/en/blog/${slug}`,
-        ar: `/ar/blog/${slug}`,
-        "x-default": `/en/blog/${slug}`,
-      },
     },
     openGraph: {
       title: isAr ? `${post.titleAr} | باربار B2B` : `${post.title} | Parpar B2B`,
@@ -59,6 +55,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ lang:
 
   return (
     <>
+      <HreflangLinks path={`/blog/${slug}`} />
       {/* JSON-LD 用原生 script 直接输出（不用 next/script）：服务端 HTML 即含 schema，
           不依赖客户端 JS，所有爬虫都能读取 */}
       <script

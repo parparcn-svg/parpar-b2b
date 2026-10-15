@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import HreflangLinks from "@/components/HreflangLinks";
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   const isAr = lang === "ar";
@@ -10,7 +11,6 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       : "Terms of Use for Parpar B2B — rules for using our website and services.",
     alternates: {
       canonical: `/${lang}/terms`,
-      languages: { en: `/en/terms`, ar: `/ar/terms`, "x-default": "/en/terms" },
     },
   };
 }
@@ -20,7 +20,9 @@ export default async function TermsPage({ params }: { params: Promise<{ lang: st
   const isAr = lang === "ar";
 
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+    <>
+      <HreflangLinks path="/terms" />
+<div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
       <h1 className="text-3xl font-bold text-gray-900">{isAr ? "شروط الاستخدام" : "Terms of Use"}</h1>
       <p className="text-sm text-gray-500 mt-2">{isAr ? "آخر تحديث: أغسطس 2026" : "Last updated: August 2026"}</p>
 
@@ -98,5 +100,7 @@ export default async function TermsPage({ params }: { params: Promise<{ lang: st
         )}
       </div>
     </div>
+      </>
+
   );
 }
