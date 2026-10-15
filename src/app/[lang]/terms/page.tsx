@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       : "Terms of Use for Parpar B2B — rules for using our website and services.",
     alternates: {
       canonical: `/${lang}/terms`,
-      languages: { en: `/en/terms`, ar: `/ar/terms`, "x-default": "/" },
+      languages: { en: `/en/terms`, ar: `/ar/terms`, "x-default": "/en/terms" },
     },
   };
 }

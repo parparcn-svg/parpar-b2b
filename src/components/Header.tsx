@@ -123,7 +123,7 @@ export default function Header() {
             {/* Desktop Actions */}
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="https://wa.me/17028905656"
+                href="https://api.whatsapp.com/send?phone=17028905656"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${

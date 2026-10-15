@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       languages: {
         en: `/en/products/${slug}`,
         ar: `/ar/products/${slug}`,
-        "x-default": "/",
+        "x-default": `/en/products/${slug}`,
       },
     },
     openGraph: {

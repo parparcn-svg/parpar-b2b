@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       : "Privacy Policy for Parpar B2B — how we collect, use, and protect your data.",
     alternates: {
       canonical: `/${lang}/privacy`,
-      languages: { en: `/en/privacy`, ar: `/ar/privacy`, "x-default": "/" },
+      languages: { en: `/en/privacy`, ar: `/ar/privacy`, "x-default": "/en/privacy" },
     },
   };
 }
