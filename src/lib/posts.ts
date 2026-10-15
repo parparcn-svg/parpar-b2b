@@ -620,7 +620,7 @@ const posts: BlogPost[] = [
   {
     slug: "cockroach-infestation-treatment-german-american",
     title: "Cockroach Infestation Treatment Guide",
-    description: "German and American cockroaches need different treatment plans in Egypt. Compare identification traits, harbourage sites, and how to build a treatment cycle that works.",
+    description: "German and American cockroaches need different treatment plans in Egypt. Compare identification traits, harbourage sites, and how to build a treatment cycle.",
     "titleAr": "دليل معالجة إصابة الصراصير",
     "descriptionAr": "تحتاج الصراصير الألمانية والأمريكية إلى خطط معالجة مختلفة في مصر. قارن سمات التمييز ومواقع الملاجئ وكيف تبني دورة معالجة فعّالة.",
     date: "2026-10-15",
@@ -785,7 +785,7 @@ const posts: BlogPost[] = [
   {
     slug: "long-lasting-cockroach-spray-comparison",
     title: "Long-Lasting Cockroach Spray Compared",
-    description: "Pyrethroids, insect growth regulators and boric acid work in different ways. Compare speed, residual life and placement, and see how to combine them in one programme.",
+    description: "Pyrethroids, insect growth regulators and boric acid work in different ways. Compare speed, residual life and placement in one programme.",
     "titleAr": "مقارنة البخاخ طويل الأمد للصراصير",
     "descriptionAr": "تعمل البيريثرويدات ومنظمات نمو الحشرات وحمض البوريك بطرق مختلفة. قارن السرعة والأثر المتبقي والتوزيع، وكيف تجمعها في برنامج واحد.",
     date: "2026-10-15",
