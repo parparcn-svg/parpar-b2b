@@ -14,6 +14,7 @@ export async function generateMetadata({
     description: isAr
       ? "أرسل مقالاً في مجال مكافحة الآفات لمراجعته من فريق التحرير في باربار."
       : "Submit a pest control industry article for review by the Parpar editorial team.",
+    alternates: { canonical: `/${lang}/submit` },
     robots: { index: false, follow: false },
   };
 }

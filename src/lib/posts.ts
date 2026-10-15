@@ -1149,7 +1149,9 @@ const posts: BlogPost[] = [
 ];
 
 export function getAllPosts(): BlogPost[] {
-  return posts;
+  // 按日期倒序返回（最新在前）。posts 数组本身按时间升序维护，
+  // 而调用方（博客索引、首页最新文章、相关文章补位）都期望新的在前。
+  return [...posts].sort((a, b) => b.date.localeCompare(a.date));
 }
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

@@ -13,13 +13,13 @@ export async function generateMetadata({
     alternates: {
       canonical: `/${lang}${PATH}`,
     },
-  title: "Contact & Inquiry",
-  description:
-    "Send us your B2B inquiry. Distributor, hotel procurement manager, or bulk buyer — our team replies within 24 hours with a customized quote.",
-  openGraph: {
-    title: "Contact & Inquiry | Parpar B2B",
-    description: "Get a customized B2B quote for pest control products within 24 hours.",
-  },
+    title: "Contact & Inquiry",
+    description:
+      "Send us your B2B inquiry. Distributor, hotel procurement manager, or bulk buyer — our team replies within 24 hours with a customized quote.",
+    openGraph: {
+      title: "Contact & Inquiry | Parpar B2B",
+      description: "Get a customized B2B quote for pest control products within 24 hours.",
+    },
   };
 }
 

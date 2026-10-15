@@ -13,13 +13,13 @@ export async function generateMetadata({
     alternates: {
       canonical: `/${lang}${PATH}`,
     },
-  title: "Pest Control Products Comparison — Egypt",
-  description:
-    "Compare Parpar's pest control products side by side: cockroach sprays, mosquito repellents, and electric vaporizers for your business.",
-  openGraph: {
     title: "Pest Control Products Comparison — Egypt",
-    description: "Side-by-side comparison of Parpar's pest control products for B2B buyers in Egypt.",
-  },
+    description:
+      "Compare Parpar's pest control products side by side: cockroach sprays, mosquito repellents, and electric vaporizers for your business.",
+    openGraph: {
+      title: "Pest Control Products Comparison — Egypt",
+      description: "Side-by-side comparison of Parpar's pest control products for B2B buyers in Egypt.",
+    },
   };
 }
 
