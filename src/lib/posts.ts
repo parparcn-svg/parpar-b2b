@@ -1146,6 +1146,517 @@ const posts: BlogPost[] = [
 <p>تساعد معلومات الملصق بالعربية والإنجليزية المفتشين والمتسوقين معاً، وتسرّع قرار الشراء في الأسر.</p>
     `.trim(),
   },
+  {
+    slug: "cockroach-control-hotels-egypt",
+    title: "Cockroach Control for Hotels in Egypt",
+    description: "How hotels in Egypt structure a cockroach control programme: high-risk zones, products to stock, scheduling around guests, and inspection documents.",
+    "titleAr": "مكافحة الصراصير في الفنادق بمصر",
+    "descriptionAr": "كيف تبني الفنادق في مصر برنامج مكافحة صراصير: مناطق الخطر، المنتجات المطلوبة، الجدولة حول الضيوف، ووثائق التفتيش.",
+    date: "2026-10-18",
+    author: "Parpar Team",
+    category: "Industry Solutions",
+    "categoryAr": "حلول صناعية",
+    tags: [
+      "cockroach control hotels Egypt",
+      "hotel pest control programme",
+      "commercial cockroach spray",
+      "hotel pest control documentation",
+      "bulk cockroach spray Egypt",
+    ],
+    image: "/images/parpar-mosquito-repellent-spray-hero-product-shot.png",
+    contentHtml: `
+<h2>Why cockroach control matters more in hotels than in any other facility</h2>
+<p>A cockroach sighting in a hotel is not a maintenance problem, it is a review problem. Guests photograph what they see, reviews stay indexed for years, and a single complaint in a food outlet can trigger a health inspection that covers the whole property. Hotels also give cockroaches everything they need at scale: continuous food production, warm service corridors, laundry areas with constant moisture, and hundreds of delivery movements every week through the same loading bays.</p>
+<p>This guide covers how hotels in Egypt structure a cockroach control programme: where the pressure points are, which products a facility should hold, how to schedule application around guest operations, and what documentation inspectors and tour operators expect to see.</p>
+
+<h2>The three zones of a hotel and where cockroaches establish</h2>
+<p>Cockroaches do not distribute evenly through a building. They follow food, moisture and darkness, which in a hotel concentrates them in three distinct zones with different treatment needs.</p>
+<table>
+<thead><tr><th>Zone</th><th>Typical harbourage</th><th>Dominant species</th><th>Control priority</th></tr></thead>
+<tbody>
+<tr><td>Food production (kitchens, pastry, dishwashing)</td><td>Behind cold rooms, under sinks, motor housings, drainage channels</td><td>German cockroach</td><td>Highest. Bait-led programme with strict sanitation</td></tr>
+<tr><td>Guest areas (rooms, floor pantries, housekeeping)</td><td>Bed frames, wardrobe voids, minibar cabinets, false ceilings</td><td>German cockroach</td><td>High. Crack-and-crevice treatment, low odour products</td></tr>
+<tr><td>Service and perimeter (loading bays, laundry, basements, waste)</td><td>Drains, pipe ducts, cardboard storage, plant rooms</td><td>American cockroach</td><td>Medium. Residual spraying plus drainage treatment</td></tr>
+</tbody>
+</table>
+<p>Treating all zones the same wastes product and misses the species split. A large American cockroach moving in from a drain needs a residual surface treatment; a German cockroach colony behind a cold room needs bait placed where sanitation will not wash it away.</p>
+
+<h2>Which products a hotel should hold in stock</h2>
+<p>Hotels that keep a small product inventory on site resolve most incidents without waiting for a contractor visit, which matters when a guest complaint arrives at 11pm.</p>
+<ul>
+  <li><strong>Aerosol cockroach spray</strong> for immediate response to a sighting, particularly for large American cockroaches in service areas.</li>
+  <li><strong>Gel bait</strong> for kitchen and pantry treatment, applied in cracks where it is out of reach of cleaning.</li>
+  <li><strong>Residual concentrate or ready-to-use spray</strong> for perimeter and drainage work in service zones.</li>
+  <li><strong>Monitoring traps</strong> to confirm whether an area is clear before closing a complaint.</li>
+</ul>
+<p>For bulk buyers, a 96-can carton of cockroach spray covers the immediate-response needs of a mid-size property for several months, and the <a href="/products/cockroach-killer-spray">cockroach killer spray specification</a> lists the pack format and per-carton quantities.</p>
+
+<h2>Scheduling treatment around guest operations</h2>
+<p>The practical constraint in a hotel is not the product, it is the calendar. Kitchens cannot be out of service during meal periods, and guest floors cannot be treated while rooms are occupied.</p>
+<ol>
+  <li>Treat kitchens after the last service and before the deep clean, so bait is placed on a cleared surface.</li>
+  <li>Work guest floors between checkout and the next arrival, using low-odour crack-and-crevice products.</li>
+  <li>Service and perimeter zones can be treated during normal hours, since guests do not access them.</li>
+  <li>Repeat monitoring in any zone where a sighting was reported, before that area is signed off.</li>
+</ol>
+
+<h2>Staff roles that keep a programme working</h2>
+<p>Most recurring infestations in hotels come from a programme that lapsed rather than a product that failed. Assigning clear responsibilities prevents that.</p>
+<ul>
+  <li>Kitchen staff: report sightings and clear surfaces before scheduled treatment.</li>
+  <li>Housekeeping: report evidence in rooms and check monitoring traps on each floor.</li>
+  <li>Maintenance: seal cracks, repair door sweeps, and address drainage defects that create harbourage.</li>
+  <li>Procurement: keep the product inventory above minimum stock so response is immediate.</li>
+</ul>
+
+<h2>Documentation and compliance</h2>
+<p>Hotels face inspections from health authorities and audits from tour operators and international chains. A cockroach control programme is a documentation exercise as much as an operational one.</p>
+<ul>
+  <li>Keep a treatment log by zone, with dates, products and the technician responsible.</li>
+  <li>Hold MSDS and label documentation for every product used on site.</li>
+  <li>Retain monitoring records, including clean traps, since these prove the programme is proactive.</li>
+  <li>Record complaint responses: what was reported, action taken, and the verification result.</li>
+</ul>
+<p>Suppliers that provide Arabic and English documentation with each carton remove a recurring administrative burden. Parpar ships full documentation with household and commercial lines, and the <a href="/guides/hotel-mosquito-control-procurement">hotel procurement guide</a> covers how to structure the paperwork for a property-wide programme.</p>
+
+<h2>Cost per room per month</h2>
+<p>Hotels often budget cockroach control as a reactive expense. Treated as a scheduled programme that consumes a known quantity of products each month, the cost becomes predictable and lower, because bait placed early prevents the colony growth that requires intensive treatment later.</p>
+<ul>
+  <li>Estimate product consumption from carton quantities, not unit prices.</li>
+  <li>Compare programme cost against a single complaint: reparation, room compensation, and review impact usually exceed a year of products.</li>
+  <li>Order on a schedule tied to the season, since cockroach pressure rises with temperature.</li>
+</ul>
+<p>For facilities structuring a full supply programme across pest categories, the <a href="/buyers">wholesale buyer terms</a> set out carton pricing and delivery across Egyptian governorates.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How often should a hotel treat for cockroaches?</h3>
+<p>Most properties run a monthly scheduled programme with additional targeted treatment after any confirmed sighting. Kitchens need more frequent attention than guest floors or service areas.</p>
+<h3>Are cockroach sprays safe to use in occupied hotels?</h3>
+<p>Crack-and-crevice application with low-odour products is standard practice between checkouts. Kitchens are treated outside service hours. Label instructions and MSDS documentation should be followed for every product on site.</h3>
+<h3>What is the difference between treating German and American cockroaches in a hotel?</h3>
+<p>German cockroaches establish indoors in kitchens and pantries and respond best to bait placed in cracks. American cockroaches usually enter from drains and service areas and require residual surface treatment plus drainage work.</p>
+<h3>What documentation should a hotel keep for pest control inspections?</h3>
+<p>A treatment log by zone, MSDS and label documents for each product, monitoring records including clean traps, and response records for any guest complaint.</p>
+    `.trim(),
+    contentHtmlAr: `
+<h2>لماذا تكتسب مكافحة الصراصير في الفنادق أهمية أكبر من أي منشأة أخرى</h2>
+<p>ظهور صرصور في فندق ليس مشكلة صيانة، بل مشكلة تقييم. يلتقط النزلاء ما يرونه بالصور، وتبقى التقييمات مفهرسة لسنوات، وقد تؤدي شكوى واحدة في منفذ طعام إلى تفتيش صحي يشمل المنشأة بأكملها. كما تمنح الفنادق الصراصير كل ما تحتاجه على نطاق واسع: إنتاج طعام مستمر، وممرات خدمة دافئة، ومناطق غسيل برطوبة دائمة، ومئات حركات التسليم أسبوعياً عبر نفس بوابات التحميل.</p>
+<p>يغطي هذا الدليل كيف تبني الفنادق في مصر برنامجاً لمكافحة الصراصير: أين نقاط الضغط، وما المنتجات التي يجب أن تحتفظ بها المنشأة، وكيف تُجدول المعالجة حول عمليات الضيافة، وما الوثائق التي يتوقعها المفتشون ومشغلو الجولات.</p>
+
+<h2>مناطق الفندق الثلاث وأين تستقر الصراصير</h2>
+<p>لا تتوزع الصراصير بالتساوي في المبنى. فهي تتبع الطعام والرطوبة والظلام، وهذا يركّزها في الفندق داخل ثلاث مناطق متميزة تحتاج معالجات مختلفة.</p>
+<table>
+<thead><tr><th>المنطقة</th><th>أماكن الاختباء المعتادة</th><th>النوع السائد</th><th>أولوية المكافحة</th></tr></thead>
+<tbody>
+<tr><td>إنتاج الطعام (المطابخ، الحلويات، غسيل الأطباق)</td><td>خلف الغرف الباردة، تحت الأحواض، أجسام المحركات، قنوات الصرف</td><td>الصرصور الألماني</td><td>الأعلى. برنامج قائم على الطُعم مع نظافة صارمة</td></tr>
+<tr><td>مناطق النزلاء (الغرف، خزائن الأدوار، التدبير المنزلي)</td><td>هياكل الأسرّة، فراغات الخزائن، خزائن الميني بار، الأسقف المستعارة</td><td>الصرصور الألماني</td><td>عالية. معالجة الشقوق والفواصل بمنتجات قليلة الرائحة</td></tr>
+<tr><td>الخدمات والمحيط (بوابات التحميل، المغسلة، الأقبية، النفايات)</td><td>المصارف، مجاري الأنابيب، تخزين الكرتون، غرف المعدات</td><td>الصرصور الأمريكي</td><td>متوسطة. رشّ متبقٍّ مع معالجة المصارف</td></tr>
+</tbody>
+</table>
+<p>معالجة جميع المناطق بالطريقة نفسها تهدر المنتج وتُخطئ في التمييز بين الأنواع. الصرصور الأمريكي الكبير القادم من مصرف يحتاج معالجة سطحية متبقية؛ ومستعمرة الصرصور الألماني خلف غرفة باردة تحتاج طُعماً يوضع حيث لا تغسله أعمال التنظيف.</p>
+
+<h2>المنتجات التي يجب أن يحتفظ بها الفندق</h2>
+<p>الفنادق التي تحتفظ بمخزون صغير في الموقع تحلّ معظم الحوادث دون انتظار زيارة المتعهد، وهذا مهم عندما تصل شكوى نزيل في الحادية عشرة مساءً.</p>
+<ul>
+  <li><strong>بخاخ صراصير أيروسول</strong> للاستجابة الفورية عند رؤية صرصور، خاصةً الصرصور الأمريكي الكبير في مناطق الخدمة.</li>
+  <li><strong>طُعم هلامي</strong> لمعالجة المطبخ وخزانة المؤن، يوضع في الشقوق بعيداً عن متناول التنظيف.</li>
+  <li><strong>مركّز متبقٍّ أو بخاخ جاهز</strong> لمعالجة المحيط والمصارف في مناطق الخدمة.</li>
+  <li><strong>مصائد مراقبة</strong> للتأكد من خلو المنطقة قبل إغلاق الشكوى.</li>
+</ul>
+<p>بالنسبة لمشتري الجملة، يغطي كرتون من بخاخ الصراصير بسعة 96 علبة احتياجات الاستجابة الفورية لمنشأة متوسطة لعدة أشهر، وتوضح <a href="/ar/products/cockroach-killer-spray">مواصفات بخاخ قتل الصراصير</a> شكل العبوة والكميات لكل كرتون.</p>
+
+<h2>جدولة المعالجة حول عمليات الضيافة</h2>
+<p>القيود العملية في الفندق ليست المنتج، بل التقويم. فلا يمكن إيقاف المطابخ خلال فترات الوجبات، ولا يمكن معالجة أدوار النزلاء أثناء إشغال الغرف.</p>
+<ol>
+  <li>عالج المطابخ بعد آخر خدمة وقبل التنظيف العميق، ليُوضع الطُعم على سطح خالٍ.</li>
+  <li>اعمل على أدوار النزلاء بين المغادرة والوصول التالي، باستخدام منتجات شقوق قليلة الرائحة.</li>
+  <li>يمكن معالجة مناطق الخدمة والمحيط خلال ساعات العمل العادية، لأن النزلاء لا يصلون إليها.</li>
+  <li>أعد المراقبة في أي منطقة أُبلغ فيها عن ظهور، قبل اعتمادها.</li>
+</ol>
+
+<h2>أدوار الموظفين التي تُبقي البرنامج فعّالاً</h2>
+<p>معظم حالات الإصابة المتكررة في الفنادق تأتي من برنامج توقف، لا من منتج فشل. وتحديد مسؤوليات واضحة يمنع ذلك.</p>
+<ul>
+  <li>طاقم المطبخ: الإبلاغ عن المشاهدات وتفريغ الأسطح قبل المعالجة المجدولة.</li>
+  <li>التدبير المنزلي: الإبلاغ عن الأدلة في الغرف وفحص مصائد المراقبة في كل دور.</li>
+  <li>الصيانة: إغلاق الشقوق، وإصلاح حاشيات الأبواب، ومعالجة عيوب الصرف التي تخلق أماكن اختباء.</li>
+  <li>المشتريات: إبقاء مخزون المنتجات فوق الحد الأدنى ليكون الرد فورياً.</li>
+</ul>
+
+<h2>الوثائق والامتثال</h2>
+<p>تواجه الفنادق تفتيشاً من السلطات الصحية وتدقيقاً من مشغلي الجولات والسلاسل الدولية. وبرنامج مكافحة الصراصير جهد توثيقي بقدر ما هو تشغيلي.</p>
+<ul>
+  <li>احتفظ بسجل معالجة حسب المنطقة، بالتواريخ والمنتجات والفني المسؤول.</li>
+  <li>احتفظ بوثائق سلامة المواد والملصقات لكل منتج يُستخدم في الموقع.</li>
+  <li>احتفظ بسجلات المراقبة، بما فيها المصائد النظيفة، لأنها تثبت أن البرنامج وقائي.</li>
+  <li>سجّل الردود على الشكاوى: ما أُبلغ عنه، والإجراء المتخذ، ونتيجة التحقق.</li>
+</ul>
+<p>الموردون الذين يوفرون وثائق بالعربية والإنجليزية مع كل كرتون يرفعون عبئاً إدارياً متكرراً. وتشحن باربار وثائق كاملة مع الخطوط المنزلية والتجارية، ويغطي <a href="/ar/guides/hotel-mosquito-control-procurement">دليل شراء الفنادق</a> كيفية هيكلة الأوراق لبرنامج يشمل المنشأة بأكملها.</p>
+
+<h2>التكلفة لكل غرفة شهرياً</h2>
+<p>كثيراً ما تضع الفنادق مكافحة الصراصير في بند المصروفات الطارئة. وعند التعامل معها كبرنامج مجدول يستهلك كمية معروفة من المنتجات شهرياً، تصبح التكلفة متوقعة وأقل، لأن الطُعم الموضوع مبكراً يمنع نمو المستعمرة الذي يتطلب معالجة مكثفة لاحقاً.</p>
+<ul>
+  <li>قدّر استهلاك المنتج من كميات الكرتون، لا من أسعار الوحدات.</li>
+  <li>قارن تكلفة البرنامج بشكوى واحدة: التعويض وتعويض الغرفة وأثر التقييم تتجاوز عادةً تكلفة منتجات سنة كاملة.</li>
+  <li>اطلب وفق جدول مرتبط بالموسم، لأن ضغط الصراصير يرتفع مع الحرارة.</li>
+</ul>
+<p>للمنشآت التي تبني برنامج توريد كاملاً عبر فئات الآفات، تحدد <a href="/ar/buyers">شروط المشتري بالجملة</a> أسعار الكرتون والتوصيل في محافظات مصر.</p>
+
+<h2>الأسئلة الشائعة</h2>
+<h3>كم مرة يجب أن يعالج الفندق ضد الصراصير؟</h3>
+<p>تشغّل معظم المنشآت برنامجاً مجدولاً شهرياً مع معالجة موجهة إضافية بعد أي مشاهدة مؤكدة. وتحتاج المطابخ إلى اهتمام أكثر من أدوار النزلاء أو مناطق الخدمة.</p>
+<h3>هل بخاخات الصراصير آمنة في الفنادق المأهولة؟</h3>
+<p>معالجة الشقوق والفواصل بمنتجات قليلة الرائحة هي الممارسة المعتادة بين المغادرات. وتُعالج المطابخ خارج ساعات الخدمة. ويجب اتباع تعليمات الملصق ووثائق سلامة المواد لكل منتج في الموقع.</p>
+<h3>ما الفرق بين معالجة الصرصور الألماني والأمريكي في الفندق؟</h3>
+<p>يستقر الصرصور الألماني داخلياً في المطابخ وخزائن المؤن ويستجيب أفضل للطُعم الموضوع في الشقوق. أما الصرصور الأمريكي فيدخل عادةً من المصارف ومناطق الخدمة ويحتاج معالجة سطحية متبقية مع معالجة المصارف.</p>
+<h3>ما الوثائق التي يجب أن يحتفظ بها الفندق لتفتيشات مكافحة الآفات؟</h3>
+<p>سجل معالجة حسب المنطقة، ووثائق سلامة المواد والملصقات لكل منتج، وسجلات المراقبة بما فيها المصائد النظيفة، وسجلات الرد على أي شكوى نزيل.</p>
+    `.trim(),
+  },
+  {
+    slug: "cockroach-bait-vs-spray-commercial",
+    title: "Cockroach Bait vs Spray: Commercial Use",
+    description: "Gel bait and residual spray solve different problems. Compare mechanism, speed, durability and cleaning, and how to combine both without cancelling the effect.",
+    "titleAr": "الطعم أم البخاخ للصراصير: الاستخدام التجاري",
+    "descriptionAr": "الطعم الهلامي والبخاخ المتبقي يحلان مشكلتين مختلفتين: مقارنة الآلية والسرعة والمتانة، وكيفية دمجهما دون إلغاء الأثر.",
+    date: "2026-10-19",
+    author: "Parpar Team",
+    category: "Product Guides",
+    "categoryAr": "أدلة المنتجات",
+    tags: [
+      "cockroach bait vs spray",
+      "commercial cockroach control",
+      "gel bait commercial kitchen",
+      "residual spray cockroach",
+      "pest control method comparison",
+    ],
+    image: "/images/parpar-cockroach-killer-spray-hero-product-shot.png",
+    contentHtml: `
+<h2>Two methods that solve different problems</h2>
+<p>Commercial facilities that struggle with cockroaches usually have the wrong method for the space, not the wrong product brand. Gel bait and residual spray work through completely different mechanisms, and each one fails in situations where the other succeeds. Choosing between them is a question of where the cockroaches are hiding, what happens to that surface during the working day, and how quickly the area needs to be clear.</p>
+<p>This comparison sets out how each method works, where it fits in a commercial programme, and how to combine them so that one does not undo the other.</p>
+
+<h2>How each method actually works</h2>
+<p>The distinction matters because the two methods are not interchangeable at any concentration.</p>
+<table>
+<thead><tr><th>Factor</th><th>Gel bait</th><th>Residual spray</th></tr></thead>
+<tbody>
+<tr><td>Mechanism</td><td>Attractant plus slow-acting insecticide; spread through the colony by contact and cannibalism</td><td>Insecticide deposited on a surface; kills on contact with treated area</td></tr>
+<tr><td>Time to effect</td><td>Slower — hours to days, but reaches hidden colonies</td><td>Immediate on contact with treated surface</td></tr>
+<tr><td>Where it works</td><td>Cracks, voids, hinges, motor housings, behind appliances</td><td>Exposed surfaces, skirting, floors, drain surrounds, wall-floor junctions</td></tr>
+<tr><td>Durability</td><td>Remains effective as long as it is not cleaned away; reapply in small amounts</td><td>Residual life limited by cleaning, sunlight and washing</td></tr>
+<tr><td>Effect of cleaning</td><td>Destroyed if the surface is washed — needed in food areas</td><td>Washed off routinely by wet cleaning</td></tr>
+<tr><td>Odour and disruption</td><td>Low, suitable during operations</td><td>Varies; requires clearing the area during application</td></tr>
+</tbody>
+</table>
+
+<h2>When gel bait is the right choice</h2>
+<p>Bait is the correct primary method wherever cockroaches are established in voids that spraying cannot reach, and wherever the surface is cleaned constantly.</p>
+<ul>
+  <li><strong>Food production areas:</strong> a kitchen is wet-cleaned daily, so any surface deposit disappears. Bait placed inside cracks survives because it is not on a working surface.</li>
+  <li><strong>Behind and under equipment:</strong> cold rooms, ovens, dishwashers and motor housings create warm voids that spraying cannot penetrate but bait points can be placed into.</li>
+  <li><strong>Colony elimination rather than knockdown:</strong> because bait is transferred within the colony, it addresses the source instead of the visible insects.</li>
+  <li><strong>Occupied buildings:</strong> hotels and hospitals can continue operating while bait points are serviced.</li>
+</ul>
+
+<h2>When residual spray is the right choice</h2>
+<p>Spray is the correct method where the problem is movement across open surfaces rather than an established indoor colony.</p>
+<ul>
+  <li><strong>Building perimeter and entry points:</strong> door thresholds, service corridors and gaps where cockroaches enter from outside or from drains.</li>
+  <li><strong>Drainage and wet rooms:</strong> large cockroaches emerging from drains are best intercepted with a residual treatment around and beneath covers, together with drain maintenance.</li>
+  <li><strong>Immediate response to a sighting:</strong> a spray provides a fast knockdown where bait would take days.</li>
+  <li><strong>Large open service areas:</strong> basements, plant rooms and loading bays where voids are not the primary harbourage.</li>
+</ul>
+<p>Commercial accounts needing both methods from one supplier generally order cartons of spray alongside bait; the <a href="/products/cockroach-killer-spray">cockroach killer spray specification</a> covers pack sizes and per-carton quantities for bulk buyers.</p>
+
+<h2>Combining the two without cancelling the effect</h2>
+<p>The most common technical mistake is applying spray where bait has been placed. Insecticide deposits on top of bait contamination reduce or eliminate its performance, which is why professional programmes run them in separate zones.</p>
+<ol>
+  <li>Map the facility into bait zones and spray zones before any application.</li>
+  <li>In bait zones, remove existing spray deposits first, then place bait points.</li>
+  <li>In spray zones, treat surfaces and avoid bait placements entirely.</li>
+  <li>Keep service records tied to the zone, so future visits do not mix the two.</li>
+  <li>Reassess the map each season: as a perimeter problem resolves, that area may become a bait zone.</li>
+</ol>
+
+<h2>Monitoring tells you which method is working</h2>
+<p>Without monitoring, both methods look the same in a report. Sticky traps installed in each zone give an objective count of activity before and after treatment.</p>
+<ul>
+  <li>Rising counts in a bait zone usually mean bait points have been cleaned away or consumed and not replaced.</li>
+  <li>Persistent activity in a spray zone usually means the entry route itself has not been addressed.</li>
+  <li>Activity appearing in a zone that had none suggests a new harbourage or entry, not a product failure.</li>
+</ul>
+
+<h2>Cost per area compared</h2>
+<p>Line-item cost usually favours spray, because bait is consumed and replaced continuously. Programme cost can favour bait, because a resolved colony stops generating recurring treatment. Facilities that compare only unit prices tend to over-spray and under-resolve.</p>
+<ul>
+  <li>Price spray by area treated, not by can.</li>
+  <li>Price bait by consumption per service cycle.</li>
+  <li>Compare both against the cost of a recurring complaint or inspection finding.</li>
+</ul>
+<p>For more on structuring a facility-wide programme, see the <a href="/blog/long-lasting-cockroach-spray-comparison">long-lasting spray comparison</a> and the <a href="/blog/commercial-cockroach-control-egypt-procurement">commercial procurement guide</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Is gel bait better than spray for cockroaches?</h3>
+<p>Neither is universally better. Bait resolves hidden colonies in areas that are cleaned daily; spray handles movement across open surfaces and entry points from drains or outside. Most commercial programmes need both, in separate zones.</p>
+<h3>Can I use spray and bait in the same area?</h3>
+<p>Not on the same surfaces. Insecticide deposits contaminate bait and reduce its effectiveness, which is why zones are mapped separately and kept in service records.</p>
+<h3>How long does cockroach bait take to work?</h3>
+<p>Bait acts over hours to days because it is transferred within the colony rather than killing instantly. Monitoring traps confirm whether activity is declining after each service.</p>
+<h3>Why do cockroaches come back after spraying?</h3>
+<p>Usually because the entry route or harbourage remains. Spray removes visible insects from treated surfaces; it does not seal drain entries, gaps or voids where new cockroaches continue to appear.</p>
+    `.trim(),
+    contentHtmlAr: `
+<h2>طريقتان تحلّان مشكلتين مختلفتين</h2>
+<p>المنشآت التجارية التي تعاني الصراصير تستخدم عادةً الطريقة الخطأ في المكان، لا العلامة الخطأ. يعمل الطُعم الهلامي والبخاخ المتبقي عبر آليتين مختلفتين تماماً، ويفشل كلٌّ منهما في حالات ينجح فيها الآخر. والاختيار بينهما مسألة أين تختبئ الصراصير، وما يحدث لذلك السطح خلال يوم العمل، ومدى سرعة الحاجة إلى خلو المنطقة.</p>
+<p>توضح هذه المقارنة كيف تعمل كل طريقة، وأين تناسب برنامجاً تجارياً، وكيف تُدمجان دون أن يُلغي أحدهما أثر الآخر.</p>
+
+<h2>كيف تعمل كل طريقة فعلياً</h2>
+<p>التمييز مهم لأن الطريقتين غير قابلتين للتبادل عند أي تركيز.</p>
+<table>
+<thead><tr><th>العامل</th><th>الطُعم الهلامي</th><th>البخاخ المتبقي</th></tr></thead>
+<tbody>
+<tr><td>الآلية</td><td>مادة جاذبة مع مبيد بطيء المفعول؛ ينتقل في المستعمرة بالتلامس وأكل الجيف</td><td>مبيد يُودع على سطح؛ يقتل بالتلامس مع المنطقة المعالجة</td></tr>
+<tr><td>زمن التأثير</td><td>أبطأ — ساعات إلى أيام، لكنه يصل إلى المستعمرات المخفية</td><td>فوري عند التلامس مع السطح المعالج</td></tr>
+<tr><td>أين يعمل</td><td>الشقوق، الفراغات، المفاصل، أجسام المحركات، خلف الأجهزة</td><td>الأسطح المكشوفة، الحوائط، الأرضيات، محيط المصارف، ملتقى الجدار بالأرض</td></tr>
+<tr><td>المتانة</td><td>يبقى فعّالاً ما دام لم يُغسل؛ يُعاد وضعه بكميات صغيرة</td><td>عمر متبقٍ محدود بالتنظيف والضوء والغسل</td></tr>
+<tr><td>أثر التنظيف</td><td>يُدمَّر إذا غُسل السطح — ضروري في مناطق الطعام</td><td>يُغسل بشكل روتيني بالتنظيف الرطب</td></tr>
+<tr><td>الرائحة والتعطيل</td><td>منخفضة، مناسبة أثناء العمل</td><td>متفاوتة؛ تتطلب إخلاء المنطقة عند التطبيق</td></tr>
+</tbody>
+</table>
+
+<h2>متى يكون الطُعم الهلامي الخيار الصحيح</h2>
+<p>الطُعم هو الطريقة الأساسية الصحيحة حيث تستقر الصراصير في فراغات لا يصل إليها الرشّ، وحيث يُنظَّف السطح باستمرار.</p>
+<ul>
+  <li><strong>مناطق إنتاج الطعام:</strong> يُنظَّف المطبخ رطباً يومياً، فتختفي أي طبقة سطحية. أما الطُعم الموضوع داخل الشقوق فيبقى لأنه ليس على سطح عمل.</li>
+  <li><strong>خلف الأجهزة وتحتها:</strong> تخلق الغرف الباردة والأفران وغسالات الأطباق وأجسام المحركات فراغات دافئة لا يخترقها الرشّ، لكن يمكن وضع نقاط طُعم فيها.</li>
+  <li><strong>القضاء على المستعمرة لا الإنزال السريع:</strong> لأن الطُعم ينتقل داخل المستعمرة، فهو يعالج المصدر لا الحشرات الظاهرة.</li>
+  <li><strong>المباني المأهولة:</strong> يمكن للفنادق والمستشفيات مواصلة العمل أثناء صيانة نقاط الطُعم.</li>
+</ul>
+
+<h2>متى يكون البخاخ المتبقي الخيار الصحيح</h2>
+<p>البخاخ هو الطريقة الصحيحة حيث تكون المشكلة حركة على أسطح مكشوفة لا مستعمرة داخلية مستقرة.</p>
+<ul>
+  <li><strong>محيط المبنى ونقاط الدخول:</strong> عتبات الأبواب وممرات الخدمة والفتحات التي تدخل منها الصراصير من الخارج أو من المصارف.</li>
+  <li><strong>المصارف والغرف الرطبة:</strong> الصراصير الكبيرة الخارجة من المصارف يُعترض طريقها بمعالجة متبقية حول الأغطية وتحتها، مع صيانة المصارف.</li>
+  <li><strong>الاستجابة الفورية للمشاهدة:</strong> يوفر البخاخ إنزالاً سريعاً حيث يستغرق الطُعم أياماً.</li>
+  <li><strong>مناطق الخدمة المفتوحة الكبيرة:</strong> الأقبية وغرف المعدات وبوابات التحميل حيث لا تكون الفراغات مكان الاختباء الرئيسي.</li>
+</ul>
+<p>الحسابات التجارية التي تحتاج الطريقتين من مورد واحد تطلب عادةً كراتين البخاخ إلى جانب الطُعم؛ وتغطي <a href="/ar/products/cockroach-killer-spray">مواصفات بخاخ قتل الصراصير</a> أحجام العبوات والكميات لكل كرتون لمشتري الجملة.</p>
+
+<h2>دمج الطريقتين دون إلغاء الأثر</h2>
+<p>الخطأ الفني الأكثر شيوعاً هو تطبيق البخاخ حيث وُضع الطُعم. فالطبقات المبيدة فوق تلوث الطُعم تقلّل أداءه أو تُلغيه، ولهذا تشغّل البرامج الاحترافية الطريقتين في مناطق منفصلة.</p>
+<ol>
+  <li>قسّم المنشأة إلى مناطق طُعم ومناطق بخاخ قبل أي تطبيق.</li>
+  <li>في مناطق الطُعم، أزل طبقات البخاخ القائمة أولاً ثم ضع نقاط الطُعم.</li>
+  <li>في مناطق البخاخ، عالج الأسطح وتجنّب نقاط الطُعم تماماً.</li>
+  <li>اربط سجلات الصيانة بالمنطقة، حتى لا تختلط الطريقتان في الزيارات اللاحقة.</li>
+  <li>أعد تقييم الخريطة كل موسم: مع حلّ مشكلة المحيط قد تصبح تلك المنطقة منطقة طُعم.</li>
+</ol>
+
+<h2>المراقبة تكشف أي طريقة تنجح</h2>
+<p>بدون مراقبة، تبدو الطريقتان متطابقتين في التقرير. والمصائد اللاصقة المثبتة في كل منطقة تعطي عدداً موضوعياً للنشاط قبل المعالجة وبعدها.</p>
+<ul>
+  <li>ارتفاع الأعداد في منطقة طُعم يعني عادةً أن نقاط الطُعم غُسلت أو استُهلكت ولم تُستبدل.</li>
+  <li>استمرار النشاط في منطقة بخاخ يعني عادةً أن مسار الدخول نفسه لم يُعالج.</li>
+  <li>ظهور نشاط في منطقة كانت خالية يشير إلى مكان اختباء أو مدخل جديد، لا إلى فشل منتج.</li>
+</ul>
+
+<h2>مقارنة التكلفة بحسب المنطقة</h2>
+<p>تكلفة البند الواحد تميل عادةً إلى البخاخ، لأن الطُعم يُستهلك ويُستبدل باستمرار. أما تكلفة البرنامج فقد تميل إلى الطُعم، لأن المستعمرة المحلولة تتوقف عن توليد معالجة متكررة. والمنشآت التي تقارن أسعار الوحدات فقط تميل إلى الإفراط في الرشّ والتقصير في الحلّ.</p>
+<ul>
+  <li>سعّر البخاخ بحسب المساحة المعالجة، لا بحسب العلبة.</li>
+  <li>سعّر الطُعم بحسب الاستهلاك في دورة الصيانة.</li>
+  <li>قارن الاثنين بتكلفة شكوى متكررة أو ملاحظة تفتيش.</li>
+</ul>
+<p>لمزيد من التفاصيل حول هيكلة برنامج يشمل المنشأة، راجع <a href="/ar/blog/long-lasting-cockroach-spray-comparison">مقارنة البخاخ طويل الأمد</a> و<a href="/ar/blog/commercial-cockroach-control-egypt-procurement">دليل الشراء التجاري</a>.</p>
+
+<h2>الأسئلة الشائعة</h2>
+<h3>هل الطُعم الهلامي أفضل من البخاخ للصراصير؟</h3>
+<p>لا أحد منهما أفضل بشكل مطلق. يحلّ الطُعم المستعمرات المخفية في أماكن تُغسل يومياً؛ ويتعامل البخاخ مع الحركة على الأسطح المكشوفة ونقاط الدخول من المصارف أو الخارج. وتحتاج معظم البرامج التجارية الاثنين، في مناطق منفصلة.</p>
+<h3>هل يمكن استخدام البخاخ والطُعم في المنطقة نفسها؟</h3>
+<p>ليس على الأسطح نفسها. فالطبقات المبيدة تلوّث الطُعم وتقلّل فعاليته، ولهذا تُرسم المناطق بشكل منفصل وتُحفظ في سجلات الصيانة.</p>
+<h3>كم يستغرق الطُعم مفعوله ضد الصراصير؟</h3>
+<p>يعمل الطُعم خلال ساعات إلى أيام لأنه ينتقل داخل المستعمرة بدلاً من القتل الفوري. وتؤكد مصائد المراقبة ما إذا كان النشاط يتراجع بعد كل صيانة.</p>
+<h3>لماذا تعود الصراصير بعد الرشّ؟</h3>
+<p>عادةً لأن مسار الدخول أو مكان الاختباء لم يُعالج. فالبخاخ يزيل الحشرات الظاهرة عن الأسطح المعالجة؛ لكنه لا يسدّ مداخل المصارف أو الفتحات أو الفراغات التي تستمر منها صراصير جديدة في الظهور.</p>
+    `.trim(),
+  },
+  {
+    slug: "what-is-german-cockroach",
+    title: "What Is a German Cockroach?",
+    description: "Blattella germanica identified: size, markings, lifecycle and the signs that matter. How it differs from the American cockroach in commercial kitchens.",
+    "titleAr": "ما هو الصرصور الألماني؟",
+    "descriptionAr": "تعريف الصرصور الألماني: الحجم والعلامات ودورة الحياة والأدلة المهمة، والفرق عن الأمريكي ولماذا يسود المطابخ التجارية.",
+    date: "2026-10-20",
+    author: "Parpar Team",
+    category: "Industry Insights",
+    "categoryAr": "رؤى صناعية",
+    tags: [
+      "what is a German cockroach",
+      "German cockroach identification",
+      "Blattella germanica",
+      "German vs American cockroach",
+      "commercial kitchen cockroach",
+    ],
+    image: "/images/parpar-cockroach-killer-spray-isolated-studio-angle.jpg",
+    contentHtml: `
+<h2>What is a German cockroach?</h2>
+<p>The German cockroach (Blattella germanica) is a small indoor cockroach species, roughly 13 to 16 mm long, light brown with two dark parallel stripes running lengthwise behind the head. It is the dominant cockroach species in commercial kitchens, food stores and hotel back-of-house areas worldwide, and in Egypt it is the species most frequently found inside food premises. Unlike the larger American cockroach, the German cockroach does not survive long outdoors: it is an indoor specialist that lives and breeds in the warm, humid voids of buildings, close to food and water.</p>
+<p>The defining characteristic is that a German cockroach population found in a facility is almost always established inside that facility rather than moving in from outside. That single fact drives the entire control approach.</p>
+
+<h2>How to identify a German cockroach</h2>
+<ul>
+  <li><strong>Size:</strong> 13 to 16 mm as an adult — noticeably smaller than the American cockroach.</li>
+  <li><strong>Colour:</strong> light brown to tan.</li>
+  <li><strong>Markings:</strong> two dark, parallel stripes running from behind the head along the front of the body. This is the clearest single identifier.</li>
+  <li><strong>Wings:</strong> adults have wings but rarely fly; they run rather than take off when disturbed.</li>
+  <li><strong>Nymphs:</strong> smaller and darker, with a single pale stripe down the back until later instars.</li>
+  <li><strong>Egg cases:</strong> small brown capsules, roughly 6 to 8 mm, carried by the female and containing around 30 to 40 eggs.</li>
+</ul>
+
+<h2>German versus American cockroach</h2>
+<p>These two species are treated differently, so identification is not an academic exercise.</p>
+<table>
+<thead><tr><th>Feature</th><th>German cockroach</th><th>American cockroach</th></tr></thead>
+<tbody>
+<tr><td>Adult length</td><td>13 to 16 mm</td><td>30 to 40 mm</td></tr>
+<tr><td>Colour</td><td>Light brown with two dark stripes</td><td>Reddish brown, paler edge on the shield behind the head</td></tr>
+<tr><td>Typical location</td><td>Kitchens, pantries, appliances, cabinets, drains near food</td><td>Drains, basements, sewers, loading areas, plant rooms</td></tr>
+<tr><td>Outdoor survival</td><td>Poor — an indoor species</td><td>Can survive outdoors in warm conditions</td></tr>
+<tr><td>Reproduction rate</td><td>High; roughly 30 to 40 eggs per case, several cases per female</td><td>Lower; around 16 eggs per case</td></tr>
+<tr><td>Preferred control</td><td>Gel bait placed in voids, plus sanitation</td><td>Residual surface treatment plus drainage maintenance</td></tr>
+</tbody>
+</table>
+
+<h2>Lifecycle and reproduction</h2>
+<p>The German cockroach has one of the fastest reproductive cycles of any indoor pest, which is why a small sighting becomes a large population quickly.</p>
+<ul>
+  <li>Egg to adult takes roughly two to three months under warm indoor conditions.</li>
+  <li>A single female produces multiple egg cases over her life, each carrying 30 to 40 eggs.</li>
+  <li>Nymphs pass through several moults before adulthood, all spent hidden in crevices.</li>
+  <li>Adults live for several months, continuing to reproduce while food and moisture are available.</li>
+</ul>
+<p>The practical consequence is that waiting a few weeks after spotting one insect allows the colony to expand significantly, which raises the treatment cost and the disruption required to resolve it.</p>
+
+<h2>Why this species matters most in commercial settings</h2>
+<p>The German cockroach carries the same regulatory and reputational weight as any pest in a food environment, and its behaviour makes it harder to detect.</p>
+<ul>
+  <li><strong>Harbourage within touching distance of food:</strong> motor housings, door hinges, gaskets, cable ducts and behind wall panels.</li>
+  <li><strong>Night activity:</strong> they forage in darkness, so daytime inspection often misses the population entirely.</li>
+  <li><strong>Warmth requirement:</strong> they prefer temperatures above roughly 20 degrees Celsius, which describes commercial kitchens year round.</li>
+  <li><strong>Moisture requirement:</strong> leaks, condensation and drainage defects sustain them even when food is well contained.</li>
+</ul>
+
+<h2>Signs of a German cockroach infestation</h2>
+<p>Because the insects themselves are rarely seen during the day, evidence usually appears first.</p>
+<ul>
+  <li>Small dark droppings resembling ground pepper near crevices and shelf edges.</li>
+  <li>Egg cases, shed skins or dead insects behind appliances and in cabinet corners.</li>
+  <li>A persistent musty odour in enclosed areas with a heavy population.</li>
+  <li>Live insects seen when lights are switched on, or in sealed containers and packaging.</li>
+  <li>Activity counted on monitoring traps placed in service areas.</li>
+</ul>
+
+<h2>Control approach for this species</h2>
+<p>Because German cockroaches establish indoors, treatment targets the harbourage rather than the perimeter. Gel bait placed into cracks and voids is the primary method; residual spray applied to exposed surfaces reaches the insects only when they cross treated areas.</p>
+<ul>
+  <li>Place bait in cracks, hinges, motor housings and appliance voids, not on cleaned surfaces.</li>
+  <li>Fix moisture problems, since a population cannot persist without water even with limited food.</li>
+  <li>Use monitoring traps to establish whether the population is declining after each service.</li>
+  <li>Seal and repair voids where practical, to remove harbourage rather than repeatedly treating it.</li>
+</ul>
+<p>The <a href="/blog/long-lasting-cockroach-spray-comparison">long-lasting spray comparison</a> covers residual options, and <a href="/blog/cockroach-bait-vs-spray-commercial">bait versus spray</a> explains why the two methods belong in separate zones. Facilities building a full programme can review <a href="/products/cockroach-killer-spray">bulk cockroach spray specifications</a> for carton quantities.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What is a German cockroach?</h3>
+<p>Blattella germanica, a small indoor cockroach species measuring 13 to 16 mm, light brown with two dark parallel stripes behind the head. It lives and breeds inside buildings near food and moisture.</p>
+<h3>How do you tell a German cockroach from an American cockroach?</h3>
+<p>Size and location. The German cockroach is 13 to 16 mm with two dark stripes and is found indoors in kitchens and cabinets; the American cockroach is 30 to 40 mm, reddish brown, and found near drains, basements and service areas.</p>
+<h3>Why are German cockroaches so hard to get rid of?</h3>
+<p>They hide in narrow voids close to food, forage at night, reproduce quickly with 30 to 40 eggs per case, and persist on moisture alone if leaks are not repaired.</p>
+<h3>Do German cockroaches live outdoors?</h3>
+<p>No. They are an indoor species and survive poorly outside, which is why an established population in a facility indicates harbourage inside the building rather than a perimeter problem.</p>
+    `.trim(),
+    contentHtmlAr: `
+<h2>ما هو الصرصور الألماني؟</h2>
+<p>الصرصور الألماني (Blattella germanica) نوع صغير من الصراصير الداخلية، يبلغ طوله نحو 13 إلى 16 ملم، بني فاتح مع خطين داكنين متوازيين يمتدان طولاً خلف الرأس. وهو النوع السائد في المطابخ التجارية ومخازن الطعام والمناطق الخلفية للفنادق عالمياً، وفي مصر هو النوع الأكثر وجوداً داخل منشآت الطعام. وخلافاً للصرصور الأمريكي الأكبر، لا يعيش الصرصور الألماني طويلاً في الخارج: فهو متخصص داخلي يعيش ويتكاثر في الفراغات الدافئة الرطبة داخل المباني، قريباً من الطعام والماء.</p>
+<p>والسمة المحددة هي أن مجموعة الصراصير الألمانية الموجودة في منشأة تكون دائماً تقريباً مستقرة داخل تلك المنشأة، لا قادمة من الخارج. وهذه الحقيقة وحدها توجّه منهج المكافحة بأكمله.</p>
+
+<h2>كيف تتعرف على الصرصور الألماني</h2>
+<ul>
+  <li><strong>الحجم:</strong> 13 إلى 16 ملم للبالغ — أصغر بوضوح من الصرصور الأمريكي.</li>
+  <li><strong>اللون:</strong> بني فاتح إلى بني أصفر.</li>
+  <li><strong>العلامات:</strong> خطان داكنان متوازيان يمتدان من خلف الرأس على مقدمة الجسم. وهذا أوضح معرّف منفرد.</li>
+  <li><strong>الأجنحة:</strong> للبالغين أجنحة لكنها نادراً ما تطير؛ تهرب بالجري لا بالطيران عند الإزعاج.</li>
+  <li><strong>الحوريات:</strong> أصغر وأغمق، مع خط شاحب واحد على الظهر حتى الأطوار المتأخرة.</li>
+  <li><strong>أكياس البيض:</strong> كبسولات بنية صغيرة نحو 6 إلى 8 ملم تحملها الأنثى وتضم نحو 30 إلى 40 بيضة.</li>
+</ul>
+
+<h2>الصرصور الألماني مقابل الأمريكي</h2>
+<p>يُعالج النوعان بشكل مختلف، لذا فالتعرف ليس تمريناً نظرياً.</p>
+<table>
+<thead><tr><th>السمة</th><th>الصرصور الألماني</th><th>الصرصور الأمريكي</th></tr></thead>
+<tbody>
+<tr><td>طول البالغ</td><td>13 إلى 16 ملم</td><td>30 إلى 40 ملم</td></tr>
+<tr><td>اللون</td><td>بني فاتح مع خطين داكنين</td><td>بني محمر مع حافة أفتح على الدرع خلف الرأس</td></tr>
+<tr><td>الموقع المعتاد</td><td>المطابخ، خزائن المؤن، الأجهزة، الخزائن، المصارف قرب الطعام</td><td>المصارف، الأقبية، المجاري، مناطق التحميل، غرف المعدات</td></tr>
+<tr><td>البقاء في الخارج</td><td>ضعيف — نوع داخلي</td><td>يمكنه البقاء خارجياً في الظروف الدافئة</td></tr>
+<tr><td>معدل التكاثر</td><td>مرتفع؛ نحو 30 إلى 40 بيضة لكل كيس، وعدة أكياس لكل أنثى</td><td>أقل؛ نحو 16 بيضة لكل كيس</td></tr>
+<tr><td>المكافحة المفضلة</td><td>طُعم هلامي في الفراغات مع النظافة</td><td>معالجة سطحية متبقية مع صيانة المصارف</td></tr>
+</tbody>
+</table>
+
+<h2>دورة الحياة والتكاثر</h2>
+<p>للصرصور الألماني واحدة من أسرع دورات التكاثر بين آفات الداخل، ولهذا تتحول مشاهدة صغيرة إلى مجموعة كبيرة بسرعة.</p>
+<ul>
+  <li>يستغرق النمو من بيضة إلى بالغ نحو شهرين إلى ثلاثة في الظروف الداخلية الدافئة.</li>
+  <li>تنتج الأنثى الواحدة عدة أكياس بيض خلال حياتها، كل كيس يحمل 30 إلى 40 بيضة.</li>
+  <li>تمر الحوريات بعدة انسلاخات قبل البلوغ، وكلها تحدث مخفية في الشقوق.</li>
+  <li>يعيش البالغ عدة أشهر، ويواصل التكاثر ما دام الطعام والرطوبة متاحين.</li>
+</ul>
+<p>والنتيجة العملية أن الانتظار أسابيع قليلة بعد رؤية حشرة واحدة يسمح للمستعمرة بالتوسع بشكل ملحوظ، ما يرفع تكلفة المعالجة والتعطيل اللازم لحلها.</p>
+
+<h2>لماذا يهم هذا النوع أكثر في البيئات التجارية</h2>
+<p>يحمل الصرصور الألماني الوزن التنظيمي والسمعي نفسه لأي آفة في بيئة غذائية، وسلوكه يجعله أصعب في الاكتشاف.</p>
+<ul>
+  <li><strong>أماكن اختباء على مسافة لمس من الطعام:</strong> أجسام المحركات، مفاصل الأبواب، الحشوات، مجاري الكابلات، وخلف ألواح الجدران.</li>
+  <li><strong>نشاط ليلي:</strong> يبحث عن الطعام في الظلام، لذا يغيب عن التفتيش النهاري غالباً.</li>
+  <li><strong>الحاجة للحرارة:</strong> تفضّل درجات أعلى من نحو 20 درجة مئوية، وهذا يصف المطابخ التجارية على مدار العام.</li>
+  <li><strong>الحاجة للرطوبة:</strong> التسريبات والتكاثف وعيوب الصرف تُبقيهم حتى مع احتواء الطعام جيداً.</li>
+</ul>
+
+<h2>علامات إصابة الصرصور الألماني</h2>
+<p>لأن الحشرات نفسها نادراً ما تُرى نهاراً، تظهر الأدلة عادةً أولاً.</p>
+<ul>
+  <li>فضلات داكنة صغيرة تشبه الفلفل المطحون قرب الشقوق وحواف الرفوف.</li>
+  <li>أكياس بيض أو جلود منسلخة أو حشرات ميتة خلف الأجهزة وفي زوايا الخزائن.</li>
+  <li>رائحة عَفِن مستمرة في الأماكن المغلقة عند وجود أعداد كثيفة.</li>
+  <li>حشرات حية تُرى عند تشغيل الإضاءة، أو داخل حاويات وتغليف محكمة.</li>
+  <li>نشاط يُحصى على مصائد المراقبة الموضوعة في مناطق الخدمة.</li>
+</ul>
+
+<h2>منهج المكافحة لهذا النوع</h2>
+<p>لأن الصرصور الألماني يستقر داخلياً، تستهدف المعالجة مكان الاختباء لا المحيط. الطُعم الهلامي في الشقوق والفراغات هو الطريقة الأساسية؛ أما البخاخ المتبقي على الأسطح المكشوفة فيصل إلى الحشرات فقط عند عبورها مناطق معالجة.</p>
+<ul>
+  <li>ضع الطُعم في الشقوق والمفاصل وأجسام المحركات وفراغات الأجهزة، لا على أسطح تُغسل.</li>
+  <li>عالج مشكلات الرطوبة، لأن المستعمرة لا تستمر بدون ماء حتى مع طعام محدود.</li>
+  <li>استخدم مصائد المراقبة لتحديد ما إذا كانت الأعداد تتراجع بعد كل صيانة.</li>
+  <li>سدّ الفراغات وأصلحها حيث أمكن، لإزالة مكان الاختباء بدلاً من معالجته مراراً.</li>
+</ul>
+<p>تغطي <a href="/ar/blog/long-lasting-cockroach-spray-comparison">مقارنة البخاخ طويل الأمد</a> خيارات المتبقي، ويوضح <a href="/ar/blog/cockroach-bait-vs-spray-commercial">الطعم مقابل البخاخ</a> لماذا تنتمي الطريقتان إلى مناطق منفصلة. ويمكن للمنشآت التي تبني برنامجاً كاملاً مراجعة <a href="/ar/products/cockroach-killer-spray">مواصفات بخاخ الصراصير بالجملة</a> لكميات الكرتون.</p>
+
+<h2>الأسئلة الشائعة</h2>
+<h3>ما هو الصرصور الألماني؟</h3>
+<p>Blattella germanica، نوع صرصور داخلي صغير بطول 13 إلى 16 ملم، بني فاتح مع خطين داكنين متوازيين خلف الرأس. يعيش ويتكاثر داخل المباني قرب الطعام والرطوبة.</p>
+<h3>كيف تميّز الصرصور الألماني عن الأمريكي؟</h3>
+<p>بالحجم والموقع. الصرصور الألماني 13 إلى 16 ملم مع خطين داكنين ويوجد داخلياً في المطابخ والخزائن؛ والصرصور الأمريكي 30 إلى 40 ملم، بني محمر، ويوجد قرب المصارف والأقبية ومناطق الخدمة.</p>
+<h3>لماذا يصعب التخلص من الصراصير الألمانية؟</h3>
+<p>تختبئ في فراغات ضيقة قرب الطعام، وتنشط ليلاً، وتتكاثر سريعاً بـ30 إلى 40 بيضة لكل كيس، وتستمر على الرطوبة وحدها إذا لم تُصلح التسريبات.</p>
+<h3>هل تعيش الصراصير الألمانية في الخارج؟</h3>
+<p>لا. هي نوع داخلي ويصعب بقاؤه خارجياً، ولهذا تدل المستعمرة المستقرة في منشأة على وجود أماكن اختباء داخل المبنى لا على مشكلة في المحيط.</p>
+    `.trim(),
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
