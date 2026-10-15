@@ -965,6 +965,187 @@ const posts: BlogPost[] = [
 <p>تابع استهلاك الطُعم وعدد المصائد كل دورة. انخفاض الأعداد عبر الدورات المتتالية يدل على أن البرنامج يخفض المجموعة، لا يقتل حشرات فردية فقط.</p>
     `.trim(),
   },
+  {
+    slug: "household-mosquito-products-retailers-egypt",
+    title: "Household Mosquito Products for Retailers",
+    description: "What Egyptian retailers should stock for mosquito season: product mix by store type, carton economics, shelf turnover and a seasonal ordering timeline.",
+    "titleAr": "منتجات البعوض المنزلية لتجار التجزئة",
+    "descriptionAr": "ما الذي يجب أن يخزّنه تجار التجزئة في مصر لموسم البعوض: مزيج المنتجات حسب نوع المتجر، اقتصاديات الكرتون، دوران الرف، وجدول الطلب الموسمي.",
+    date: "2026-10-15",
+    author: "Parpar Team",
+    category: "Retail Guides",
+    "categoryAr": "أدلة التجزئة",
+    tags: [
+      "mosquito repellent wholesale",
+      "household mosquito products",
+      "retail stocking Egypt",
+      "mosquito spray carton",
+      "mosquito liquid refill wholesale",
+    ],
+    image: "/images/parpar-mosquito-repellent-spray-hero-product-shot.png",
+    contentHtml: `
+<h2>What Egyptian retailers should stock for mosquito season</h2>
+<p>Household mosquito products in Egypt sell across a long season that begins in spring and stays active well into autumn, which makes shelf planning more important than in markets with a short summer. Retailers who carry only one format leave money on the shelf, because households buy a spray for immediate use, a liquid refill for ongoing nightly protection, and a vaporizer kit when they want the refill to work. Stocking all three formats, in the right proportion for the neighbourhood you serve, is what keeps the category turning through the season.</p>
+<p>This guide covers the three product formats, how to set a stock mix by store type, carton economics, and a practical seasonal timeline for ordering.</p>
+
+<h2>The three formats households buy</h2>
+<table>
+<thead><tr><th>Format</th><th>Household use</th><th>Purchase behaviour</th><th>Carton size</th></tr></thead>
+<tbody>
+<tr><td>Aerosol mosquito spray</td><td>Fast action on a sighted insect; outdoor use on balconies and gardens</td><td>Impulse purchase, repeat during peak weeks</td><td>96 cans per carton</td></tr>
+<tr><td>Mosquito liquid refill</td><td>Nightly protection in bedrooms when used with a vaporizer</td><td>Consumable — bought again every few weeks</td><td>200 bottles per carton</td></tr>
+<tr><td>Electric vaporizer kit</td><td>Device plus liquid; the entry purchase for a new household</td><td>Higher unit value, bought once then topped up with refills</td><td>100 to 120 kits per carton</td></tr>
+</tbody>
+</table>
+<p>The commercial logic is straightforward: the kit brings a household into the category, the refill generates repeat visits, and the aerosol captures impulse demand. A shelf with only aerosols sells once; a shelf with all three sells the same household several times a season.</p>
+
+<h2>Setting the stock mix by store type</h2>
+<p>There is no single correct ratio, but store type is the strongest signal. Use the guide below as a starting point and adjust against your own sales data after the first season.</p>
+<ul>
+  <li><strong>Supermarkets and grocery chains:</strong> lead with aerosols and refills, and keep a smaller kit allocation for first-time buyers.</li>
+  <li><strong>Hardware and home stores:</strong> kits perform better here, since customers arrive with a specific household task in mind.</li>
+  <li><strong>Pharmacies:</strong> families with young children often ask for guidance, so keep clear label information and a balanced mix rather than a deep single-format stack.</li>
+  <li><strong>Neighbourhood convenience stores:</strong> concentrate on aerosols, which turn fastest in small-format retail, with a modest refill line.</li>
+</ul>
+
+<h2>Carton economics and shelf turnover</h2>
+<p>Household mosquito products are a seasonal, repeat-purchase category, so turnover matters more than unit margin. Order at carton level and negotiate volume tiers rather than buying in loose units, then track how many cartons clear per week during peak season.</p>
+<ul>
+  <li>Calculate cost per carton, not cost per unit, and compare across the season.</li>
+  <li>Confirm delivery terms for governorates outside Cairo before committing to a peak-season order.</li>
+  <li>Keep refills in stock through the whole season — running out of refills loses the repeat purchase the kit created.</li>
+  <li>Watch single-format concentration: a deep stack of one product ties up capital if demand shifts.</li>
+</ul>
+
+<h2>Seasonal ordering timeline</h2>
+<ol>
+  <li>Place the first seasonal order before activity rises, so shelves are stocked when the first warm weeks arrive.</li>
+  <li>Restock refills on a short cycle from the first month of the season, since these sell through fastest.</li>
+  <li>Mid-season, review which format is turning and shift the mix rather than reordering the same split.</li>
+  <li>Late season, reduce kit orders first, as household device demand drops before consumable demand.</li>
+  <li>After the season, compare cartons sold per format to set next year's opening order.</li>
+</ol>
+
+<h2>What households actually ask for</h2>
+<p>Retail staff conversations shape what sells, and a few recurring questions reveal what shoppers need on the shelf. Being able to answer them also builds repeat custom.</p>
+<ul>
+  <li>"How long does one liquid bottle last?" — the answer determines how often the customer returns.</li>
+  <li>"Is it safe to use in a bedroom with children?" — label information in Arabic matters here.</li>
+  <li>"Does the refill fit my existing device?" — carrying a compatible refill protects the household's repeat purchase.</li>
+  <li>"What do I use on the balcony?" — an aerosol covers the outdoor use the refill cannot.</li>
+</ul>
+
+<h2>Helping customers use products correctly</h2>
+<p>Household results improve when product choice matches the space. A simple explanation at the point of sale lifts satisfaction, and satisfied customers return for refills next month.</p>
+<ul>
+  <li><strong>Sleeping areas:</strong> a vaporizer with liquid gives all-night protection without repeated spraying.</li>
+  <li><strong>Living areas during the evening:</strong> an aerosol handles a sighted insect quickly.</li>
+  <li><strong>Balconies, gardens and doorways:</strong> aerosols cover outdoor entry points and gathering spots.</li>
+</ul>
+
+<h2>Common stocking mistakes</h2>
+<ul>
+  <li>Carrying a single format, then losing the repeat purchase the category depends on.</li>
+  <li>Under-ordering refills, which sell through faster than any other format.</li>
+  <li>Ignoring Arabic label information, which slows purchase decisions in family households.</li>
+  <li>Buying in loose units instead of cartons, which raises unit cost and breaks the delivery cycle.</li>
+</ul>
+
+<h2>Supplying the category</h2>
+<p>Parpar manufactures household mosquito control products under a pesticide production licence with independent safety testing, and supplies retailers and distributors across Egyptian governorates in carton quantities. Review the <a href="/products/mosquito-repellent-spray">mosquito repellent spray specification</a>, see the <a href="/products/mosquito-liquid-bottle">liquid refill range</a>, or <a href="/buyers">view wholesale terms</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What mosquito products should a retailer stock for summer?</h3>
+<p>A combination of aerosol spray, liquid refill and vaporizer kits. The kit brings households into the category, refills generate repeat visits, and aerosols capture impulse purchases.</p>
+<h3>How many cartons should a small retailer order first?</h3>
+<p>Start with a mix weighted towards aerosols for small-format retail, then adjust after the first season using cartons sold per format as the guide.</p>
+<h3>Are refills or sprays more profitable for retailers?</h3>
+<p>Sprays typically sell faster in small stores, while refills produce repeat purchases through the season. Carrying both protects the category against a demand shift.</p>
+<h3>Do these products require Arabic labelling in Egypt?</h3>
+<p>Arabic and English label information helps both inspectors and shoppers, and it speeds up purchase decisions in family households.</p>
+    `.trim(),
+    contentHtmlAr: `
+<h2>ما الذي يجب أن يخزّنه تجار التجزئة المصريون لموسم البعوض</h2>
+<p>تبيع منتجات البعوض المنزلية في مصر خلال موسم طويل يبدأ في الربيع ويستمر حتى أواخر الخريف، ما يجعل تخطيط الرفوف أكثر أهمية من الأسواق ذات الصيف القصير. والتجار الذين يحملون صيغة واحدة فقط يتركون جزءاً من المبيعات على الرف، لأن الأسرة تشتري البخاخ للاستخدام الفوري، وسائل إعادة التعبئة للحماية الليلية المستمرة، وطقم المبخر عندما تريد تشغيل السائل. وتخزين الصيغ الثلاث بالنسب الصحيحة للحي الذي تخدمه هو ما يُبقي هذه الفئة متحركة طوال الموسم.</p>
+<p>يغطي هذا الدليل الصيغ الثلاث، وكيف تحدد مزيج المخزون حسب نوع المتجر، واقتصاديات الكرتون، وجدولاً موسمياً عملياً للطلب.</p>
+
+<h2>الصيغ الثلاث التي تشتريها الأسر</h2>
+<table>
+<thead><tr><th>الصيغة</th><th>الاستخدام المنزلي</th><th>سلوك الشراء</th><th>حجم الكرتون</th></tr></thead>
+<tbody>
+<tr><td>بخاخ أيروسول للبعوض</td><td>مفعول سريع عند رؤية حشرة؛ للاستخدام الخارجي على الشرفات والحدائق</td><td>شراء اندفاعي، ويتكرر في أسابيع الذروة</td><td>96 علبة لكل كرتون</td></tr>
+<tr><td>سائل إعادة تعبئة البعوض</td><td>حماية ليلية في غرف النوم عند استخدامه مع مبخر</td><td>سلعة استهلاكية — يُشترى كل بضعة أسابيع</td><td>200 عبوة لكل كرتون</td></tr>
+<tr><td>طقم المبخر الكهربائي</td><td>جهاز مع السائل؛ أول شراء لأسرة جديدة</td><td>قيمة وحدة أعلى، يُشترى مرة ثم يُعاد تعبئته</td><td>100 إلى 120 طقماً لكل كرتون</td></tr>
+</tbody>
+</table>
+<p>المنطق التجاري واضح: الطقم يُدخل الأسرة إلى الفئة، وسائل إعادة التعبئة يولّد زيارات متكررة، ويجذب الأيروسول الطلب الاندفاعي. والرف الذي يحمل الأيروسول وحده يبيع مرة واحدة؛ أما الرف الذي يحمل الثلاثة فيبيع للأسرة نفسها عدة مرات في الموسم.</p>
+
+<h2>تحديد مزيج المخزون حسب نوع المتجر</h2>
+<p>لا توجد نسبة صحيحة واحدة، لكن نوع المتجر هو أقوى مؤشر. استخدم الدليل التالي كنقطة بداية ثم عدّله وفق بيانات مبيعاتك بعد الموسم الأول.</p>
+<ul>
+  <li><strong>السوبر ماركت وسلاسل البقالة:</strong> تصدّر الأيروسول وسوائل إعادة التعبئة، وخصّص حصة أقل من الأطقم للمشترين الجدد.</li>
+  <li><strong>متاجر الأدوات والمستلزمات المنزلية:</strong> تناسبها الأطقم أكثر لأن العملاء يأتون بمهمة منزلية محددة في ذهنهم.</li>
+  <li><strong>الصيدليات:</strong> تسأل الأسرة ذات الأطفال الصغار عن التوجيه، لذا احتفظ بمعلومات ملصق واضحة ومزيج متوازن بدلاً من كومة صيغة واحدة.</li>
+  <li><strong>البقالة الصغيرة:</strong> ركّز على الأيروسول الذي يتحرك أسرع في التجزئة صغيرة الحجم، مع خط محدود من إعادة التعبئة.</li>
+</ul>
+
+<h2>اقتصاديات الكرتون ودوران الرف</h2>
+<p>منتجات البعوض المنزلية فئة موسمية متكررة الشراء، لذا فإن الدوران أهم من هامش الوحدة. اطلب على مستوى الكرتون وتفاوض على شرائح كمية بدلاً من الشراء بوحدات مفرقة، ثم تابع عدد الكراتين التي تُبيع أسبوعياً خلال الذروة.</p>
+<ul>
+  <li>احسب التكلفة لكل كرتون، لا لكل وحدة، وقارن عبر الموسم.</li>
+  <li>تأكد من شروط التوصيل للمحافظات خارج القاهرة قبل الالتزام بطلب موسم الذروة.</li>
+  <li>احتفظ بسوائل إعادة التعبئة طوال الموسم — نفادها يُفقد الشراء المتكرر الذي أنشأه الطقم.</li>
+  <li>احذر التركيز على صيغة واحدة: كومة عميقة من منتج واحد تحبس رأس المال إذا تحوّل الطلب.</li>
+</ul>
+
+<h2>الجدول الموسمي للطلب</h2>
+<ol>
+  <li>قدّم الطلب الموسمي الأول قبل ارتفاع النشاط، فتكون الرفوف ممتلئة عند أول أسابيع الدفء.</li>
+  <li>أعد تخزين سوائل إعادة التعبئة بدورة قصيرة من الشهر الأول للموسم، لأنها تبيع أسرع.</li>
+  <li>في منتصف الموسم، راجع أي صيغة تتحرك وعدّل المزيج بدلاً من إعادة الطلب بالنسب نفسها.</li>
+  <li>في آخر الموسم، قلّل طلبات الأطقم أولاً، لأن طلب الأجهزة المنزلية ينخفض قبل طلب المستهلكات.</li>
+  <li>بعد الموسم، قارن الكراتين المبيعة لكل صيغة لتحديد طلب افتتاح العام القادم.</li>
+</ol>
+
+<h2>ما تسأل عنه الأسر فعلياً</h2>
+<p>تحدد محادثات موظفي التجزئة ما يُبيع، وتكشف بعض الأسئلة المتكررة ما يحتاجه المتسوق على الرف. والقدرة على الإجابة عنها تبني أيضاً ولاءً متكرراً.</p>
+<ul>
+  <li>"كم تدوم عبوة السائل الواحدة؟" — الجواب يحدد تكرار عودة العميل.</li>
+  <li>"هل هو آمن في غرفة نوم فيها أطفال؟" — معلومات الملصق بالعربية مهمة هنا.</li>
+  <li>"هل تناسب إعادة التعبئة جهازي الحالي؟" — حمل إعادة تعبئة متوافقة يحمي الشراء المتكرر للأسرة.</li>
+  <li>"بماذا أستخدم على الشرفة؟" — يغطي الأيروسول الاستخدام الخارجي الذي لا يغطيه السائل.</li>
+</ul>
+
+<h2>مساعدة العملاء على الاستخدام الصحيح</h2>
+<p>تتحسن النتائج المنزلية عندما يناسب المنتج المساحة. وشرح بسيط عند نقطة البيع يرفع الرضا، والعملاء الراضون يعودون لإعادة التعبئة الشهر التالي.</p>
+<ul>
+  <li><strong>مناطق النوم:</strong> يمنح المبخر مع السائل حماية طوال الليل دون رشّ متكرر.</li>
+  <li><strong>مناطق المعيشة مساءً:</strong> يتعامل الأيروسول مع حشرة مرئية بسرعة.</li>
+  <li><strong>الشرفات والحدائق والمداخل:</strong> تغطي البخاخات نقاط الدخول الخارجية وأماكن التجمع.</li>
+</ul>
+
+<h2>أخطاء التخزين الشائعة</h2>
+<ul>
+  <li>حمل صيغة واحدة، ثم فقدان الشراء المتكرر الذي تعتمد عليه الفئة.</li>
+  <li>الطلب المنخفض لسوائل إعادة التعبئة، وهي الأسرع بيعاً بين الصيغ.</li>
+  <li>تجاهل معلومات الملصق بالعربية، ما يبطئ قرار الشراء في الأسر.</li>
+  <li>الشراء بوحدات مفرقة بدلاً من الكراتين، ما يرفع تكلفة الوحدة ويقطع دورة التوصيل.</li>
+</ul>
+
+<h2>توريد هذه الفئة</h2>
+<p>تصنّع باربار منتجات مكافحة البعوض المنزلية بموجب رخصة إنتاج مبيدات مع اختبارات سلامة مستقلة، وتورّد لتجار التجزئة والموزعين في محافظات مصر بكميات الكرتون. راجع <a href="/ar/products/mosquito-repellent-spray">مواصفات بخاخ طارد البعوض</a>، أو اطّلع على <a href="/ar/products/mosquito-liquid-bottle">مجموعة سوائل إعادة التعبئة</a>، أو <a href="/ar/buyers">شروط البيع بالجملة</a>.</p>
+
+<h2>الأسئلة الشائعة</h2>
+<h3>ما منتجات البعوض التي يجب أن يخزّنها تاجر التجزئة للصيف؟</h3>
+<p>مزيج من بخاخ الأيروسول وسائل إعادة التعبئة وأطقم المبخر. يُدخل الطقم الأسر إلى الفئة، وتولّد إعادة التعبئة زيارات متكررة، ويلتقط الأيروسول المشتريات الاندفاعية.</p>
+<h3>كم كرتوناً يجب أن يطلب تاجر تجزئة صغير أولاً؟</h3>
+<p>ابدأ بمزيج يميل إلى الأيروسول للتجزئة صغيرة الحجم، ثم عدّل بعد الموسم الأول مستعيناً بعدد الكراتين المبيعة لكل صيغة.</p>
+<h3>هل سوائل إعادة التعبئة أم البخاخات أكثر ربحية لتجار التجزئة؟</h3>
+<p>تبيع البخاخات أسرع في المتاجر الصغيرة، بينما تنتج إعادة التعبئة مشتريات متكررة خلال الموسم. وحمل الاثنين يحمي الفئة من تحوّل الطلب.</p>
+<h3>هل تحتاج هذه المنتجات ملصقاً عربياً في مصر؟</h3>
+<p>تساعد معلومات الملصق بالعربية والإنجليزية المفتشين والمتسوقين معاً، وتسرّع قرار الشراء في الأسر.</p>
+    `.trim(),
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
