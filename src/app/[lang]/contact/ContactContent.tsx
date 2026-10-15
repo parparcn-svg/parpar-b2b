@@ -3,6 +3,7 @@
 import Link from "@/components/LocalizedLink";
 import InquiryForm from "@/components/InquiryForm";
 import { useTranslation } from "@/lib/useTranslation";
+import type { TranslationKey } from "@/lib/useTranslation";
 
 export default function ContactContent() {
   const { t, lang } = useTranslation();
@@ -86,6 +87,23 @@ export default function ContactContent() {
             </div>
           </div>
         </div>
+
+        {/* FAQ —— 补充正文内容，并与 page.tsx 里的 FAQPage 结构化数据保持一致 */}
+        <section className="mt-14 lg:mt-16 max-w-4xl">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">{t("contact.faq.title")}</h2>
+          <div className="space-y-4">
+            {[1, 2, 3, 4].map((i) => (
+              <div key={i} className="bg-white border border-gray-100 rounded-2xl p-5">
+                <h3 className="font-semibold text-gray-900">
+                  {t(`contact.faq.q${i}` as TranslationKey)}
+                </h3>
+                <p className="text-gray-600 text-sm mt-2 leading-relaxed">
+                  {t(`contact.faq.a${i}` as TranslationKey)}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
       </div>
     </>
   );

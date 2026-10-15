@@ -140,6 +140,15 @@ const ar: Record<string, string> = {
   "contact.routing.buyer": "مشتري بالجملة",
   "contact.routing.buyer.desc": "مكتب طلبات الجملة",
   "contact.form.title": "نموذج الاستفسار",
+  "contact.faq.title": "الأسئلة الشائعة",
+  "contact.faq.q1": "ما هو الحد الأدنى لكمية الطلب (MOQ)؟",
+  "contact.faq.a1": "يعتمد الحد الأدنى على خط المنتج. لبخاخات الأيروسول يبدأ من كرتونة واحدة (24 عبوة)، وتبدأ أسعار الجملة من 10 كراتين. تواصل معنا للحصول على عرض سعر حسب المنتج.",
+  "contact.faq.q2": "هل تقومون بالتوصيل في جميع أنحاء مصر؟",
+  "contact.faq.a2": "نعم. نشحن من القاهرة إلى جميع المحافظات، بما في ذلك الإسكندرية والجيزة والدلتا والصعيد والبحر الأحمر. تستغرق مدة التوصيل عادة من 2 إلى 5 أيام عمل.",
+  "contact.faq.q3": "هل يمكنكم التوريد بعلامة تجارية خاصة؟",
+  "contact.faq.a3": "نعم. نقدم التصنيع بعلامة تجارية خاصة (OEM) مع تصميم مخصص وملصقات بالعربية والإنجليزية، واسم علامتك التجارية على العبوة والكرتونة.",
+  "contact.faq.q4": "ما مدى سرعة الرد على الاستفسارات؟",
+  "contact.faq.a4": "يرد فريق المبيعات خلال 24 ساعة في أيام العمل، وغالباً في وقت أقصر. للطلبات العاجلة استخدم زر واتساب.",
 
   /* Buyers */
   "buyers.badge": "توريد بالجملة",
@@ -461,6 +470,15 @@ const en: Record<string, string> = {
   "contact.routing.buyer": "Bulk Buyer",
   "contact.routing.buyer.desc": "Bulk Orders Desk",
   "contact.form.title": "Inquiry Form",
+  "contact.faq.title": "Frequently Asked Questions",
+  "contact.faq.q1": "What is the minimum order quantity (MOQ)?",
+  "contact.faq.a1": "MOQ depends on the product line. Aerosol sprays start at one carton (24 units), and wholesale pricing tiers begin at 10 cartons. Contact us for a product-specific quote.",
+  "contact.faq.q2": "Do you deliver across Egypt?",
+  "contact.faq.a2": "Yes. We ship nationwide from Cairo, including Alexandria, Giza, the Delta, Upper Egypt, and the Red Sea governorates. Delivery normally takes 2 to 5 business days.",
+  "contact.faq.q3": "Can you supply private label or custom packaging?",
+  "contact.faq.a3": "Yes. We provide private label (OEM) production with custom artwork, Arabic and English labelling, and your brand on the can and carton.",
+  "contact.faq.q4": "How fast do you reply to inquiries?",
+  "contact.faq.a4": "Our sales team replies within 24 hours on business days, and usually sooner. For urgent orders, use the WhatsApp button.",
 
   /* Buyers */
   "buyers.badge": "Bulk Supply",
