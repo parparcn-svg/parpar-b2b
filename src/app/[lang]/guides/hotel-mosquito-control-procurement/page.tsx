@@ -1,7 +1,22 @@
 import type { Metadata } from "next";
 import Link from "@/components/LocalizedLink";
 
-export const metadata: Metadata = {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const PATH = "/guides/hotel-mosquito-control-procurement";
+  return {
+    alternates: {
+      canonical: `/${lang}${PATH}`,
+      languages: {
+        en: `/en${PATH}`,
+        ar: `/ar${PATH}`,
+        "x-default": `/en${PATH}`,
+      },
+    },
   title: "Hotel Pest Control Procurement Guide Egypt",
   description:
     "Guide for hotel procurement managers in Egypt: mosquito control solutions, vendor selection criteria, and bulk supply contracts.",
@@ -9,7 +24,8 @@ export const metadata: Metadata = {
     title: "Hotel Pest Control Procurement Guide Egypt",
     description: "Complete guide for hotel procurement: mosquito control solutions, supplier selection, and bulk contracts in Egypt.",
   },
-};
+  };
+}
 
 export default async function HotelGuidePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;

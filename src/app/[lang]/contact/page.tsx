@@ -1,15 +1,31 @@
 import type { Metadata } from "next";
 import ContactContent from "./ContactContent";
 
-export const metadata: Metadata = {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const PATH = "/contact";
+  return {
+    alternates: {
+      canonical: `/${lang}${PATH}`,
+      languages: {
+        en: `/en${PATH}`,
+        ar: `/ar${PATH}`,
+        "x-default": `/en${PATH}`,
+      },
+    },
   title: "Contact & Inquiry",
   description:
-    "Send us your B2B inquiry. Whether you're a distributor, hotel procurement manager, or bulk buyer — our team responds within 24 hours with a customized quote.",
+    "Send us your B2B inquiry. Distributor, hotel procurement manager, or bulk buyer — our team replies within 24 hours with a customized quote.",
   openGraph: {
     title: "Contact & Inquiry | Parpar B2B",
     description: "Get a customized B2B quote for pest control products within 24 hours.",
   },
-};
+  };
+}
 
 /** FAQ 数据 —— 必须与 ContactContent 中渲染的可见内容一致 */
 const FAQS_EN = [

@@ -1,7 +1,22 @@
 import type { Metadata } from "next";
 import Link from "@/components/LocalizedLink";
 
-export const metadata: Metadata = {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const PATH = "/guides/wholesale-pest-control-egypt";
+  return {
+    alternates: {
+      canonical: `/${lang}${PATH}`,
+      languages: {
+        en: `/en${PATH}`,
+        ar: `/ar${PATH}`,
+        "x-default": `/en${PATH}`,
+      },
+    },
   title: "Wholesale Pest Control Products Egypt",
   description:
     "Guide to buying pest control products wholesale in Egypt: MOQ, pricing, certifications, and supplier selection.",
@@ -9,7 +24,8 @@ export const metadata: Metadata = {
     title: "Wholesale Pest Control Guide Egypt 2026 | Parpar",
     description: "Complete B2B guide to wholesale pest control buying in Egypt — MOQ, pricing, and supplier selection.",
   },
-};
+  };
+}
 
 export default async function WholesaleGuidePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;

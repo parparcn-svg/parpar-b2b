@@ -1,7 +1,22 @@
 import type { Metadata } from "next";
 import Link from "@/components/LocalizedLink";
 
-export const metadata: Metadata = {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const PATH = "/guides/pest-control-distributor-partnership";
+  return {
+    alternates: {
+      canonical: `/${lang}${PATH}`,
+      languages: {
+        en: `/en${PATH}`,
+        ar: `/ar${PATH}`,
+        "x-default": `/en${PATH}`,
+      },
+    },
   title: "Pest Control Distributor Partnership Egypt",
   description:
     "Guide to becoming a pest control distributor in Egypt: partnership models, requirements, benefits, and how to apply.",
@@ -9,7 +24,8 @@ export const metadata: Metadata = {
     title: "Distributor Partnership Guide Egypt | Parpar",
     description: "Step-by-step guide to becoming a Parpar distributor in Egypt. Regional exclusive territories, wholesale pricing, and marketing support.",
   },
-};
+  };
+}
 
 export default async function DistributorGuidePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;

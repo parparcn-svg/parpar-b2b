@@ -7,9 +7,17 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang } = await params;
   const isAr = lang === "ar";
   return {
+    alternates: {
+      canonical: `/${lang}/blog`,
+      languages: {
+        en: `/en/blog`,
+        ar: `/ar/blog`,
+        "x-default": `/en/blog`,
+      },
+    },
     title: isAr
       ? "رؤى صناعة مكافحة الآفات في مصر"
-      : "Pest Control Blog & Industry Insights — Egypt",
+      : "Pest Control Blog & Insights Egypt",
     description: isAr
       ? "أدلة شراء وتحليلات سوقية لصناعة مكافحة الآفات في مصر: طارد البعوض بالجملة، مكافحة الصراصير، وامتثال الموردين."
       : "Buying guides and market analysis for Egypt's pest control industry: mosquito repellent wholesale, cockroach control, and supplier compliance.",
