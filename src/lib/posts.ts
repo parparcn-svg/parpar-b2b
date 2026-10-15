@@ -1232,7 +1232,7 @@ const posts: BlogPost[] = [
 <h3>How often should a hotel treat for cockroaches?</h3>
 <p>Most properties run a monthly scheduled programme with additional targeted treatment after any confirmed sighting. Kitchens need more frequent attention than guest floors or service areas.</p>
 <h3>Are cockroach sprays safe to use in occupied hotels?</h3>
-<p>Crack-and-crevice application with low-odour products is standard practice between checkouts. Kitchens are treated outside service hours. Label instructions and MSDS documentation should be followed for every product on site.</h3>
+<p>Crack-and-crevice application with low-odour products is standard practice between checkouts. Kitchens are treated outside service hours. Label instructions and MSDS documentation should be followed for every product on site.</p>
 <h3>What is the difference between treating German and American cockroaches in a hotel?</h3>
 <p>German cockroaches establish indoors in kitchens and pantries and respond best to bait placed in cracks. American cockroaches usually enter from drains and service areas and require residual surface treatment plus drainage work.</p>
 <h3>What documentation should a hotel keep for pest control inspections?</h3>
