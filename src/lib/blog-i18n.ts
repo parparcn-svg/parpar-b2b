@@ -3,6 +3,7 @@ export interface BlogUiStrings {
   blog: string;
   readMore: string;
   backToBlog: string;
+  relatedTitle: string;
   ctaTitle: string;
   ctaDesc: string;
   sendInquiry: string;
@@ -18,6 +19,7 @@ export function blogUiStrings(lang: string): BlogUiStrings {
         blog: "المدونة",
         readMore: "اقرأ المزيد",
         backToBlog: "العودة إلى المدونة",
+        relatedTitle: "مقالات ذات صلة",
         ctaTitle: "هل تحتاج مورد B2B لمنتجات مكافحة الآفات في مصر؟",
         ctaDesc: "تواصل مع باربار لمعرفة أسعار الجملة والحد الأدنى للطلب وحلول التوريد المخصصة.",
         sendInquiry: "إرسال استفسار",
@@ -30,6 +32,7 @@ export function blogUiStrings(lang: string): BlogUiStrings {
         blog: "Blog",
         readMore: "Read More",
         backToBlog: "Back to Blog",
+        relatedTitle: "Related Articles",
         ctaTitle: "Need a B2B Supplier for Pest Control Products in Egypt?",
         ctaDesc:
           "Contact Parpar for wholesale pricing, MOQ information, and customized supply solutions.",

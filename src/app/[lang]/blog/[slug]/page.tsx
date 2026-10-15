@@ -37,6 +37,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ lang:
   const isAr = lang === "ar";
   const s = blogUiStrings(lang);
 
+  // 相关文章：同栏目优先，不足 3 篇用其它文章补齐。
+  // 每篇博客因此获得额外入链，改善"仅一个内链"的孤岛页问题。
+  const others = getAllPosts().filter((p) => p.slug !== post.slug);
+  const related = [
+    ...others.filter((p) => p.category === post.category),
+    ...others.filter((p) => p.category !== post.category),
+  ].slice(0, 3);
+
   // FAQPage 结构化数据直接从页面可见 HTML 提取，保证 schema 与展示内容一致
   const html = isAr ? post.contentHtmlAr : post.contentHtml;
   const faqs = extractFaqs(html);
@@ -139,6 +147,32 @@ export default async function BlogPostPage({ params }: { params: Promise<{ lang:
             </svg>
           </Link>
         </div>
+
+        {/* Related articles：每篇获得 3 个内链入链 */}
+        {related.length > 0 && (
+          <div className="mt-12 pt-8 border-t border-gray-100">
+            <h2 className="text-xl font-bold text-gray-900 mb-6">{s.relatedTitle}</h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {related.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/blog/${r.slug}`}
+                  className="group block border border-gray-100 rounded-xl p-5 hover:border-green-200 hover:shadow-sm transition-all"
+                >
+                  <span className="text-xs font-medium text-green-700">
+                    {isAr ? r.categoryAr : r.category}
+                  </span>
+                  <h3 className="text-base font-semibold text-gray-900 mt-2 group-hover:text-green-700 transition-colors leading-snug">
+                    {isAr ? r.titleAr : r.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 mt-2 leading-relaxed">
+                    {isAr ? r.descriptionAr : r.description}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Post navigation */}
         <div className="mt-10 pt-8 border-t border-gray-100">
