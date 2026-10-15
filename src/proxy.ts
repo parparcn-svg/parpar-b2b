@@ -13,11 +13,17 @@ export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const host = request.headers.get("host") || "";
 
-  // 1) www 变体 → 301 裸域（先于语言处理，保证 www/about 也落到 /en/about）
+  // 1) www 变体 → 301 裸域（先于语言处理）。
+  //    无语言前缀时一并补上前缀，避免 www/about → /about → /en/about 的两级跳转。
   if (host.startsWith("www.")) {
     const url = request.nextUrl.clone();
     url.host = CANONICAL_HOST;
     url.protocol = "https";
+    const first = pathname.split("/")[1] ?? "";
+    if (!(LANGS as readonly string[]).includes(first)) {
+      const prefix = prefersArabic(request) ? "/ar" : "/en";
+      url.pathname = pathname === "/" ? prefix : `${prefix}${pathname}`;
+    }
     return NextResponse.redirect(url, 301);
   }
 
