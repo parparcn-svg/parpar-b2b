@@ -454,6 +454,517 @@ const posts: BlogPost[] = [
 <h3>هل تدعم باربار العلامة الخاصة أو التغليف المخصص؟</h3>
 <p>تتوفر خيارات التغليف المخصص للمشترين بالجملة المؤهلين وفقاً لمتطلبات الطلب.</p>`,
   },
+  {
+    slug: "commercial-cockroach-control-egypt-procurement",
+    title: "Commercial Cockroach Control: Procurement Guide",
+    description: "How hotels and restaurants in Egypt structure a commercial cockroach control programme: product roles, treatment cycle, cost per outlet and supplier checks.",
+    "titleAr": "مكافحة الصراصير التجارية: دليل الشراء",
+    "descriptionAr": "كيف تبني الفنادق والمطاعم في مصر برنامج مكافحة صراصير تجارياً: أدوار المنتجات، دورة المعالجة، التكلفة لكل منفذ، والتحقق من المورد.",
+    date: "2026-10-15",
+    author: "Parpar Team",
+    category: "Buying Guides",
+    "categoryAr": "أدلة الشراء",
+    tags: [
+      "commercial cockroach control",
+      "cockroach control Egypt",
+      "hotel pest control",
+      "restaurant pest control",
+      "cockroach killer spray wholesale",
+    ],
+    image: "/images/parpar-cockroach-killer-spray-hero-product-shot.png",
+    contentHtml: `
+<h2>What commercial cockroach control actually requires</h2>
+<p>Commercial cockroach control is a scheduled product-and-application programme for food service and hospitality premises, not a single spray. Hotels, restaurants and food factories in Egypt need three things at once: fast knockdown when a live insect appears, residual protection between visits, and documentation that satisfies a health inspector. A programme built around one product fails on at least one of those three.</p>
+<p>This guide explains how Egyptian hospitality and food businesses structure that programme, what each product type contributes, how to estimate cost per outlet, and which supplier documents to verify before ordering.</p>
+
+<h2>Why premises in Egypt face higher pressure</h2>
+<p>Egypt's climate keeps cockroach populations active across most of the year rather than for a short summer season, and the country's dense urban food trade means reinfestation pressure is constant. German cockroaches in particular breed quickly in warm, humid kitchens, and a single undetected harbourage behind a refrigerator can repopulate a kitchen within weeks.</p>
+<ul>
+  <li>Warm, humid kitchens — breeding continues year round instead of pausing in winter.</li>
+  <li>Shared building services — drains, wall voids and delivery corridors connect units, so treating one outlet rarely ends the problem.</li>
+  <li>Inspection exposure — a hotel or restaurant with visible activity risks failed inspections, guest complaints and review damage.</li>
+  <li>Regular deliveries — incoming cartons and crates are a well-documented transport route for nymphs and egg cases.</li>
+</ul>
+
+<h2>The three product roles in a commercial programme</h2>
+<p>Commercial programmes use different product types for different jobs. Understanding the division of labour prevents the most common purchasing mistake — buying one product and expecting it to do all three.</p>
+<table>
+<thead><tr><th>Role</th><th>Product type</th><th>Strength</th><th>Limitation</th></tr></thead>
+<tbody>
+<tr><td>Immediate knockdown</td><td>Aerosol contact spray</td><td>Visible result within seconds; usable during service hours on spot sightings</td><td>Little residual effect; repeated application needed</td></tr>
+<tr><td>Residual barrier</td><td>Long-lasting pyrethroid spray</td><td>Weeks of protection on harbourage surfaces such as baseboards and equipment housings</td><td>Must be reapplied to a schedule; ineffective where surfaces are washed daily</td></tr>
+<tr><td>Population suppression</td><td>Bait and insect growth regulator</td><td>Reduces reproduction and reaches harbourages sprays cannot contact</td><td>Slower acting; requires disciplined placement away from food</td></tr>
+</tbody>
+</table>
+<p>A workable commercial kit therefore combines an aerosol for spot control, a residual product for scheduled treatment, and baits for suppression — which is why the product list matters as much as the volume bought.</p>
+
+<h2>How to design the treatment cycle</h2>
+<p>Most Egyptian food service premises settle on a monthly cycle with daily checks, and hospitality properties with higher turnover often run fortnightly treatment on guest-facing areas. Use the following questions to set your own frequency rather than copying a competitor's schedule.</p>
+<ol>
+  <li>How many kitchens, storage rooms and waste areas need treatment? Count harbourage points, not floor area.</li>
+  <li>Has there been activity in the last 30 days? Confirmed activity warrants fortnightly treatment until trap counts fall to zero.</li>
+  <li>Do the same staff carry out cleaning and pest checks? Assigning a named person per shift is what makes a cycle hold.</li>
+  <li>What documentation does your health inspector or hotel group audit require? This determines product choice before price does.</li>
+</ol>
+
+<h2>Estimating cost per outlet</h2>
+<p>Commercial buyers should calculate cost per outlet per month rather than cost per can. A 45 ml aerosol can treats a defined number of harbourage points, so the number of cans consumed each month depends on building layout. Ask suppliers for consumption per kitchen, then compare across quarters.</p>
+<ul>
+  <li>Request pricing at carton level with volume tiers, since unit price drops as order volume rises.</li>
+  <li>Confirm whether delivery is included for governorates outside Cairo, as freight can exceed product cost on small orders.</li>
+  <li>Budget for baits and residual products as a separate line — programmes that cut them usually see activity return within one season.</li>
+</ul>
+
+<h2>Common mistakes in commercial programmes</h2>
+<ul>
+  <li>Treating only where insects are seen, instead of treating harbourage points along baseboards, drains and equipment housings.</li>
+  <li>Applying residual product to surfaces that are washed and sanitised daily, which removes protection within hours.</li>
+  <li>Ignoring incoming deliveries, so reinfestation occurs within days of a successful treatment.</li>
+  <li>Buying on price alone and receiving products without the safety documentation an inspector expects to see.</li>
+</ul>
+
+<h2>Supplier verification checklist</h2>
+<p>Before placing a wholesale order in Egypt, request the following and keep them on file for inspection.</p>
+<ul>
+  <li>Product registration and the manufacturer's pesticide production licence.</li>
+  <li>Acute dermal and acute inhalation toxicity test reports.</li>
+  <li>Material Safety Data Sheet (MSDS) and GHS safety data sheet for each product line.</li>
+  <li>Batch-level certificates with each shipment, for customs and internal audits.</li>
+  <li>Label copies in Arabic and English showing application rates and container sizes.</li>
+</ul>
+<p>Parpar manufactures under a pesticide production licence with independent safety testing, and supplies commercial cockroach control products to hotels, restaurants and cleaning companies across Egyptian governorates. Review the <a href="/products/cockroach-killer-spray">cockroach killer spray specification</a>, see the <a href="/buyers">commercial buyer programme</a>, or <a href="/contact">request commercial pricing</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How often should a restaurant in Egypt treat for cockroaches?</h3>
+<p>Most premises treat monthly with daily visual checks. Fortnightly treatment is appropriate while confirmed activity continues, dropping back to monthly once trap counts reach zero for two consecutive cycles.</p>
+<h3>Is one aerosol spray enough for a commercial kitchen?</h3>
+<p>No. Aerosol provides fast knockdown but little residual protection, so it is normally paired with a scheduled residual treatment and baits for population suppression.</p>
+<h3>What documentation should a pest control supplier provide?</h3>
+<p>Request the pesticide production licence, acute dermal and acute inhalation toxicity reports, MSDS and GHS safety data sheets, and batch certificates with each shipment.</p>
+<h3>Can we treat a kitchen during operating hours?</h3>
+<p>Spot treatment of a sighted insect is possible in most cases, but scheduled residual application should be done when the area is empty and surfaces can be left undisturbed, away from food contact surfaces.</p>
+    `.trim(),
+    contentHtmlAr: `
+<h2>ما الذي تتطلبه مكافحة الصراصير التجارية فعلياً</h2>
+<p>مكافحة الصراصير التجارية هي برنامج مجدول من المنتجات والتطبيق لمنشآت الأغذية والضيافة، وليست رشّة واحدة. تحتاج الفنادق والمطاعم ومصانع الأغذية في مصر إلى ثلاثة عناصر في وقت واحد: قتل سريع عند ظهور حشرة، وحماية متبقية بين الزيارات، ووثائق ترضي مفتش الصحة. وأي برنامج مبني على منتج واحد يفشل في أحد هذه العناصر الثلاثة على الأقل.</p>
+<p>يشرح هذا الدليل كيف تبني منشآت الضيافة والأغذية المصرية هذا البرنامج، وما تساهم به كل فئة منتج، وكيف تُقدَّر التكلفة لكل منفذ، وأي وثائق مورد يجب التحقق منها قبل الطلب.</p>
+
+<h2>لماذا تواجه المنشآت في مصر ضغطاً أعلى</h2>
+<p>يُبقي مناخ مصر مجموعات الصراصير نشطة على مدار معظم العام بدلاً من موسم صيف قصير، والكثافة العالية لتجارة الأغذية الحضرية تعني أن ضغط إعادة الإصابة مستمر. وتتكاثر الصراصير الألمانية بسرعة خاصة في المطابخ الدافئة الرطبة، وملجأ واحد غير مكتشف خلف ثلاجة كافٍ لإعادة تكوين التجمع خلال أسابيع.</p>
+<ul>
+  <li>مطابخ دافئة ورطبة — يستمر التكاثر طوال العام بدلاً من التوقف في الشتاء.</li>
+  <li>خدمات مشتركة في المبنى — المصارف والفراغات الجدارية وممرات التسليم تربط الوحدات، لذا نادراً ما تنتهي المشكلة بمعالجة منفذ واحد.</li>
+  <li>التعرض للتفتيش — فندق أو مطعم فيه نشاط ظاهر يواجه فشل التفتيش وشكاوى الضيوف وضرراً في التقييمات.</li>
+  <li>التسليمات المنتظمة — الكراتين والصناديق الواردة مسار نقل موثق للحوريات وأكياس البيض.</li>
+</ul>
+
+<h2>أدوار المنتجات الثلاثة في البرنامج التجاري</h2>
+<p>تستخدم البرامج التجارية فئات منتجات مختلفة لمهام مختلفة، وفهم تقسيم العمل يمنع الخطأ الشرائي الأكثر شيوعاً — شراء منتج واحد وتوقّع أن يؤدي المهام الثلاث.</p>
+<table>
+<thead><tr><th>الدور</th><th>فئة المنتج</th><th>القوة</th><th>الحد</th></tr></thead>
+<tbody>
+<tr><td>قتل فوري</td><td>بخاخ تلامس أيروسول</td><td>نتيجة ظاهرة خلال ثوانٍ؛ يمكن استخدامه خلال ساعات العمل عند رؤية حشرة</td><td>أثر متبقٍ ضعيف؛ يتطلب إعادة تطبيق</td></tr>
+<tr><td>حاجز متبقٍ</td><td>بخاخ بيريثرويد طويل الأمد</td><td>أسابيع من الحماية على أسطح الملاجئ مثل قواعد الجدران وأغلفة المعدات</td><td>يجب إعادة تطبيقه وفق جدول؛ غير فعال حيث تُغسل الأسطح يومياً</td></tr>
+<tr><td>خفض التجمع</td><td>طُعوم ومنظمات نمو الحشرات</td><td>تقلل التكاثر وتصل إلى ملاجئ لا تصلها البخاخات</td><td>أبطأ مفعولاً؛ تتطلب توزيعاً منظماً بعيداً عن الطعام</td></tr>
+</tbody>
+</table>
+<p>لذلك تجمع الحزمة التجارية العملية بين أيروسول للقتل الموضعي، ومنتج متبقٍ للمعالجة المجدولة، وطُعوم لخفض التجمع — ولهذا فإن قائمة المنتجات لا تقل أهمية عن الكمية المشتراة.</p>
+
+<h2>كيف تصمم دورة المعالجة</h2>
+<p>تستقر معظم منشآت الأغذية المصرية على دورة شهرية مع فحوصات يومية، وتشغّل منشآت الضيافة ذات الحركة الأعلى معالجة كل أسبوعين في المناطق المخصصة للضيوف. استخدم الأسئلة التالية لتحديد وتيرتك بدلاً من نسخ جدول منافس.</p>
+<ol>
+  <li>كم مطبخاً ومخزناً ومنطقة نفايات يحتاج إلى معالجة؟ احسب نقاط الملاجئ، لا مساحة الأرض.</li>
+  <li>هل كان هناك نشاط خلال آخر 30 يوماً؟ النشاط المؤكد يبرر معالجة كل أسبوعين حتى تنخفض أعداد المصائد إلى الصفر.</li>
+  <li>هل يقوم الموظفون أنفسهم بالتنظيف وفحوصات الآفات؟ تحديد شخص مسؤول لكل وردية هو ما يجعل الدورة تصمد.</li>
+  <li>ما الوثائق التي يطلبها مفتش الصحة أو تدقيق مجموعة الفندق؟ هذا يحدد اختيار المنتج قبل السعر.</li>
+</ol>
+
+<h2>تقدير التكلفة لكل منفذ</h2>
+<p>على المشترين التجاريين حساب التكلفة لكل منفذ شهرياً بدلاً من التكلفة لكل علبة. تغطي علبة أيروسول 45 مل عدداً محدداً من نقاط الملاجئ، لذا يعتمد عدد العلب المستهلكة شهرياً على تصميم المبنى. اطلب من الموردين الاستهلاك لكل مطبخ، ثم قارن بين الأرباع.</p>
+<ul>
+  <li>اطلب الأسعار على مستوى الكرتون مع شرائح كمية، إذ ينخفض سعر الوحدة مع ارتفاع حجم الطلب.</li>
+  <li>تأكد مما إذا كان التوصيل مشمولاً للمحافظات خارج القاهرة، فقد تتجاوز تكلفة الشحن تكلفة المنتج في الطلبات الصغيرة.</li>
+  <li>خصّص بنداً منفصلاً للطُعوم والمنتجات المتبقية — فالبرامج التي تحذفها عادةً ترى النشاط يعود خلال موسم واحد.</li>
+</ul>
+
+<h2>أخطاء شائعة في البرامج التجارية</h2>
+<ul>
+  <li>معالجة موضع رؤية الحشرات فقط، بدلاً من معالجة نقاط الملاجئ على قواعد الجدران والمصارف وأغلفة المعدات.</li>
+  <li>تطبيق المنتج المتبقي على أسطح تُغسل وتُعقّم يومياً، ما يزيل الحماية خلال ساعات.</li>
+  <li>تجاهل التسليمات الواردة، فتعود الإصابة خلال أيام من معالجة ناجحة.</li>
+  <li>الشراء بالسعر وحده، ثم استلام منتجات بلا وثائق السلامة التي يتوقعها المفتش.</li>
+</ul>
+
+<h2>قائمة التحقق من المورد</h2>
+<p>قبل تقديم طلب بالجملة في مصر، اطلب ما يلي واحتفظ به في الملف للتفتيش.</p>
+<ul>
+  <li>تسجيل المنتج ورخصة إنتاج المبيدات الخاصة بالمصنّع.</li>
+  <li>تقارير اختبار السمية الجلدية الحادة والسمية الاستنشاقية الحادة.</li>
+  <li>صحيفة بيانات سلامة المواد (MSDS) وصحيفة بيانات السلامة GHS لكل خط منتج.</li>
+  <li>شهادات مستوى الدفعة مع كل شحنة، للجمارك والتدقيق الداخلي.</li>
+  <li>نسخ الملصقات بالعربية والإنجليزية تُظهر معدلات الاستخدام وأحجام العبوة.</li>
+</ul>
+<p>تصنّع باربار بموجب رخصة إنتاج مبيدات مع اختبارات سلامة مستقلة، وتورّد منتجات مكافحة الصراصير التجارية للفنادق والمطاعم وشركات التنظيف في محافظات مصر. اطّلع على <a href="/ar/products/cockroach-killer-spray">مواصفات بخاخ قتل الصراصير</a>، أو راجع <a href="/ar/buyers">برنامج المشترين التجاريين</a>، أو <a href="/ar/contact">اطلب أسعاراً تجارية</a>.</p>
+
+<h2>الأسئلة الشائعة</h2>
+<h3>كم مرة يجب أن يعالج مطعم في مصر الصراصير؟</h3>
+<p>تعالج معظم المنشآت شهرياً مع فحوصات بصرية يومية. المعالجة كل أسبوعين مناسبة طالما استمر النشاط المؤكد، ثم تعود إلى الشهرية بعد وصول أعداد المصائد إلى الصفر لدورتين متتاليتين.</p>
+<h3>هل يكفي بخاخ أيروسول واحد لمطبخ تجاري؟</h3>
+<p>لا. يوفر الأيروسول قتلاً سريعاً لكن حماية متبقية ضعيفة، لذا يُقرن عادةً بمعالجة متبقية مجدولة وطُعوم لخفض التجمع.</p>
+<h3>ما الوثائق التي يجب أن يوفرها مورد مكافحة الآفات؟</h3>
+<p>اطلب رخصة إنتاج المبيدات، وتقارير السمية الجلدية والاستنشاقية الحادة، وصحائف MSDS وGHS، وشهادات الدفعات مع كل شحنة.</p>
+<h3>هل يمكننا المعالجة خلال ساعات العمل؟</h3>
+<p>المعالجة الموضعية لحشرة مرئية ممكنة في معظم الحالات، لكن التطبيق المتبقي المجدول يجب أن يتم عندما تكون المنطقة فارغة ويمكن ترك الأسطح دون إزعاج، بعيداً عن أسطح ملامسة الطعام.</p>
+    `.trim(),
+  },
+  {
+    slug: "cockroach-infestation-treatment-german-american",
+    title: "Cockroach Infestation Treatment Guide",
+    description: "German and American cockroaches need different treatment plans in Egypt. Compare identification traits, harbourage sites, and how to build a treatment cycle that works.",
+    "titleAr": "دليل معالجة إصابة الصراصير",
+    "descriptionAr": "تحتاج الصراصير الألمانية والأمريكية إلى خطط معالجة مختلفة في مصر. قارن سمات التمييز ومواقع الملاجئ وكيف تبني دورة معالجة فعّالة.",
+    date: "2026-10-15",
+    author: "Parpar Team",
+    category: "Industry Solutions",
+    "categoryAr": "حلول القطاعات",
+    tags: [
+      "cockroach infestation treatment",
+      "german cockroach control",
+      "american cockroach control",
+      "cockroach identification",
+      "commercial pest control Egypt",
+    ],
+    image: "/images/parpar-cockroach-killer-spray-hero-product-shot.png",
+    contentHtml: `
+<h2>Two species, two different treatment plans</h2>
+<p>Cockroach infestation treatment in Egypt almost always involves one of two species, and they do not respond to the same plan. German cockroaches (Blattella germanica) live indoors, breed rapidly and cluster around warmth, water and food. American cockroaches (Periplaneta americana) are larger, frequently enter from drains and sewers, and often breed outside the building before moving in. Treating both as one problem is the most common reason a kitchen keeps seeing insects after treatment.</p>
+<p>This guide covers how to identify each species, where each harbours, and how to build a treatment plan that fits the species actually present in your premises.</p>
+
+<h2>How to tell them apart</h2>
+<table>
+<thead><tr><th>Trait</th><th>German cockroach</th><th>American cockroach</th></tr></thead>
+<tbody>
+<tr><td>Size</td><td>13 to 16 mm — small, slender</td><td>30 to 40 mm — large, robust</td></tr>
+<tr><td>Colour</td><td>Light brown with two dark stripes behind the head</td><td>Reddish brown with a pale yellow band behind the head</td></tr>
+<tr><td>Wings</td><td>Wings cover the abdomen</td><td>Wings extend beyond the abdomen</td></tr>
+<tr><td>Where found</td><td>Kitchens, cabinets, appliance housings, warm voids</td><td>Drains, sewers, basements, refuse areas, then indoors</td></tr>
+<tr><td>Breeding</td><td>Very fast — egg cases carried by the female</td><td>Slower — egg cases dropped in concealed sites</td></tr>
+<tr><td>Flyer</td><td>Rarely flies, prefers running</td><td>Can fly short distances in warm conditions</td></tr>
+</tbody>
+</table>
+
+<h2>Why German cockroaches need a faster response</h2>
+<p>German cockroach populations expand quickly. A single female produces several egg cases over her life, each holding dozens of nymphs, and development speeds up in warm kitchen conditions. That biology is why a German infestation that is visible in daylight usually means a much larger concealed population, and why treatment intervals need to be shorter while activity is confirmed.</p>
+<ul>
+  <li>Presence in daylight signals heavy pressure — an undisturbed population tends to stay hidden.</li>
+  <li>They gather close to water sources, so fixing leaks is part of treatment, not a separate task.</li>
+  <li>Residual sprays alone rarely finish the job; baits placed in the right harbourages are central.</li>
+</ul>
+
+<h2>Why American cockroaches keep coming back</h2>
+<p>American cockroaches are often a building-level problem rather than a kitchen-level one. They travel through drains, pipe chases, refuse rooms and shared corridors, so treating a single restaurant unit without addressing the drain network tends to produce repeated sightings. In older urban buildings in Egypt, shared drainage is frequently the entry route.</p>
+<ul>
+  <li>Sanitation of drains and refuse areas removes the population source outside the kitchen.</li>
+  <li>Residual treatments along entry routes reduce the number reaching internal areas.</li>
+  <li>Building management involvement matters where several units share services.</li>
+</ul>
+
+<h2>Building the treatment plan</h2>
+<ol>
+  <li>Identify the species present before choosing products — trap and inspect rather than assume.</li>
+  <li>Map harbourage points: appliance housings, cabinet hinges, baseboard gaps, drains, storage rooms.</li>
+  <li>Remove the resources they need — standing water, exposed food, unsealed waste.</li>
+  <li>Apply contact spray where a fast visible result is required, and residual product along harbourage surfaces on a schedule.</li>
+  <li>Place baits in concealed harbourages, away from food contact surfaces, and monitor consumption.</li>
+  <li>Repeat at a frequency set by trap counts, not by habit, until counts reach zero.</li>
+</ol>
+
+<h2>Signs that treatment is working</h2>
+<ul>
+  <li>Fewer insects seen in daylight, and sightings shift to nymphs rather than adults.</li>
+  <li>Bait consumption drops between inspection rounds.</li>
+  <li>Trap catches fall each cycle rather than staying flat.</li>
+  <li>No new activity in areas that were previously active for two consecutive cycles.</li>
+</ul>
+
+<h2>Common mistakes</h2>
+<ul>
+  <li>Assuming the species instead of confirming it, then using a product that does not match its behaviour.</li>
+  <li>Treating only the kitchen while the entry route at the drain remains open.</li>
+  <li>Spraying over bait placements, which contaminates the bait and stops it working.</li>
+  <li>Ending the programme as soon as visible insects disappear, before the breeding population is reduced.</li>
+</ul>
+
+<h2>Getting the products right</h2>
+<p>Species identification should drive product choice. Parpar's cockroach control line is manufactured under a pesticide production licence with independent safety testing and the documentation Egyptian health inspectors expect. Read the <a href="/products/cockroach-killer-spray">cockroach killer spray specification</a>, compare against the <a href="/blog/long-lasting-cockroach-spray-comparison">long-lasting spray comparison</a>, or <a href="/contact">request commercial pricing</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How can I tell a German cockroach from an American cockroach?</h3>
+<p>German cockroaches are 13 to 16 mm with two dark stripes behind the head; American cockroaches are 30 to 40 mm with a pale yellow band and wings extending beyond the abdomen.</p>
+<h3>Why do cockroaches return after treatment?</h3>
+<p>Usually because the entry route or breeding site was not addressed — an open drain network for American cockroaches, or untreated harbourages for German cockroaches.</p>
+<h3>Are baits or sprays better for cockroach infestation treatment?</h3>
+<p>Both have a role. Spray delivers fast knockdown and residual protection on surfaces, while baits reach concealed harbourages and reduce the breeding population.</p>
+<h3>How long does treatment take to work?</h3>
+<p>Visible reduction typically appears within days, but bait-based programmes need several cycles to reduce the breeding population, so plan for monitoring over at least two treatment rounds.</p>
+    `.trim(),
+    contentHtmlAr: `
+<h2>نوعان مختلفان وخطتان مختلفتان للمعالجة</h2>
+<p>تتعلق مكافحة الصراصير في مصر تقريباً دائماً بأحد نوعين، ولا يستجيبان للخطة نفسها. تعيش الصراصير الألمانية (Blattella germanica) داخل المباني، وتتكاثر بسرعة، وتتجمع حول الدفء والماء والطعام. أما الصراصير الأمريكية (Periplaneta americana) فأكبر حجماً، وتدخل غالباً من المصارف والمجاري، وتتكاثر خارج المبنى قبل دخولها. معاملة النوعين كمشكلة واحدة هي السبب الأكثر شيوعاً لاستمرار ظهور الحشرات في المطبخ بعد المعالجة.</p>
+<p>يغطي هذا الدليل كيفية تمييز كل نوع، وأين يختفي، وكيف تبني خطة معالجة تناسب النوع الموجود فعلاً في منشأتك.</p>
+
+<h2>كيف تفرّق بينهما</h2>
+<table>
+<thead><tr><th>السمة</th><th>الصرصور الألماني</th><th>الصرصور الأمريكي</th></tr></thead>
+<tbody>
+<tr><td>الحجم</td><td>13 إلى 16 مم — صغير ونحيل</td><td>30 إلى 40 مم — كبير ومتين</td></tr>
+<tr><td>اللون</td><td>بني فاتح مع خطين داكنين خلف الرأس</td><td>بني محمر مع شريط أصفر باهت خلف الرأس</td></tr>
+<tr><td>الأجنحة</td><td>تغطي الأجنحة البطن</td><td>تمتد الأجنحة إلى ما بعد البطن</td></tr>
+<tr><td>مكان الوجود</td><td>المطابخ والخزائن وأغلفة الأجهزة والفراغات الدافئة</td><td>المصارف والمجاري والأقبية ومناطق النفايات، ثم الداخل</td></tr>
+<tr><td>التكاثر</td><td>سريع جداً — تحمل الأنثى أكياس البيض</td><td>أبطأ — تُسقط أكياس البيض في مواقع مخفية</td></tr>
+<tr><td>الطيران</td><td>نادراً ما يطير، يفضّل الجري</td><td>يمكنه الطيران لمسافات قصيرة في الأجواء الدافئة</td></tr>
+</tbody>
+</table>
+
+<h2>لماذا تحتاج الصراصير الألمانية استجابة أسرع</h2>
+<p>تتوسع مجموعات الصراصير الألمانية بسرعة. تنتج الأنثى الواحدة عدة أكياس بيض خلال حياتها، كل منها يحمل عشرات الحوريات، وتتسارع النمو في ظروف المطبخ الدافئة. ولهذا فإن إصابة ألمانية ظاهرة في ضوء النهار تعني عادةً مجموعة مخفية أكبر بكثير، ولهذا يجب أن تكون فترات المعالجة أقصر طالما كان النشاط مؤكداً.</p>
+<ul>
+  <li>الظهور في ضوء النهار إشارة إلى ضغط عالٍ — المجموعة غير المُزعجة تميل إلى البقاء مخفية.</li>
+  <li>تتجمع قرب مصادر الماء، لذا فإن إصلاح التسريبات جزء من المعالجة وليس مهمة منفصلة.</li>
+  <li>نادراً ما تُنهي البخاخات المتبقية المهمة وحدها؛ والطُعوم الموضوعة في الملاجئ الصحيحة عنصر أساسي.</li>
+</ul>
+
+<h2>لماذا تعود الصراصير الأمريكية دائماً</h2>
+<p>غالباً ما تكون الصراصير الأمريكية مشكلة على مستوى المبنى لا على مستوى المطبخ. فهي تنتقل عبر المصارف ومجاري الأنابيب وغرف النفايات والممرات المشتركة، لذا فإن معالجة وحدة مطعم واحدة دون معالجة شبكة الصرف تؤدي إلى ظهور متكرر. وفي المباني الحضرية القديمة في مصر، تكون الصرف المشترك غالباً مسار الدخول.</p>
+<ul>
+  <li>تعقيم المصارف ومناطق النفايات يزيل مصدر المجموعة خارج المطبخ.</li>
+  <li>المعالجات المتبقية على مسارات الدخول تقلل عدد الواصلين إلى المناطق الداخلية.</li>
+  <li>مشاركة إدارة المبنى مهمة حيث تتشارك عدة وحدات الخدمات.</li>
+</ul>
+
+<h2>بناء خطة المعالجة</h2>
+<ol>
+  <li>حدّد النوع الموجود قبل اختيار المنتجات — استخدم المصائد والفحص بدلاً من الافتراض.</li>
+  <li>ارسم خريطة نقاط الملاجئ: أغلفة الأجهزة، مفصلات الخزائن، فراغات قواعد الجدران، المصارف، غرف التخزين.</li>
+  <li>أزل الموارد التي يحتاجونها — الماء الراكد، الطعام المكشوف، النفايات غير المحكمة.</li>
+  <li>طبّق بخاخ التلامس حيث يلزم نتيجة مرئية سريعة، والمنتج المتبقي على أسطح الملاجئ وفق جدول.</li>
+  <li>ضع الطُعوم في الملاجئ المخفية، بعيداً عن أسطح ملامسة الطعام، وراقب الاستهلاك.</li>
+  <li>أعد المعالجة بوتيرة يحددها عدد المصائد لا العادة، حتى تصل الأعداد إلى الصفر.</li>
+</ol>
+
+<h2>علامات نجاح المعالجة</h2>
+<ul>
+  <li>ظهور حشرات أقل في ضوء النهار، وتحوّل المشاهدات إلى حوريات بدلاً من حشرات كاملة.</li>
+  <li>انخفاض استهلاك الطُعم بين جولات الفحص.</li>
+  <li>انخفاض عدد المصائد في كل دورة بدلاً من ثباته.</li>
+  <li>عدم وجود نشاط جديد في المناطق التي كانت نشطة لدورتين متتاليتين.</li>
+</ul>
+
+<h2>أخطاء شائعة</h2>
+<ul>
+  <li>افتراض النوع بدلاً من تأكيده، ثم استخدام منتج لا يناسب سلوكه.</li>
+  <li>معالجة المطبخ فقط بينما يبقى مسار الدخول عند المصرف مفتوحاً.</li>
+  <li>الرشّ فوق مواضع الطُعوم، ما يلوّث الطُعم ويوقف عمله.</li>
+  <li>إيقاف البرنامج بمجرد اختفاء الحشرات المرئية، قبل خفض مجموعة التكاثر.</li>
+</ul>
+
+<h2>اختيار المنتجات الصحيحة</h2>
+<p>يجب أن يقود تحديد النوع اختيار المنتج. يُصنَّع خط مكافحة الصراصير من باربار بموجب رخصة إنتاج مبيدات مع اختبارات سلامة مستقلة والوثائق التي يتوقعها مفتشو الصحة في مصر. اقرأ <a href="/ar/products/cockroach-killer-spray">مواصفات بخاخ قتل الصراصير</a>، أو قارن مع <a href="/ar/blog/long-lasting-cockroach-spray-comparison">مقارنة البخاخ طويل الأمد</a>، أو <a href="/ar/contact">اطلب أسعاراً تجارية</a>.</p>
+
+<h2>الأسئلة الشائعة</h2>
+<h3>كيف أميّز الصرصور الألماني عن الأمريكي؟</h3>
+<p>الصرصور الألماني 13 إلى 16 مم مع خطين داكنين خلف الرأس؛ والصرصور الأمريكي 30 إلى 40 مم مع شريط أصفر باهت وأجنحة تمتد إلى ما بعد البطن.</p>
+<h3>لماذا تعود الصراصير بعد المعالجة؟</h3>
+<p>عادةً لأن مسار الدخول أو موقع التكاثر لم يُعالج — شبكة صرف مفتوحة للصراصير الأمريكية، أو ملاجئ غير معالجة للصراصير الألمانية.</p>
+<h3>هل الطُعوم أم البخاخات أفضل لمكافحة الصراصير؟</h3>
+<p>لكل منهما دور. يوفر البخاخ قتلاً سريعاً وحماية متبقية على الأسطح، بينما تصل الطُعوم إلى الملاجئ المخفية وتخفض مجموعة التكاثر.</p>
+<h3>كم تستغرق المعالجة حتى تعمل؟</h3>
+<p>يظهر الانخفاض المرئي عادةً خلال أيام، لكن برامج الطُعوم تحتاج عدة دورات لخفض مجموعة التكاثر، لذا خطّط للمراقبة على مدى جولتي معالجة على الأقل.</p>
+    `.trim(),
+  },
+  {
+    slug: "long-lasting-cockroach-spray-comparison",
+    title: "Long-Lasting Cockroach Spray Compared",
+    description: "Pyrethroids, insect growth regulators and boric acid work in different ways. Compare speed, residual life and placement, and see how to combine them in one programme.",
+    "titleAr": "مقارنة البخاخ طويل الأمد للصراصير",
+    "descriptionAr": "تعمل البيريثرويدات ومنظمات نمو الحشرات وحمض البوريك بطرق مختلفة. قارن السرعة والأثر المتبقي والتوزيع، وكيف تجمعها في برنامج واحد.",
+    date: "2026-10-15",
+    author: "Parpar Team",
+    category: "Comparisons",
+    "categoryAr": "مقارنات",
+    tags: [
+      "long-lasting cockroach control spray",
+      "pyrethroid cockroach spray",
+      "insect growth regulator",
+      "boric acid roaches",
+      "cockroach spray wholesale",
+    ],
+    image: "/images/parpar-cockroach-killer-spray-hero-product-shot.png",
+    contentHtml: `
+<h2>What makes a cockroach spray long lasting</h2>
+<p>A long-lasting cockroach spray keeps working on a surface after the liquid has dried. That property comes from the active ingredient and the formulation, not from the size of the can. The three ingredient families used in commercial cockroach control work in fundamentally different ways, and comparing them on strength alone misses the point — each solves a different part of the problem.</p>
+<p>This comparison explains how pyrethroids, insect growth regulators and boric acid actually work, where each performs best, and how to combine them into a programme that holds.</p>
+
+<h2>How each ingredient family works</h2>
+<table>
+<thead><tr><th>Ingredient</th><th>How it works</th><th>Speed</th><th>Residual life</th><th>Best used for</th></tr></thead>
+<tbody>
+<tr><td>Pyrethroids</td><td>Acts on the insect nervous system; contact and residual action</td><td>Seconds to minutes</td><td>Weeks on undisturbed surfaces</td><td>Baseboards, equipment housings, entry routes, spot knockdown</td></tr>
+<tr><td>Insect growth regulators (IGR)</td><td>Disrupts moulting and reproduction rather than killing on contact</td><td>Days to weeks</td><td>Long, as it targets the life cycle</td><td>Breaking the breeding cycle in concealed harbourages</td></tr>
+<tr><td>Boric acid</td><td>Ingested powder that damages the digestive system and nervous tissue</td><td>Days</td><td>Long, while the deposit stays dry</td><td>Voids, cracks, concealed areas away from food</td></tr>
+</tbody>
+</table>
+
+<h2>Pyrethroids: fast, visible, surface dependent</h2>
+<p>Pyrethroids are the workhorse of commercial cockroach control because they knock insects down quickly and leave residual action on surfaces. Their weakness is environmental: protection is lost wherever a surface is washed, sanitised or exposed to sunlight. In a commercial kitchen, a residual application to a worktop that is cleaned after every shift provides almost no lasting benefit, while the same product applied along a baseboard or behind equipment can remain active for weeks.</p>
+<ul>
+  <li>Strength: immediate knockdown and residual control on untouched surfaces.</li>
+  <li>Weakness: removed by routine cleaning and by direct sunlight.</li>
+  <li>Application rule: treat harbourage surfaces, never food contact surfaces.</li>
+</ul>
+
+<h2>IGR: solving the problem spraying cannot reach</h2>
+<p>Insect growth regulators do not kill adult cockroaches on contact. Instead they disrupt development and reproduction, so the population stops replacing itself. That makes them slow but strategically important: an infestation treated only with contact sprays can be knocked down and then rebound from egg cases and concealed nymphs that were never touched. IGRs address precisely that rebound.</p>
+<ul>
+  <li>Strength: reduces reproduction, so pressure falls across successive cycles.</li>
+  <li>Weakness: no visible result for days, which makes it easy to conclude wrongly that it is not working.</li>
+  <li>Application rule: use as part of a programme with monitoring, not as a standalone rescue treatment.</li>
+</ul>
+
+<h2>Boric acid: cheap, durable, placement critical</h2>
+<p>Boric acid is ingested rather than absorbed through contact, and it stays effective as long as the deposit remains dry. It is inexpensive and long lasting, which makes it attractive for voids, cracks and concealed spaces. Its limits are practical: it fails where moisture is present, and it must never be placed where it can contact food, utensils or food preparation surfaces.</p>
+<ul>
+  <li>Strength: very low cost and long persistence in dry concealed sites.</li>
+  <li>Weakness: ineffective in damp areas and dependent on precise placement.</li>
+  <li>Application rule: dry voids and cracks only, always away from food handling.</li>
+</ul>
+
+<h2>Comparing them side by side</h2>
+<table>
+<thead><tr><th>Question</th><th>Pyrethroid</th><th>IGR</th><th>Boric acid</th></tr></thead>
+<tbody>
+<tr><td>Causes visible knockdown</td><td>Yes</td><td>No</td><td>No</td></tr>
+<tr><td>Reduces breeding population</td><td>Limited</td><td>Yes, primary mode</td><td>Partly</td></tr>
+<tr><td>Survives routine washing</td><td>No</td><td>Not applicable</td><td>Not applicable</td></tr>
+<tr><td>Works in damp conditions</td><td>Yes</td><td>Yes</td><td>No</td></tr>
+<tr><td>Safe near food surfaces</td><td>No — keep away</td><td>No — keep away</td><td>No — keep away</td></tr>
+<tr><td>Typical role in a programme</td><td>Scheduled residual and spot control</td><td>Cycle suppression</td><td>Concealed void treatment</td></tr>
+</tbody>
+</table>
+
+<h2>The sequence that works</h2>
+<ol>
+  <li>Inspect and map harbourages before applying anything.</li>
+  <li>Treat concealed voids and cracks with boric acid where these are dry and out of reach of food.</li>
+  <li>Apply residual pyrethroid along harbourage surfaces and entry routes to a schedule.</li>
+  <li>Add IGR to interrupt reproduction in the same programme, not as a separate one-off.</li>
+  <li>Monitor trap counts each cycle, and reduce frequency only when counts stay at zero.</li>
+</ol>
+
+<h2>Common mistakes</h2>
+<ul>
+  <li>Judging IGR by whether insects die immediately, then abandoning it before it takes effect.</li>
+  <li>Applying boric acid in damp areas and expecting it to keep working.</li>
+  <li>Spraying residual product over baits or powders and destroying their effectiveness.</li>
+  <li>Assuming a higher concentration always performs better, when placement and surface condition matter more.</li>
+</ul>
+
+<h2>Choosing the right product line</h2>
+<p>Parpar manufactures long-lasting cockroach control products under a pesticide production licence with independent safety testing, and supplies commercial programmes across Egyptian governorates. Review the <a href="/products/cockroach-killer-spray">cockroach killer spray specification</a>, read the <a href="/blog/cockroach-infestation-treatment-german-american">cockroach infestation treatment guide</a>, or <a href="/contact">request commercial pricing</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Which cockroach spray lasts the longest?</h3>
+<p>The longest lasting option depends on placement. Residual pyrethroids last weeks on undisturbed surfaces, while boric acid in dry concealed voids can remain effective for longer, but only in dry conditions.</p>
+<h3>Do growth regulators kill cockroaches?</h3>
+<p>Not on contact. IGRs disrupt reproduction and development so that the population stops replacing itself, which reduces pressure across successive treatment cycles.</p>
+<h3>Can I use boric acid in a commercial kitchen?</h3>
+<p>Only in dry concealed voids and cracks, strictly away from food, utensils and food preparation surfaces, and with the application documented for inspection.</p>
+<h3>How do I know a long-lasting spray is working?</h3>
+<p>Track bait consumption and trap counts each cycle. Falling counts across successive cycles show the programme is reducing the population, not just killing individual insects.</p>
+    `.trim(),
+    contentHtmlAr: `
+<h2>ما الذي يجعل بخاخ الصراصير طويل الأمد</h2>
+<p>يواصل بخاخ الصراصير طويل الأمد عمله على السطح بعد جفاف السائل. وهذه الخاصية تأتي من المادة الفعالة والتركيبة، لا من حجم العلبة. تعمل عائلات المواد الثلاث المستخدمة في المكافحة التجارية بطرق مختلفة جوهرياً، ومقارنتها بالقوة وحدها تفوّت النقطة — فكل منها يحل جزءاً مختلفاً من المشكلة.</p>
+<p>توضح هذه المقارنة كيف تعمل البيريثرويدات ومنظمات نمو الحشرات وحمض البوريك فعلياً، وأين يتفوق كل منها، وكيف تجمعها في برنامج يصمد.</p>
+
+<h2>كيف تعمل كل عائلة</h2>
+<table>
+<thead><tr><th>المادة</th><th>آلية العمل</th><th>السرعة</th><th>مدة الأثر المتبقي</th><th>الأفضل لـ</th></tr></thead>
+<tbody>
+<tr><td>بيريثرويدات</td><td>تؤثر على الجهاز العصبي للحشرة؛ تأثير تلامسي ومتبقٍ</td><td>ثوانٍ إلى دقائق</td><td>أسابيع على الأسطح غير المُزالة</td><td>قواعد الجدران وأغلفة المعدات ومسارات الدخول والقتل الموضعي</td></tr>
+<tr><td>منظمات نمو الحشرات</td><td>تعطّل الانسلاخ والتكاثر بدلاً من القتل بالتلامس</td><td>أيام إلى أسابيع</td><td>طويلة، لأنها تستهدف دورة الحياة</td><td>كسر دورة التكاثر في الملاجئ المخفية</td></tr>
+<tr><td>حمض البوريك</td><td>مسحوق يُبتلع فيضر الجهاز الهضمي والنسيج العصبي</td><td>أيام</td><td>طويلة، طالما بقي المسحوق جافاً</td><td>الفراغات والشقوق والمناطق المخفية بعيداً عن الطعام</td></tr>
+</tbody>
+</table>
+
+<h2>البيريثرويدات: سريعة ومرئية ومعتمدة على السطح</h2>
+<p>البيريثرويدات هي حصان العمل في المكافحة التجارية لأنها تُسقط الحشرات بسرعة وتترك أثراً متبقياً على الأسطح. وضعفها بيئي: تُفقد الحماية حيثما يُغسل السطح أو يُعقَّم أو يتعرض لضوء الشمس. في مطبخ تجاري، لا يوفر التطبيق المتبقي على سطح عمل يُنظّف بعد كل وردية فائدة دائمة تقريباً، بينما يمكن للمنتج نفسه على قاعدة جدار أو خلف معدة أن يبقى فعالاً أسابيع.</p>
+<ul>
+  <li>القوة: قتل فوري وضبط متبقٍ على الأسطح غير الملموسة.</li>
+  <li>الضعف: يزول بالتنظيف الروتيني وبضوء الشمس المباشر.</li>
+  <li>قاعدة التطبيق: عالج أسطح الملاجئ، وليس أسطح ملامسة الطعام أبداً.</li>
+</ul>
+
+<h2>منظمات النمو: حل ما لا تصل إليه الرشّة</h2>
+<p>لا تقتل منظمات نمو الحشرات الصراصير البالغة بالتلامس، بل تعطّل النمو والتكاثر فتتوقف المجموعة عن تجديد نفسها. وهذا يجعلها بطيئة لكن مهمة استراتيجياً: فالإصابة التي تُعالج بالبخاخات التلامسية فقط يمكن أن تُسقَط ثم تعود من أكياس البيض والحوريات المخفية التي لم تُلمس. ومعالجة هذا الارتداد هي مهمة منظمات النمو بالتحديد.</p>
+<ul>
+  <li>القوة: تقلل التكاثر، فينخفض الضغط عبر الدورات المتتالية.</li>
+  <li>الضعف: لا نتيجة مرئية لأيام، ما يسهّل الاستنتاج الخاطئ بأنها لا تعمل.</li>
+  <li>قاعدة التطبيق: استخدمها ضمن برنامج مع مراقبة، لا كمعالجة إنقاذية منفردة.</li>
+</ul>
+
+<h2>حمض البوريك: رخيص ومتين والتوزيع حاسم</h2>
+<p>يُبتلع حمض البوريك ولا يُمتص بالتلامس، ويبقى فعالاً ما دام المسحوق جافاً. وهو منخفض التكلفة وطويل الأمد، ما يجعله جاذباً للفراغات والشقوق والمساحات المخفية. وحدوده عملية: يفشل حيث توجد رطوبة، ويجب ألا يوضع أبداً حيث يمكن أن يلامس الطعام أو الأدوات أو أسطح تحضير الطعام.</p>
+<ul>
+  <li>القوة: تكلفة منخفضة جداً وثبات طويل في المواقع المخفية الجافة.</li>
+  <li>الضعف: غير فعال في المناطق الرطبة ويعتمد على توزيع دقيق.</li>
+  <li>قاعدة التطبيق: الفراغات والشقوق الجافة فقط، ودائماً بعيداً عن مناولة الطعام.</li>
+</ul>
+
+<h2>المقارنة وجهاً لوجه</h2>
+<table>
+<thead><tr><th>السؤال</th><th>بيريثرويد</th><th>منظم نمو</th><th>حمض البوريك</th></tr></thead>
+<tbody>
+<tr><td>يسبب قتلاً مرئياً</td><td>نعم</td><td>لا</td><td>لا</td></tr>
+<tr><td>يخفض مجموعة التكاثر</td><td>محدود</td><td>نعم، وضعه الأساسي</td><td>جزئياً</td></tr>
+<tr><td>يقاوم الغسل الروتيني</td><td>لا</td><td>لا ينطبق</td><td>لا ينطبق</td></tr>
+<tr><td>يعمل في الظروف الرطبة</td><td>نعم</td><td>نعم</td><td>لا</td></tr>
+<tr><td>آمن قرب أسطح الطعام</td><td>لا — يُبعد</td><td>لا — يُبعد</td><td>لا — يُبعد</td></tr>
+<tr><td>الدور النموذجي في البرنامج</td><td>ضبط متبقٍ مجدول وقتل موضعي</td><td>خفض دورة التكاثر</td><td>معالجة الفراغات المخفية</td></tr>
+</tbody>
+</table>
+
+<h2>التسلسل الذي ينجح</h2>
+<ol>
+  <li>افحص وارسم خريطة الملاجئ قبل تطبيق أي شيء.</li>
+  <li>عالج الفراغات والشقوق المخفية بحمض البوريك حيث تكون جافة وبعيدة عن الطعام.</li>
+  <li>طبّق البيريثرويد المتبقي على أسطح الملاجئ ومسارات الدخول وفق جدول.</li>
+  <li>أضف منظم النمو لقطع التكاثر في البرنامج نفسه، لا كمعالجة منفردة لمرة واحدة.</li>
+  <li>راقب أعداد المصائد كل دورة، وقلّل التكرار فقط عندما تبقى الأعداد صفراً.</li>
+</ol>
+
+<h2>أخطاء شائعة</h2>
+<ul>
+  <li>الحكم على منظم النمو بموت الحشرات فوراً، ثم التخلي عنه قبل أن يعمل.</li>
+  <li>تطبيق حمض البوريك في مناطق رطبة وتوقع استمرار فعاليته.</li>
+  <li>الرشّ فوق الطُعوم أو المساحيق وإفشال فعاليتها.</li>
+  <li>افتراض أن التركيز الأعلى يؤدي دائماً أفضل، بينما التوزيع وحالة السطح أهم.</li>
+</ul>
+
+<h2>اختيار خط المنتج المناسب</h2>
+<p>تصنّع باربار منتجات مكافحة صراصير طويلة الأمد بموجب رخصة إنتاج مبيدات مع اختبارات سلامة مستقلة، وتورّد برامج تجارية في محافظات مصر. راجع <a href="/ar/products/cockroach-killer-spray">مواصفات بخاخ قتل الصراصير</a>، أو اقرأ <a href="/ar/blog/cockroach-infestation-treatment-german-american">دليل معالجة إصابة الصراصير</a>، أو <a href="/ar/contact">اطلب أسعاراً تجارية</a>.</p>
+
+<h2>الأسئلة الشائعة</h2>
+<h3>أي بخاخ صراصير يدوم أطول؟</h3>
+<p>يعتمد أطول خيار على مكان التوزيع. تدوم البيريثرويدات المتبقية أسابيع على الأسطح غير المُزالة، بينما قد يبقى حمض البوريك في الفراغات الجافة المخفية فعالاً لمدة أطول، لكن في الظروف الجافة فقط.</p>
+<h3>هل تقتل منظمات النمو الصراصير؟</h3>
+<p>لا بالتلامس. تعطّل منظمات النمو التكاثر والنمو فتتوقف المجموعة عن تجديد نفسها، ما يخفض الضغط عبر دورات المعالجة المتتالية.</p>
+<h3>هل يمكنني استخدام حمض البوريك في مطبخ تجاري؟</h3>
+<p>فقط في الفراغات والشقوق الجافة المخفية، بعيداً تماماً عن الطعام والأدوات وأسطح تحضير الطعام، مع توثيق التطبيق للتفتيش.</p>
+<h3>كيف أعرف أن البخاخ طويل الأمد يعمل؟</h3>
+<p>تابع استهلاك الطُعم وعدد المصائد كل دورة. انخفاض الأعداد عبر الدورات المتتالية يدل على أن البرنامج يخفض المجموعة، لا يقتل حشرات فردية فقط.</p>
+    `.trim(),
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
